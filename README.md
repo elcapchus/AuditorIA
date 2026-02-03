@@ -1,4 +1,4 @@
-# 📊 Plataforma de Análisis Electoral — Dashboard Neo-Brutalista
+# 📊 Plataforma de Análisis Electoral 
 
 Dashboard frontend interactivo construido en **JavaScript puro**, que consume un archivo `data.json` y presenta análisis estructurado de candidatos políticos mediante visualizaciones modernas, rankings y reportes detallados.
 
