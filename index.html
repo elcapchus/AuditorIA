@@ -431,6 +431,345 @@
         <p class="text-[10px] font-black text-indigo-600 uppercase tracking-[0.2em]">Desarrollado by Macsoft Innovations</p>
     </div>
 </footer>
+<!-- Contenedor del Robot Guía -->
+<div id="ai-guide-system" class="fixed bottom-10 right-10 z-[100] flex flex-col items-end pointer-events-none">
+    
+    <!-- Interfaz Holográfica de Datos -->
+    <div id="guide-ui" class="hidden mb-6 pointer-events-auto">
+        <div id="hologram-card" class="relative bg-slate-900/90 backdrop-blur-xl border-t-4 border-indigo-500 p-6 shadow-[0_20px_50px_rgba(0,0,0,0.5)] max-w-[320px] overflow-hidden rounded-sm">
+            <!-- Líneas de escaneo animadas -->
+            <div class="absolute inset-0 bg-[linear-gradient(transparent_0%,rgba(99,102,241,0.05)_50%,transparent_100%)] bg-[length:100%_4px] animate-[scan_2s_linear_infinite] pointer-events-none"></div>
+            
+            <!-- Encabezado de Datos -->
+            <div class="flex justify-between items-center mb-4 border-b border-white/10 pb-2">
+                <div class="flex items-center gap-2">
+                    <div id="status-indicator" class="w-2 h-2 bg-emerald-500 rounded-full animate-pulse"></div>
+                    <span id="system-label" class="text-[9px] font-black text-indigo-400 uppercase tracking-widest">Grok xAI Stream</span>
+                </div>
+                <div class="flex items-center gap-3">
+                    <span id="step-counter" class="text-[9px] font-mono text-white/40">01//06</span>
+                    <button onclick="finishTour()" class="text-white/40 hover:text-white transition-colors text-[10px]">✕</button>
+                </div>
+            </div>
+
+            <!-- Procesador de Datos (Visualizador) -->
+            <div id="data-processor" class="hidden mb-3 h-1 bg-white/5 overflow-hidden">
+                <div id="data-progress" class="h-full bg-indigo-500 w-0 transition-all duration-300"></div>
+            </div>
+
+            <!-- Texto con Efecto Typewriter -->
+            <p id="guide-text" class="text-sm font-bold text-white leading-relaxed min-h-[60px] font-mono mb-6 italic"></p>
+            
+            <!-- Controles Neo-Futuristas -->
+            <div class="flex gap-3">
+                <button onclick="prevStep()" id="prev-btn" class="flex-1 bg-white/5 border border-white/10 py-2 text-[10px] font-black text-white hover:bg-white/10 transition-all uppercase tracking-tighter">
+                    Anterior
+                </button>
+                <button onclick="nextStep()" id="next-btn" class="flex-[2] bg-indigo-600 border border-indigo-400 py-2 text-[10px] font-black text-white hover:bg-indigo-500 shadow-[0_0_15px_rgba(79,70,229,0.4)] transition-all uppercase tracking-tighter">
+                    Siguiente Fase
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- El Avatar del Robot (Cuerpo Animado) -->
+    <div id="robot-body" class="pointer-events-auto cursor-pointer group relative" onclick="startTour()">
+        <!-- Aura de Poder -->
+        <div class="absolute inset-0 bg-indigo-500/20 rounded-full blur-2xl animate-pulse group-hover:bg-indigo-500/40 transition-all"></div>
+        
+        <div id="robot-visuals" class="relative animate-[float_4s_easeInOutSine_infinite]">
+            <!-- Cabeza del Robot -->
+            <div class="bg-slate-900 border-4 border-white p-5 shadow-[5px_5px_0px_rgba(79,70,229,1)] group-hover:shadow-none group-hover:translate-x-1 group-hover:translate-y-1 transition-all">
+                <!-- Ojos LED -->
+                <div class="flex gap-3 mb-1 justify-center">
+                    <div id="eye-l" class="w-2 h-4 bg-emerald-400 border border-emerald-200 animate-[blink_3s_infinite] shadow-[0_0_8px_#34d399] transition-colors duration-500"></div>
+                    <div id="eye-r" class="w-2 h-4 bg-emerald-400 border border-emerald-200 animate-[blink_3s_infinite] shadow-[0_0_8px_#34d399] transition-colors duration-500"></div>
+                </div>
+                <!-- Boca / Sensor -->
+                <div class="h-1 w-8 bg-indigo-500/50 mx-auto rounded-full overflow-hidden">
+                    <div id="voice-wave" class="h-full bg-indigo-400 w-0"></div>
+                </div>
+            </div>
+            
+            <!-- Piernas / Propulsores -->
+            <div class="flex justify-around px-4 -mt-1">
+                <div class="w-1 h-3 bg-white animate-[thrust_0.5s_infinite]"></div>
+                <div class="w-1 h-3 bg-white animate-[thrust_0.7s_infinite]"></div>
+            </div>
+        </div>
+
+        <!-- Tooltip Inmersivo -->
+        <div id="robot-tooltip" class="absolute -top-12 right-0 bg-white border-2 border-slate-900 px-3 py-1 text-[9px] font-black text-slate-900 uppercase tracking-tighter shadow-[4px_4px_0px_rgba(0,0,0,1)] opacity-0 group-hover:opacity-100 transition-all -rotate-3 pointer-events-none">
+            Iniciar Auditoría Visual
+        </div>
+    </div>
+</div>
+
+<!-- Capa de Escaneo Láser -->
+<div id="laser-scanner" class="fixed inset-0 pointer-events-none z-[90] hidden">
+    <div class="absolute w-full h-[2px] bg-indigo-500 shadow-[0_0_15px_#6366f1] animate-[laser_2s_linear_infinite]"></div>
+</div>
+
+<!-- Overlay de Oscurecimiento (Focus) -->
+<div id="tour-overlay" class="fixed inset-0 bg-slate-950/60 backdrop-blur-[2px] z-[30] pointer-events-none opacity-0 transition-opacity duration-500"></div>
+
+<!-- Mano Robótica Señaladora -->
+<div id="robot-pointer" class="fixed z-[110] pointer-events-none opacity-0 transition-all duration-700 ease-out flex flex-col items-center">
+    <div class="relative">
+        <svg width="60" height="60" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="drop-shadow-[0_0_10px_rgba(99,102,241,0.8)]">
+            <path d="M7 11V7C7 5.89543 7.89543 5 9 5C10.1046 5 11 5.89543 11 7V11M11 11V4C11 2.89543 11.8954 2 13 2C14.1046 2 15 2.89543 15 4V11M15 11V6C15 4.89543 15.8954 4 17 4C18.1046 4 19 4.89543 19 6V14C19 18.4183 15.4183 22 11 22C6.58172 22 3 18.4183 3 14V11C3 9.89543 3.89543 9 5 9C6.10457 9 7 9.89543 7 11" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <div class="absolute top-0 right-1 w-4 h-4 bg-indigo-500 rounded-full animate-ping"></div>
+    </div>
+</div>
+
+<style>
+    @keyframes float {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-20px) rotate(2deg); }
+    }
+    
+    @keyframes thrust {
+        0%, 100% { height: 8px; opacity: 0.5; }
+        50% { height: 15px; opacity: 1; transform: translateY(2px); }
+    }
+
+    @keyframes blink {
+        0%, 90%, 100% { height: 16px; }
+        95% { height: 2px; }
+    }
+
+    @keyframes scan {
+        from { transform: translateY(-100%); }
+        to { transform: translateY(100%); }
+    }
+
+    @keyframes laser {
+        0% { top: 0%; opacity: 0; }
+        10% { opacity: 1; }
+        90% { opacity: 1; }
+        100% { top: 100%; opacity: 0; }
+    }
+
+    @keyframes glitch {
+        0% { transform: translate(0); }
+        20% { transform: translate(-3px, 3px) skewX(2deg); }
+        40% { transform: translate(-3px, -3px) skewX(-2deg); }
+        60% { transform: translate(3px, 3px); filter: hue-rotate(90deg); }
+        80% { transform: translate(3px, -3px); }
+        100% { transform: translate(0); }
+    }
+
+    .highlight-focus {
+        box-shadow: 0 0 0 4px #6366f1, 0 0 80px rgba(99, 102, 241, 0.6) !important;
+        transition: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+        z-index: 40 !important;
+        position: relative !important;
+        transform: scale(1.03);
+        background-color: rgba(255, 255, 255, 0.05);
+    }
+
+    .robot-glitch {
+        animation: glitch 0.3s linear;
+    }
+    
+    .typing-cursor::after {
+        content: '_';
+        animation: blink-cursor 0.8s step-end infinite;
+    }
+    
+    @keyframes blink-cursor {
+        from, to { opacity: 1; }
+        50% { opacity: 0; }
+    }
+</style>
+
+<script>
+    const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    
+    function playSynthSound(freq, type, duration, volume = 0.1) {
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        osc.type = type;
+        osc.frequency.setValueAtTime(freq, audioCtx.currentTime);
+        gain.gain.setValueAtTime(volume, audioCtx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.00001, audioCtx.currentTime + duration);
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
+        osc.start();
+        osc.stop(audioCtx.currentTime + duration);
+    }
+
+    const guideData = [
+        {
+            target: null,
+            text: "> INICIALIZANDO PROTOCOLO PERÚ 2026... Soy el Auditor Inmersivo. Analizo datos para que tu decisión no sea solo emocional, sino informada.",
+            mood: 'normal'
+        },
+        {
+            target: "nav",
+            text: "> STATUS: ONLINE. Este panel centraliza el acceso a los datos brutos. Si detecto irregularidades en la fuente, el indicador cambiará a rojo.",
+            mood: 'normal'
+        },
+        {
+            target: "#total-candidatos",
+            text: "> VOLUMEN DE DATOS. Aquí monitorizamos a todos los aspirantes que participarán en estas elecciones 2026.",
+            mood: 'alert'
+        },
+        {
+            target: "#top-podium",
+            text: "> ÍNDICE DE VIABILIDAD. Aquí medimos dos variables clave: 1. Qué tan posible es que cumplan sus promesas técnicamente y 2. Qué tan probable es que ganen.",
+            mood: 'thinking'
+        },
+        {
+            target: "#ideology-filters",
+            text: "> FILTRADO DE RETÓRICA. Clasificamos la idiologia partidaria. Aquí puedes ver quién es quién realmente según su historial.",
+            mood: 'normal'
+        },
+        {
+            target: "#faq",
+            text: "> NÚCLEO DE TRANSPARENCIA. La lógica de mi análisis es abierta. No acepto opiniones, solo algoritmos basados en evidencia.",
+            mood: 'alert'
+        }
+    ];
+
+    let currentStep = -1;
+    let isTyping = false;
+
+    function setRobotMood(mood) {
+        const eyes = [document.getElementById('eye-l'), document.getElementById('eye-r')];
+        const status = document.getElementById('status-indicator');
+        
+        switch(mood) {
+            case 'alert':
+                eyes.forEach(e => { e.className = 'w-2 h-4 bg-red-500 border border-red-200 animate-[blink_3s_infinite] shadow-[0_0_8px_#ef4444]'; });
+                status.className = 'w-2 h-2 bg-red-500 rounded-full animate-pulse';
+                break;
+            case 'thinking':
+                eyes.forEach(e => { e.className = 'w-2 h-4 bg-amber-400 border border-amber-200 animate-[blink_3s_infinite] shadow-[0_0_8px_#fbbf24]'; });
+                status.className = 'w-2 h-2 bg-amber-400 rounded-full animate-pulse';
+                break;
+            default:
+                eyes.forEach(e => { e.className = 'w-2 h-4 bg-emerald-400 border border-emerald-200 animate-[blink_3s_infinite] shadow-[0_0_8px_#34d399]'; });
+                status.className = 'w-2 h-2 bg-emerald-500 rounded-full animate-pulse';
+        }
+    }
+
+    function startTour() {
+        if (currentStep === -1) {
+            currentStep = 0;
+            document.getElementById('guide-ui').classList.remove('hidden');
+            document.getElementById('laser-scanner').classList.remove('hidden');
+            document.getElementById('tour-overlay').classList.add('opacity-100');
+            document.getElementById('robot-tooltip').textContent = "Auditoría en Curso";
+            playSynthSound(440, 'square', 0.2);
+            renderStep();
+        }
+    }
+
+    function typeWriter(text, i, fnCallback) {
+        if (i < text.length) {
+            isTyping = true;
+            document.getElementById("guide-text").innerHTML = text.substring(0, i+1);
+            document.getElementById("guide-text").classList.add('typing-cursor');
+            if (i % 2 === 0) playSynthSound(150 + (Math.random() * 50), 'sine', 0.05, 0.05);
+            document.getElementById('voice-wave').style.width = Math.random() * 100 + '%';
+            setTimeout(() => typeWriter(text, i + 1, fnCallback), 30);
+        } else {
+            isTyping = false;
+            document.getElementById("guide-text").classList.remove('typing-cursor');
+            document.getElementById('voice-wave').style.width = '0%';
+            if (typeof fnCallback == 'function') fnCallback();
+        }
+    }
+
+    function updatePointer(targetEl) {
+        const pointer = document.getElementById('robot-pointer');
+        if (!targetEl) {
+            pointer.style.opacity = '0';
+            return;
+        }
+        const rect = targetEl.getBoundingClientRect();
+        const x = rect.right + 40;
+        const y = rect.top + (rect.height / 2) - 30;
+        pointer.style.opacity = '1';
+        pointer.style.left = `${x}px`;
+        pointer.style.top = `${y}px`;
+        pointer.style.transform = 'translateX(-20px)';
+        setTimeout(() => pointer.style.transform = 'translateX(0px)', 100);
+    }
+
+    function renderStep() {
+        const step = guideData[currentStep];
+        const counter = document.getElementById('step-counter');
+        const robot = document.getElementById('robot-visuals');
+        const processor = document.getElementById('data-processor');
+        const progress = document.getElementById('data-progress');
+        
+        setRobotMood(step.mood);
+        robot.classList.add('robot-glitch');
+        setTimeout(() => robot.classList.remove('robot-glitch'), 300);
+        
+        document.querySelectorAll('.highlight-focus').forEach(el => el.classList.remove('highlight-focus'));
+        counter.textContent = `${(currentStep + 1).toString().padStart(2, '0')}//${guideData.length.toString().padStart(2, '0')}`;
+        
+        // Simulación de carga de datos
+        document.getElementById("guide-text").innerHTML = "";
+        processor.classList.remove('hidden');
+        progress.style.width = '0%';
+        
+        setTimeout(() => {
+            progress.style.width = '100%';
+            setTimeout(() => {
+                processor.classList.add('hidden');
+                typeWriter(step.text, 0);
+                if (step.target) {
+                    const el = document.querySelector(step.target);
+                    if (el) {
+                        el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                        setTimeout(() => {
+                            el.classList.add('highlight-focus');
+                            updatePointer(el);
+                            playSynthSound(880, 'sine', 0.1, 0.05);
+                        }, 500);
+                    }
+                } else {
+                    updatePointer(null);
+                }
+            }, 300);
+        }, 500);
+    }
+
+    function nextStep() {
+        if (isTyping) return;
+        if (currentStep < guideData.length - 1) {
+            currentStep++;
+            playSynthSound(600, 'triangle', 0.1);
+            renderStep();
+        } else {
+            finishTour();
+        }
+    }
+
+    function prevStep() {
+        if (isTyping || currentStep <= 0) return;
+        currentStep--;
+        playSynthSound(300, 'triangle', 0.1);
+        renderStep();
+    }
+
+    function finishTour() {
+        playSynthSound(200, 'sawtooth', 0.5);
+        setRobotMood('normal');
+        document.getElementById('guide-ui').classList.add('hidden');
+        document.getElementById('laser-scanner').classList.add('hidden');
+        document.getElementById('tour-overlay').classList.remove('opacity-100');
+        document.getElementById('robot-pointer').style.opacity = '0';
+        document.getElementById('robot-tooltip').textContent = "Iniciar Auditoría Visual";
+        document.querySelectorAll('.highlight-focus').forEach(el => el.classList.remove('highlight-focus'));
+        currentStep = -1;
+    }
+</script>
 
 </main>
 
