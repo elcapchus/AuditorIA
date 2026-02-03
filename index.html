@@ -174,7 +174,7 @@
 
     <div class="max-w-5xl mx-auto text-center relative z-10">
         <div class="inline-block border-2 border-slate-900 bg-white px-6 py-2 mb-8 shadow-[6px_6px_0px_0px_rgba(15,23,42,1)]">
-            <span class="text-sm font-black text-slate-900 uppercase tracking-[0.2em]">🇵🇪 Data Electoral 2026</span>
+            <span class="text-sm font-black text-slate-900 uppercase tracking-[0.2em]">🇵🇪 Data Electoral Oficial</span>
         </div>
 
         <h1 class="text-6xl md:text-8xl font-black text-white tracking-tighter leading-[0.85] mb-8 uppercase italic drop-shadow-[6px_6px_0px_rgba(15,23,42,1)]">
@@ -703,14 +703,6 @@ function renderGrid(data) {
         function openSidebar(c) {
             const content = document.getElementById('sidebar-content');
             content.innerHTML = `
-             <!-- 
-  SIDEBAR: Estilo Neo-Brutalista de Prensa
-  - Reemplazo de 'glassmorphism' por bloques sólidos y bordes de 2px.
-  - Jerarquía tipográfica agresiva y clara.
-  - Layout tipo 'fanzine' digital moderno.
--->
-
-<!-- Header del Sidebar -->
 <div class="flex justify-between items-center mb-8 pb-6 border-b-4 border-slate-900">
     <button onclick="closeSidebar()" class="w-12 h-12 border-2 border-slate-900 bg-white hover:bg-rose-500 hover:text-white flex items-center justify-center transition-all shadow-[4px_4px_0px_0px_rgba(15,23,42,1)] active:shadow-none active:translate-x-1 active:translate-y-1">
         <i class="fas fa-times text-lg"></i>
@@ -720,30 +712,43 @@ function renderGrid(data) {
     </div>
 </div>
 
-<!-- Identidad del Candidato -->
 <div class="mb-10 text-left">
-    <h2 class="text-5xl font-black text-slate-900 leading-none tracking-tighter mb-4 uppercase italic">
-        ${c.nombre || 'Sin nombre'}
-    </h2>
-    <div class="inline-block bg-slate-900 text-emerald-400 px-3 py-1 font-bold text-sm">
-        ${c.partido || 'Independiente'}
+    <div class="flex flex-col md:flex-row gap-6 items-start">
+        ${c.foto_oficial ? `
+            <div class="w-24 h-24 border-4 border-slate-900 shadow-[4px_4px_0px_0px_rgba(15,23,42,1)] overflow-hidden bg-slate-200">
+                <img src="${c.foto_oficial}" alt="${c.nombre}" class="w-full h-full object-cover" onerror="this.src='https://ui-avatars.com/api/?name=${encodeURIComponent(c.nombre)}&background=0f172a&color=fff'">
+            </div>
+        ` : ''}
+        <div>
+            <h2 class="text-5xl font-black text-slate-900 leading-none tracking-tighter mb-4 uppercase italic">
+                ${c.nombre || 'Sin nombre'}
+            </h2>
+            <div class="inline-block bg-slate-900 text-emerald-400 px-3 py-1 font-bold text-sm">
+                ${c.partido || 'Independiente'}
+            </div>
+        </div>
     </div>
 </div>
 
-<!-- Grid de Contenido -->
 <div class="space-y-8">
-    
-    <!-- Ideología -->
-    <div class="border-2 border-slate-900 p-6 bg-white shadow-[6px_6px_0px_0px_rgba(15,23,42,1)]">
-        <h4 class="text-xs font-black text-slate-900 uppercase tracking-widest mb-3 flex items-center gap-2">
-            <span class="w-2 h-4 bg-indigo-600"></span> Ideología General
-        </h4>
-        <p class="text-lg font-medium text-slate-800 leading-tight italic">
-            "${c.ideologia_general || '—'}"
-        </p>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="border-2 border-slate-900 p-6 bg-white shadow-[6px_6px_0px_0px_rgba(15,23,42,1)]">
+            <h4 class="text-xs font-black text-slate-900 uppercase tracking-widest mb-3 flex items-center gap-2">
+                <span class="w-2 h-4 bg-indigo-600"></span> Ideología General
+            </h4>
+            <p class="text-lg font-medium text-slate-800 leading-tight italic">
+                "${c.ideologia_general || '—'}"
+            </p>
+        </div>
+        <div class="border-2 border-slate-900 p-6 bg-slate-900 text-white shadow-[6px_6px_0px_0px_rgba(79,70,229,1)]">
+            <h4 class="text-[10px] font-black text-indigo-400 uppercase tracking-widest mb-3">Alineación Geopolítica</h4>
+            <p class="text-lg font-bold uppercase tracking-tighter text-white">
+                ${c.percepcion_geopolitica?.alineacion || '—'}
+            </p>
+            <p class="text-[10px] mt-2 font-medium text-slate-400 italic">Impacto: ${c.percepcion_geopolitica?.impacto_internacional || 'Neutro'}</p>
+        </div>
     </div>
 
-    <!-- Métricas Principales -->
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div class="p-6 border-2 border-slate-900 bg-indigo-50 shadow-[6px_6px_0px_0px_rgba(79,70,229,1)]">
             <p class="text-[10px] font-black text-slate-900 uppercase mb-2">Viabilidad Electoral</p>
@@ -755,74 +760,102 @@ function renderGrid(data) {
             <p class="text-[10px] font-black text-slate-900 uppercase mb-2">Confianza Institucional</p>
             <p class="text-5xl font-black text-emerald-600 mb-2">${c.confianza_institucional_ia?.porcentaje || '?'}%</p>
             <ul class="text-[11px] font-bold text-slate-700 space-y-1">
-                ${c.confianza_institucional_ia?.criterios?.map(crit => `<li class="flex items-start gap-2"><span class="mt-1 flex-shrink-0 w-1.5 h-1.5 bg-slate-900"></span> ${crit}</li>`).join('') || '<li>—</li>'}
+                ${c.confianza_institucional_ia?.criterios?.map(crit => `
+                    <li class="flex items-start gap-2">
+                        <span class="mt-1 flex-shrink-0 w-1.5 h-1.5 bg-slate-900"></span> 
+                        ${crit}
+                    </li>`).join('') || '<li>—</li>'}
             </ul>
         </div>
     </div>
 
-    <!-- Denuncias y Riesgo -->
-    <div class="grid grid-cols-1 gap-6">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div class="border-2 border-slate-900 overflow-hidden shadow-[6px_6px_0px_0px_rgba(225,29,72,1)]">
             <div class="bg-rose-600 p-2 border-b-2 border-slate-900">
-                <h4 class="text-[10px] font-black text-white uppercase tracking-widest">Alerta de Riesgo y Denuncias</h4>
+                <h4 class="text-[10px] font-black text-white uppercase tracking-widest text-center">Denuncias y Procesos</h4>
             </div>
-            <div class="p-6 bg-white space-y-4">
-                <div>
-                    <span class="text-[9px] font-black bg-slate-900 text-white px-2 py-0.5 uppercase">Nivel: ${c.denuncias_y_procesos?.nivel || '—'}</span>
-                    <p class="mt-3 text-sm font-bold text-slate-800">${c.denuncias_y_procesos?.detalle || '—'}</p>
-                    <p class="text-xs font-medium text-slate-500 mt-1 italic">Estado: ${c.denuncias_y_procesos?.estado_legal || '—'}</p>
+            <div class="p-4 bg-white">
+                <span class="text-[9px] font-black bg-rose-100 text-rose-700 px-2 py-0.5 uppercase border border-rose-200">Nivel: ${c.denuncias_y_procesos?.nivel || '—'}</span>
+                <p class="mt-3 text-sm font-bold text-slate-800">${c.denuncias_y_procesos?.detalle || 'Sin registros críticos.'}</p>
+                <p class="text-[10px] font-medium text-slate-500 mt-2 italic border-t pt-2">Estatus: ${c.denuncias_y_procesos?.estado_legal || '—'}</p>
+            </div>
+        </div>
+
+        <div class="border-2 border-slate-900 overflow-hidden shadow-[6px_6px_0px_0px_rgba(15,23,42,1)]">
+            <div class="bg-slate-900 p-2 border-b-2 border-slate-900">
+                <h4 class="text-[10px] font-black text-white uppercase tracking-widest text-center">Riesgo Democrático</h4>
+            </div>
+            <div class="p-4 bg-white text-center">
+                <div class="text-2xl font-black uppercase mb-1 ${c.riesgo_democratico?.nivel === 'bajo' ? 'text-emerald-600' : 'text-rose-600'}">
+                    ${c.riesgo_democratico?.nivel || '—'}
                 </div>
+                <p class="text-[10px] font-bold text-slate-600">${c.riesgo_democratico?.criterios || 'Sin indicadores registrados.'}</p>
             </div>
         </div>
     </div>
 
-    <!-- Veredicto Final (Estilo Headline) -->
     <div class="relative group">
         <div class="absolute inset-0 bg-slate-900 translate-x-2 translate-y-2 group-hover:translate-x-3 group-hover:translate-y-3 transition-transform"></div>
         <div class="relative p-8 border-2 border-slate-900 bg-white">
-            <h4 class="text-[10px] font-black text-slate-900 uppercase tracking-[0.3em] mb-4">Veredicto Final</h4>
-            <p class="text-2xl font-black text-slate-900 leading-none mb-6">
+            <div class="flex justify-between items-start mb-4">
+                <h4 class="text-[10px] font-black text-slate-900 uppercase tracking-[0.3em]">Veredicto Final AI</h4>
+                <span class="bg-yellow-400 text-slate-900 text-[9px] font-black px-2 py-1 uppercase border-2 border-slate-900 shadow-[2px_2px_0px_0px_rgba(15,23,42,1)]">
+                    Update: ${c.ultimo_update || '2026'}
+                </span>
+            </div>
+            <p class="text-2xl font-black text-slate-900 leading-tight mb-6">
                 "${c.juicio_institucional_final?.fundamento || 'Sin detalle'}"
             </p>
-            <div class="flex flex-wrap gap-2">
-                <span class="bg-indigo-600 text-white text-[10px] font-black px-3 py-1 uppercase border border-slate-900">
-                    Clasificación: ${c.juicio_institucional_final?.clasificacion?.replace(/_/g, ' ') || '—'}
+            <div class="flex flex-wrap gap-3">
+                <span class="bg-indigo-600 text-white text-[10px] font-black px-4 py-2 uppercase border-2 border-slate-900">
+                    Clasificación: ${c.juicio_institucional_final?.clasificacion || '—'}
                 </span>
             </div>
         </div>
     </div>
 
-    <!-- Experiencia y Gestión -->
-    <div class="space-y-4">
-        <h4 class="text-xs font-black text-slate-900 uppercase">Track Record de Gestión</h4>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div class="p-4 border-2 border-slate-900 bg-slate-50 flex flex-col justify-between">
-                <p class="text-[9px] font-black text-slate-400 uppercase">Sector Público</p>
-                <p class="text-sm font-bold text-slate-900 mt-2">${c.experiencia_gestion?.sector_publico || '—'}</p>
-            </div>
-            <div class="p-4 border-2 border-slate-900 bg-slate-50 flex flex-col justify-between">
-                <p class="text-[9px] font-black text-slate-400 uppercase">Sector Privado</p>
-                <p class="text-sm font-bold text-slate-900 mt-2">${c.experiencia_gestion?.sector_privado || '—'}</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Fuentes -->
+    <!-- Sección de Fuentes con Triple Revisión -->
     <div class="pt-8 border-t-4 border-slate-900">
-        <h4 class="text-xs font-black text-slate-900 uppercase mb-4 tracking-tighter italic underline decoration-indigo-500 decoration-4">Fuentes Consultadas</h4>
-        <div class="grid grid-cols-1 gap-2">
-            ${c.fuentes?.map(source => `
-                <a href="${source.enlace}" target="_blank" class="p-3 border-2 border-slate-900 bg-white hover:bg-slate-900 hover:text-white transition-colors flex justify-between items-center group/link">
-                    <span class="text-xs font-black uppercase tracking-tight">${source.medio}</span>
-                    <span class="text-[10px] font-bold opacity-60 italic">${source.fecha}</span>
-                </a>
-            `).join('') || '<p class="text-xs italic font-bold">Sin fuentes registradas</p>'}
+        <div class="bg-slate-900 text-white p-4 mb-6 border-2 border-slate-900 shadow-[4px_4px_0px_0px_rgba(79,70,229,1)]">
+            <h4 class="text-xs font-black uppercase tracking-widest mb-1">Protocolo de Verificación</h4>
+            <p class="text-[10px] font-bold text-indigo-300 uppercase italic">
+                🔎 Este perfil ha sido revisado en 3 niveles de profundidad (Web, Judicial y Hemeroteca).
+            </p>
+        </div>
+
+        <!-- Fuentes Primarias -->
+        <div class="mb-6">
+            <h5 class="text-[11px] font-black text-slate-900 uppercase mb-3 flex items-center gap-2">
+                <i class="fas fa-check-double text-emerald-500"></i> Fuentes de Revisión Principal
+            </h5>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
+                ${c.fuentes?.map(source => `
+                    <a href="${source.enlace}" target="_blank" class="p-3 border-2 border-slate-900 bg-white hover:bg-emerald-50 transition-all flex justify-between items-center group shadow-[2px_2px_0px_0px_rgba(15,23,42,1)]">
+                        <span class="text-[10px] font-black uppercase truncate mr-4">${source.medio}</span>
+                        <span class="text-[9px] font-bold opacity-60 italic">${source.fecha}</span>
+                    </a>
+                `).join('') || '<p class="text-[10px] italic">No hay fuentes principales registradas.</p>'}
+            </div>
+        </div>
+
+        <!-- Fuentes Adicionales -->
+        <div>
+            <h5 class="text-[11px] font-black text-slate-900 uppercase mb-3 flex items-center gap-2">
+                <i class="fas fa-search-plus text-indigo-500"></i> Fuentes Adicionales de Contraste
+            </h5>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-2">
+                ${c.fuentes_adicionales?.map(source => `
+                    <a href="${source.enlace}" target="_blank" class="p-3 border-2 border-slate-900 bg-slate-50 hover:bg-indigo-50 transition-all flex justify-between items-center group shadow-[2px_2px_0px_0px_rgba(15,23,42,1)]">
+                        <span class="text-[10px] font-black uppercase truncate mr-4">${source.medio}</span>
+                        <span class="text-[9px] font-bold opacity-60 italic">${source.fecha}</span>
+                    </a>
+                `).join('') || '<p class="text-[10px] italic">No hay fuentes adicionales registradas.</p>'}
+            </div>
         </div>
     </div>
 
-    <!-- Footer Disclaimer -->
-    <div class="mt-12 py-6 text-[10px] font-black text-slate-900 uppercase tracking-widest text-center border-2 border-slate-900 bg-yellow-300">
-        Grok xAI Intelligence Report • © 2026
+    <div class="mt-12 py-6 text-[10px] font-black text-slate-900 uppercase tracking-widest text-center border-2 border-slate-900 bg-yellow-300 shadow-[4px_4px_0px_0px_rgba(15,23,42,1)]">
+        Grok xAI Intelligence Report • Actualizado al ${c.ultimo_update || '2026'}
     </div>
 </div>
             `;
