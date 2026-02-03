@@ -68,7 +68,7 @@ Cada candidato debe seguir este esquema:
       "enlace": "https://..."
     }
   ]
-}```
+}
 
 ## ⚙️ Flujo de funcionamiento
 
