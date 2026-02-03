@@ -1,0 +1,1944 @@
+[
+  {
+    "nombre": "Rafael López Aliaga",
+    "partido": "Renovación Popular",
+    "foto_oficial": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Rafael_L%C3%B3pez_Aliaga_2023_%28cropped%29.jpg/800px-Rafael_L%C3%B3pez_Aliaga_2023_%28cropped%29.jpg",
+    "ideologia_general": "Derecha conservadora cristiana, con énfasis en valores tradicionales, libre mercado y seguridad ciudadana",
+    "experiencia_gestion": {
+      "sector_publico": "Alcalde de Lima Metropolitana (2023-2026); previamente, candidato presidencial en 2021 donde obtuvo el tercer lugar",
+      "sector_privado": "Empresario en el sector turismo (Grupo Acotur), ferrocarriles (Ferrocarril Central Andino) y hotelería; fundó empresas como Peruval Corporación y ha dirigido múltiples compañías",
+      "exito_empresarial": "alto - Ha construido un imperio empresarial valorado en cientos de millones de dólares, con expansión internacional limitada pero fuerte presencia nacional"
+    },
+    "viabilidad_electoral": {
+      "estimacion": 15,
+      "justificacion": "Lidera encuestas recientes con alrededor del 15-18% de intención de voto (promedio de IPSOS, Datum y CPI en enero 2026); base sólida en Lima y sectores conservadores, pero polarización limita crecimiento nacional"
+    },
+    "confianza_institucional_ia": {
+      "porcentaje": 75,
+      "criterios": [
+        "trayectoria institucional: Experiencia en gestión municipal actual",
+        "estabilidad política: Compromiso con procesos electorales democráticos, aunque con retórica fuerte",
+        "experiencia comprobada: Éxito en administración pública y privada",
+        "reputación pública: Mixta, con apoyo en derecha pero críticas por declaraciones extremas",
+        "impacto geopolítico: Alineado con democracias occidentales, sin riesgos mayores"
+      ]
+    },
+    "denuncias_y_procesos": {
+      "nivel": "medio",
+      "detalle": "Denuncias por difamación, evasión tributaria y presuntas irregularidades en contratos municipales; también investigaciones por financiamiento de campañas",
+      "estado_legal": "algunos archivados, otros en investigación preliminar - No hay sentencias firmes que lo inhabiliten"
+    },
+    "percepcion_geopolitica": {
+      "alineacion": "democrática occidental",
+      "relaciones_ideologicas": ["simpatizante de figuras conservadoras como Donald Trump y Javier Milei", "crítico de regímenes de izquierda como Venezuela y Cuba"],
+      "impacto_internacional": "positivo en círculos conservadores, neutro general",
+      "justificacion": "Apoya alianzas con EE.UU. y Europa; ha expresado admiración por políticas anti-izquierda, pero sin vínculos directos con autoritarismos"
+    },
+    "riesgo_democratico": {
+      "nivel": "medio-bajo",
+      "criterios": "Retórica populista y conservadora extrema podría polarizar, pero ha respetado instituciones en su rol como alcalde; no hay evidencia de intentos de socavar la democracia"
+    },
+    "juicio_institucional_final": {
+      "clasificacion": "apto",
+      "fundamento": "Experiencia ejecutiva probada en sector público y privado, viabilidad electoral alta y alineación democrática; reservas por denuncias pendientes y polarización",
+      "observaciones": "Fuerte enfoque en seguridad y economía, pero necesita moderar discurso para unidad nacional"
+    },
+    "fuentes": [
+      {
+        "medio": "El Comercio",
+        "fecha": "Jan 28, 2026",
+        "enlace": "https://elcomercio.pe/politica/elecciones/encuesta-ipsos-peru-enero-2026-rafael-lopez-aliaga-lidera-intencion-de-voto-noticia"
+      },
+      {
+        "medio": "Infobae",
+        "fecha": "Feb 1, 2026",
+        "enlace": "https://www.infobae.com/peru/2026/02/01/rafael-lopez-aliaga-perfil-y-trayectoria"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "Feb 3, 2026",
+        "enlace": "https://votoinformado.jne.gob.pe/voto/candidatos-presidenciales"
+      }
+    ]
+  },
+  {
+    "nombre": "Keiko Fujimori",
+    "partido": "Fuerza Popular",
+    "foto_oficial": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Keiko_Fujimori_2021_%28cropped%29.jpg/800px-Keiko_Fujimori_2021_%28cropped%29.jpg",
+    "ideologia_general": "Derecha populista con legado fujimorista, enfocada en seguridad, economía de mercado y anti-corrupción selectiva",
+    "experiencia_gestion": {
+      "sector_publico": "Congresista (2006-2011); candidata presidencial en 2011, 2016 y 2021 (segundos lugares); lideró oposición en Congreso 2016-2020",
+      "sector_privado": "Estudios en EE.UU., pero sin carrera empresarial destacada",
+      "exito_empresarial": "bajo - Dependiente de legado familiar y partido"
+    },
+    "viabilidad_electoral": {
+      "estimacion": 10,
+      "justificacion": "Intención de voto alrededor del 10-12% en encuestas recientes (IPSOS y Datum, enero 2026); base leal en sectores populares, pero alto rechazo (anti-voto >40%) debido a legado familiar"
+    },
+    "confianza_institucional_ia": {
+      "porcentaje": 50,
+      "criterios": [
+        "trayectoria institucional: Larga experiencia legislativa y partidaria",
+        "estabilidad política: Historia de confrontaciones con ejecutivos, pero respeto a elecciones",
+        "experiencia comprobada: Liderazgo en oposición, pero sin cargo ejecutivo",
+        "reputación pública: Polarizada, con apoyo fujimorista pero críticas por corrupción",
+        "impacto geopolítico: Alineada con democracias, legado mixto"
+      ]
+    },
+    "denuncias_y_procesos": {
+      "nivel": "alto",
+      "detalle": "Investigaciones por lavado de activos en Caso Lava Jato (Odebrecht), obstrucción a la justicia y organización criminal; prisión preventiva en 2018-2020",
+      "estado_legal": "en juicio oral - Habilitada por JNE para elecciones, pero procesos pendientes podrían impactar"
+    },
+    "percepcion_geopolitica": {
+      "alineacion": "democrática",
+      "relaciones_ideologicas": ["crítica de regímenes izquierdistas en Latinoamérica", "alianzas con conservadores regionales"],
+      "impacto_internacional": "neutro, con reservas por legado autoritario de su padre",
+      "justificacion": "Promueve relaciones con EE.UU. y aliados democráticos; legado de Alberto Fujimori genera escrutinio internacional, pero ella enfatiza democracia"
+    },
+    "riesgo_democratico": {
+      "nivel": "medio",
+      "criterios": "Legado fujimorista incluye autoritarismo en los 90s; acusaciones de interferencia judicial, pero ha participado en procesos democráticos"
+    },
+    "juicio_institucional_final": {
+      "clasificacion": "apto con reservas significativas",
+      "fundamento": "Experiencia política extensa y base electoral, pero riesgos altos por procesos judiciales y polarización; neutralidad en geopolítica ayuda, pero legado familiar pesa",
+      "observaciones": "Necesita resolver casos legales para mayor legitimidad; fuerte en temas de seguridad pero débil en unidad nacional"
+    },
+    "fuentes": [
+      {
+        "medio": "BBC News Mundo",
+        "fecha": "Jan 15, 2026",
+        "enlace": "https://www.bbc.com/mundo/noticias-america-latina-keiko-fujimori-2026"
+      },
+      {
+        "medio": "JNE",
+        "fecha": "Feb 2, 2026",
+        "enlace": "https://plataformaelectoral.jne.gob.pe/hojavida/keiko-fujimori"
+      },
+      {
+        "medio": "Datum Internacional",
+        "fecha": "Jan 30, 2026",
+        "enlace": "https://datum.com.pe/encuestas/enero-2026"
+      }
+    ]
+  },
+  {
+    "nombre": "Martín Vizcarra",
+    "partido": "Perú Primero",
+    "foto_oficial": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Martin_Vizcarra_%28cropped%29.jpg/800px-Martin_Vizcarra_%28cropped%29.jpg",
+    "ideologia_general": "Centro-derecha tecnocrática, con enfoque en reformas anti-corrupción y gestión pública eficiente",
+    "experiencia_gestion": {
+      "sector_publico": "Presidente del Perú (2018-2020); Ministro de Transportes y Comunicaciones (2016-2017); Gobernador Regional de Moquegua (2011-2014)",
+      "sector_privado": "Ingeniero civil con experiencia en proyectos de infraestructura",
+      "exito_empresarial": "medio - Gerenció empresas de construcción antes de entrar en política"
+    },
+    "viabilidad_electoral": {
+      "estimacion": 8,
+      "justificacion": "Intención de voto en 8-10% (encuestas CPI y IPSOS, enero 2026); popularidad por manejo inicial de pandemia, pero rechazo por vacancia y escándalos"
+    },
+    "confianza_institucional_ia": {
+      "porcentaje": 60,
+      "criterios": [
+        "trayectoria institucional: Experiencia ejecutiva alta, incluyendo presidencia",
+        "estabilidad política: Disolución del Congreso en 2019 generó controversia, pero legal",
+        "experiencia comprobada: Reformas anti-corrupción y gestión regional exitosa",
+        "reputación pública: Mixta, con apoyo en sur pero críticas por vacunación irregular",
+        "impacto geopolítico: Neutro, con buenas relaciones internacionales durante mandato"
+      ]
+    },
+    "denuncias_y_procesos": {
+      "nivel": "alto",
+      "detalle": "Investigaciones por corrupción en Club de la Construcción, vacunación irregular (Vacunagate) y presuntos sobornos",
+      "estado_legal": "en investigación y juicio - Inhabilitado por Congreso hasta 2031 para cargos públicos, pero JNE lo habilitó para candidatura presidencial"
+    },
+    "percepcion_geopolitica": {
+      "alineacion": "democrática",
+      "relaciones_ideologicas": ["colaboración con organismos internacionales como OEA y ONU"],
+      "impacto_internacional": "neutro-positivo",
+      "justificacion": "Durante presidencia, fortaleció lazos con EE.UU. y Europa; crítico moderado de autoritarismos en la región"
+    },
+    "riesgo_democratico": {
+      "nivel": "medio",
+      "criterios": "Disolución constitucional del Congreso fue controvertida pero avalada por TC; no hay indicios de tendencias autoritarias sostenidas"
+    },
+    "juicio_institucional_final": {
+      "clasificacion": "apto con reservas",
+      "fundamento": "Experiencia presidencial probada y reformas implementadas, pero denuncias pendientes y inhabilitación generan dudas; viabilidad moderada y alineación democrática",
+      "observaciones": "Fuerte en gestión técnica, pero necesita transparencia para reconstruir confianza"
+    },
+    "fuentes": [
+      {
+        "medio": "RPP Noticias",
+        "fecha": "Jan 20, 2026",
+        "enlace": "https://rpp.pe/politica/elecciones/martin-vizcarra-2026-perfil"
+      },
+      {
+        "medio": "CPI Encuestas",
+        "fecha": "Jan 25, 2026",
+        "enlace": "https://cpi.pe/encuestas/nacional-enero-2026"
+      },
+      {
+        "medio": "JNE",
+        "fecha": "Feb 3, 2026",
+        "enlace": "https://votoinformado.jne.gob.pe/voto/candidatos"
+      }
+    ]
+  },
+  {
+    "nombre": "César Acuña",
+    "partido": "Alianza para el Progreso",
+    "foto_oficial": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/C%C3%A9sar_Acu%C3%B1a_2021.jpg/800px-C%C3%A9sar_Acu%C3%B1a_2021.jpg",
+    "ideologia_general": "Centro-derecha regionalista, con énfasis en educación, infraestructura y desarrollo regional",
+    "experiencia_gestion": {
+      "sector_publico": "Gobernador Regional de La Libertad (2015-2022); Alcalde de Trujillo (2007-2014); Congresista (2000-2006, 2021-actual)",
+      "sector_privado": "Fundador y dueño de universidades (Universidad César Vallejo, Señor de Sipán); empresario en educación privada",
+      "exito_empresarial": "alto - Grupo educativo con múltiples campuses y miles de estudiantes, valorado en millones"
+    },
+    "viabilidad_electoral": {
+      "estimacion": 7,
+      "justificacion": "Intención de voto 7-9% (encuestas Datum y IPSOS, enero 2026); fuerte base en norte del país, pero limitado appeal nacional"
+    },
+    "confianza_institucional_ia": {
+      "porcentaje": 65,
+      "criterios": [
+        "trayectoria institucional: Múltiples cargos electos con gestión regional exitosa",
+        "estabilidad política: Alianzas pragmáticas, sin grandes controversias institucionales",
+        "experiencia comprobada: Inversiones en infraestructura y educación en La Libertad",
+        "reputación pública: Críticas por plagio académico, pero logros regionales positivos",
+        "impacto geopolítico: Neutro, enfoque interno"
+      ]
+    },
+    "denuncias_y_procesos": {
+      "nivel": "medio",
+      "detalle": "Acusaciones de plagio en tesis doctoral; investigaciones por corrupción en contratos regionales y lavado de activos",
+      "estado_legal": "algunos archivados, otros en investigación - No inhabilitado"
+    },
+    "percepcion_geopolitica": {
+      "alineacion": "democrática",
+      "relaciones_ideologicas": ["pragmático, sin alineaciones extremas"],
+      "impacto_internacional": "neutro",
+      "justificacion": "Enfoque en desarrollo interno; relaciones estándar con vecinos y potencias, sin controversias"
+    },
+    "riesgo_democratico": {
+      "nivel": "bajo",
+      "criterios": "Gestión pragmática y respeto a instituciones; acusaciones no indican tendencias anti-democráticas"
+    },
+    "juicio_institucional_final": {
+      "clasificacion": "apto",
+      "fundamento": "Experiencia en gestión regional y privada exitosa, viabilidad moderada y bajo riesgo; reservas por denuncias académicas y legales",
+      "observaciones": "Potencial para atraer votos en provincias, pero necesita fortalecer imagen nacional"
+    },
+    "fuentes": [
+      {
+        "medio": "El Comercio",
+        "fecha": "Jan 22, 2026",
+        "enlace": "https://elcomercio.pe/politica/cesar-acuna-2026-perfil"
+      },
+      {
+        "medio": "IPSOS Perú",
+        "fecha": "Jan 28, 2026",
+        "enlace": "https://ipsos.pe/encuestas/enero-2026"
+      },
+      {
+        "medio": "JNE",
+        "fecha": "Feb 3, 2026",
+        "enlace": "https://votoinformado.jne.gob.pe"
+      }
+    ]
+  },
+  {
+    "nombre": "Alfonso López Chau",
+    "partido": "Ahora Nación",
+    "foto_oficial": "https://www.ahoranacion.pe/wp-content/uploads/2023/05/Alfonso-Lopez-Chau.jpg",
+    "ideologia_general": "Centro-izquierda académica, con énfasis en educación pública, equidad social y reformas institucionales",
+    "experiencia_gestion": {
+      "sector_publico": "Rector de la Universidad Nacional Mayor de San Marcos (2011-2016); Viceministro de Educación (2006-2007)",
+      "sector_privado": "Académico y profesor universitario en economía y educación",
+      "exito_empresarial": "bajo - Carrera principalmente académica y pública"
+    },
+    "viabilidad_electoral": {
+      "estimacion": 3,
+      "justificacion": "Intención de voto baja (2-4% en encuestas IPSOS, enero 2026); appeal limitado a sectores intelectuales y izquierdistas moderados"
+    },
+    "confianza_institucional_ia": {
+      "porcentaje": 70,
+      "criterios": [
+        "trayectoria institucional: Gestión universitaria exitosa",
+        "estabilidad política: Bajo perfil, sin controversias mayores",
+        "experiencia comprobada: Reformas en educación superior",
+        "reputación pública: Positiva en ámbitos académicos, pero desconocida masivamente",
+        "impacto geopolítico: Crítico de autoritarismos, pero declaraciones pro-izquierda generan reservas"
+      ]
+    },
+    "denuncias_y_procesos": {
+      "nivel": "bajo",
+      "detalle": "Ningunas denuncias significativas reportadas",
+      "estado_legal": "sin registro activo"
+    },
+    "percepcion_geopolitica": {
+      "alineacion": "izquierda democrática con matices",
+      "relaciones_ideologicas": ["expresiones de simpatía hacia modelos socialistas en Cuba y Venezuela, pero crítica a excesos autoritarios"],
+      "impacto_internacional": "neutro-negativo en círculos occidentales",
+      "justificacion": "Ha defendido aspectos del socialismo del siglo XXI, con visitas a foros izquierdistas; sin embargo, enfatiza democracia interna"
+    },
+    "riesgo_democratico": {
+      "nivel": "medio",
+      "criterios": "Declaraciones ideológicas podrían alinear con gobiernos controvertidos, pero trayectoria institucional sugiere respeto a normas democráticas"
+    },
+    "juicio_institucional_final": {
+      "clasificacion": "apto con reservas",
+      "fundamento": "Fuerte experiencia académica y bajo nivel de denuncias; viabilidad baja, pero neutralidad general; reservas por alineaciones geopolíticas",
+      "observaciones": "Potencial en temas educativos, pero necesita clarificar posiciones internacionales para mayor confianza"
+    },
+    "fuentes": [
+      {
+        "medio": "La República",
+        "fecha": "Jan 10, 2026",
+        "enlace": "https://larepublica.pe/politica/alfonso-lopez-chau-perfil-2026"
+      },
+      {
+        "medio": "Voto Informado JNE",
+        "fecha": "Feb 3, 2026",
+        "enlace": "https://votoinformado.jne.gob.pe/presidente"
+      },
+      {
+        "medio": "Ahora Nación Sitio Oficial",
+        "fecha": "Jan 2026",
+        "enlace": "https://ahoranacion.pe/candidato/lopez-chau"
+      }
+    ]
+  },
+  {
+    "nombre": "Alex Gonzales",
+    "partido": "Partido Demócrata Verde",
+    "foto_oficial": "https://www.pdv.pe/images/alex-gonzales.jpg",
+    "ideologia_general": "Centro ambientalista, con foco en sostenibilidad, economía verde y derechos sociales",
+    "experiencia_gestion": {
+      "sector_publico": "Activista ambiental; sin cargos electos previos destacados",
+      "sector_privado": "Empresario en sector eco-turismo y consultoría ambiental",
+      "exito_empresarial": "medio - Empresas pequeñas con impacto local"
+    },
+    "viabilidad_electoral": {
+      "estimacion": 2,
+      "justificacion": "Intención de voto marginal (1-3% en encuestas, enero 2026); appeal niche en jóvenes y ambientalistas"
+    },
+    "confianza_institucional_ia": {
+      "porcentaje": 45,
+      "criterios": [
+        "trayectoria institucional: Limitada, nueva figura",
+        "estabilidad política: Sin historial controvertido",
+        "experiencia comprobada: Activismo ambiental",
+        "reputación pública: Positiva en nichos, desconocida ampliamente",
+        "impacto geopolítico: Neutro, enfoque ecológico global"
+      ]
+    },
+    "denuncias_y_procesos": {
+      "nivel": "bajo",
+      "detalle": "Ningunas reportadas",
+      "estado_legal": "sin registro"
+    },
+    "percepcion_geopolitica": {
+      "alineacion": "democrática ecológica",
+      "relaciones_ideologicas": ["apoyo a acuerdos internacionales como París"],
+      "impacto_internacional": "positivo en temas ambientales",
+      "justificacion": "Enfoque en sostenibilidad global sin alineaciones ideológicas extremas"
+    },
+    "riesgo_democratico": {
+      "nivel": "bajo",
+      "criterios": "Plataforma centrada en reformas democráticas y ambientales"
+    },
+    "juicio_institucional_final": {
+      "clasificacion": "apto con reservas",
+      "fundamento": "Innovación en temas ambientales, bajo riesgo y neutralidad; reservas por falta de experiencia y baja viabilidad",
+      "observaciones": "Podría atraer votos jóvenes, pero necesita construir trayectoria"
+    },
+    "fuentes": [
+      {
+        "medio": "RPP Noticias",
+        "fecha": "Jan 16, 2026",
+        "enlace": "https://rpp.pe/politica/partido-democrata-verde-alex-gonzales"
+      },
+      {
+        "medio": "JNE",
+        "fecha": "Feb 3, 2026",
+        "enlace": "https://votoinformado.jne.gob.pe"
+      }
+    ]
+  },
+  {
+    "nombre": "Vladimir Cerrón",
+    "partido": "Perú Libre",
+    "foto_oficial": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Vladimir_Cerr%C3%B3n_2021.jpg/800px-Vladimir_Cerr%C3%B3n_2021.jpg",
+    "ideologia_general": "Izquierda radical marxista-leninista, con énfasis en nacionalizaciones, anti-imperialismo y socialismo",
+    "experiencia_gestion": {
+      "sector_publico": "Gobernador Regional de Junín (2011-2014, 2019-2022); médico neurocirujano",
+      "sector_privado": "Práctica médica privada limitada",
+      "exito_empresarial": "bajo - Enfoque en carrera pública y partidaria"
+    },
+    "viabilidad_electoral": {
+      "estimacion": 4,
+      "justificacion": "Intención de voto 3-5% (encuestas, enero 2026); base en izquierda rural, pero alto rechazo por radicalismo"
+    },
+    "confianza_institucional_ia": {
+      "porcentaje": 35,
+      "criterios": [
+        "trayectoria institucional: Gestión regional con controversias",
+        "estabilidad política: Declaraciones radicales generan inestabilidad",
+        "experiencia comprobada: Logros en salud regional, pero corrupción",
+        "reputación pública: Polarizada, con apoyo en bases pero críticas generales",
+        "impacto geopolítico: Alineaciones con autoritarismos generan riesgos"
+      ]
+    },
+    "denuncias_y_procesos": {
+      "nivel": "alto",
+      "detalle": "Sentencia por negociación incompatible y corrupción (2019); investigaciones por lavado de activos y organización criminal",
+      "estado_legal": "sentencia firme, pero habilitado por JNE para candidatura"
+    },
+    "percepcion_geopolitica": {
+      "alineacion": "izquierda autoritaria",
+      "relaciones_ideologicas": ["apoyo explícito a gobiernos de Venezuela (Maduro), Cuba y Nicaragua (Ortega)"],
+      "impacto_internacional": "negativo",
+      "justificacion": "Declaraciones y visitas pro-regímenes sancionados por violaciones a DDHH; anti-EE.UU. marcado"
+    },
+    "riesgo_democratico": {
+      "nivel": "alto",
+      "criterios": "Ideología radical, sentencias y declaraciones anti-institucionales (e.g., contra OEA); potencial para reformas autoritarias"
+    },
+    "juicio_institucional_final": {
+      "clasificacion": "alto riesgo",
+      "fundamento": "Experiencia regional, pero alto riesgo democrático por ideología y legales; viabilidad baja y geopolítica negativa",
+      "observaciones": "Podría polarizar más el país; necesita moderar posiciones para viabilidad"
+    },
+    "fuentes": [
+      {
+        "medio": "La República",
+        "fecha": "Jan 12, 2026",
+        "enlace": "https://larepublica.pe/politica/vladimir-cerron-2026"
+      },
+      {
+        "medio": "Wikipedia",
+        "fecha": "Feb 3, 2026",
+        "enlace": "https://es.wikipedia.org/wiki/Vladimir_Cerr%C3%B3n"
+      },
+      {
+        "medio": "JNE",
+        "fecha": "Feb 3, 2026",
+        "enlace": "https://votoinformado.jne.gob.pe"
+      }
+    ]
+  },
+  {
+    "nombre": "Yonhy Lescano",
+    "partido": "Cooperación Popular",
+    "foto_oficial": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Yonhy_Lescano_2021.jpg/800px-Yonhy_Lescano_2021.jpg",
+    "ideologia_general": "Centro-izquierda socialdemócrata, con foco en derechos laborales, energía y anti-corrupción",
+    "experiencia_gestion": {
+      "sector_publico": "Congresista (2001-2021, múltiples periodos); abogado especializado en derecho administrativo",
+      "sector_privado": "Abogado independiente",
+      "exito_empresarial": "bajo - Carrera legal y política"
+    },
+    "viabilidad_electoral": {
+      "estimacion": 3,
+      "justificacion": "Intención de voto 2-4% (encuestas, enero 2026); visibilidad de 2021, pero baja actual"
+    },
+    "confianza_institucional_ia": {
+      "porcentaje": 60,
+      "criterios": [
+        "trayectoria institucional: Larga experiencia legislativa",
+        "estabilidad política: Crítico consistente de corrupción",
+        "experiencia comprobada: Leyes en energía y derechos",
+        "reputación pública: Positiva en sur, mixta nacional",
+        "impacto geopolítico: Neutro"
+      ]
+    },
+    "denuncias_y_procesos": {
+      "nivel": "bajo",
+      "detalle": "Denuncias menores por difamación",
+      "estado_legal": "archivadas"
+    },
+    "percepcion_geopolitica": {
+      "alineacion": "democrática",
+      "relaciones_ideologicas": ["crítico de extremismos"],
+      "impacto_internacional": "neutro",
+      "justificacion": "Enfoque interno, sin alineaciones controvertidas"
+    },
+    "riesgo_democratico": {
+      "nivel": "bajo",
+      "criterios": "Compromiso con instituciones legislativas"
+    },
+    "juicio_institucional_final": {
+      "clasificacion": "apto",
+      "fundamento": "Experiencia legislativa sólida, bajo riesgo y neutralidad; viabilidad baja",
+      "observaciones": "Fuerte en temas sociales, pero necesita mayor visibilidad"
+    },
+    "fuentes": [
+      {
+        "medio": "RPP Noticias",
+        "fecha": "Dec 15, 2025",
+        "enlace": "https://rpp.pe/politica/yonhy-lescano-2026"
+      },
+      {
+        "medio": "JNE",
+        "fecha": "Feb 3, 2026",
+        "enlace": "https://votoinformado.jne.gob.pe"
+      }
+    ]
+  },
+  {
+    "nombre": "Ronald Atencio",
+    "partido": "Alianza Venceremos",
+    "foto_oficial": "https://www.aliancavenceremos.pe/images/ronald-atencio.jpg",
+    "ideologia_general": "Centro pragmático, con énfasis en unidad nacional y desarrollo económico",
+    "experiencia_gestion": {
+      "sector_publico": "Funcionario local menor",
+      "sector_privado": "Empresario en comercio",
+      "exito_empresarial": "medio"
+    },
+    "viabilidad_electoral": {
+      "estimacion": 1,
+      "justificacion": "Marginal en encuestas"
+    },
+    "confianza_institucional_ia": {
+      "porcentaje": 40,
+      "criterios": [
+        "trayectoria institucional: Limitada",
+        "estabilidad política: Baja visibilidad",
+        "experiencia comprobada: Básica",
+        "reputación pública: Desconocida",
+        "impacto geopolítico: Neutro"
+      ]
+    },
+    "denuncias_y_procesos": {
+      "nivel": "bajo",
+      "detalle": "",
+      "estado_legal": "sin registro"
+    },
+    "percepcion_geopolitica": {
+      "alineacion": "democrática",
+      "relaciones_ideologicas": [],
+      "impacto_internacional": "neutro",
+      "justificacion": ""
+    },
+    "riesgo_democratico": {
+      "nivel": "bajo",
+      "criterios": ""
+    },
+    "juicio_institucional_final": {
+      "clasificacion": "apto con reservas",
+      "fundamento": "Nueva figura, bajo riesgo",
+      "observaciones": ""
+    },
+    "fuentes": [
+      {
+        "medio": "La República",
+        "fecha": "Jan 9, 2026",
+        "enlace": "https://larepublica.pe/politica/ronald-atencio-2026"
+      }
+    ]
+  },
+  {
+    "nombre": "José Williams",
+    "partido": "Avanza País",
+    "foto_oficial": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Jos%C3%A9_Williams_Zapata_2022.jpg/800px-Jos%C3%A9_Williams_Zapata_2022.jpg",
+    "ideologia_general": "Derecha liberal progresista, con énfasis en seguridad, economía de mercado y modernización",
+    "experiencia_gestion": {
+      "sector_publico": "Presidente del Congreso (2022-2023); Congresista (2021-actual); General de Ejército retirado, héroe de Chavín de Huántar",
+      "sector_privado": "Ninguna destacada",
+      "exito_empresarial": "no aplica"
+    },
+    "viabilidad_electoral": {
+      "estimacion": 5,
+      "justificacion": "4-6% en encuestas, base en derecha militar"
+    },
+    "confianza_institucional_ia": {
+      "porcentaje": 70,
+      "criterios": [
+        "trayectoria institucional: Alta en legislativo y militar",
+        "estabilidad política: Liderazgo en crisis",
+        "experiencia comprobada: Operaciones militares exitosas",
+        "reputación pública: Positiva en seguridad",
+        "impacto geopolítico: Positivo"
+      ]
+    },
+    "denuncias_y_procesos": {
+      "nivel": "bajo",
+      "detalle": "",
+      "estado_legal": "sin registro"
+    },
+    "percepcion_geopolitica": {
+      "alineacion": "democrática",
+      "relaciones_ideologicas": [],
+      "impacto_internacional": "positivo",
+      "justificacion": "Experiencia anti-terrorismo alineada con occidente"
+    },
+    "riesgo_democratico": {
+      "nivel": "bajo",
+      "criterios": "Fondo militar democrático"
+    },
+    "juicio_institucional_final": {
+      "clasificacion": "apto",
+      "fundamento": "Experiencia fuerte en seguridad y legislativo",
+      "observaciones": ""
+    },
+    "fuentes": [
+      {
+        "medio": "Voto Informado",
+        "fecha": "Feb 3, 2026",
+        "enlace": "https://votoinformado.jne.gob.pe/jose-williams"
+      }
+    ]
+  },
+  {
+    "nombre": "Álvaro Paz de la Barra",
+    "partido": "Fe en el Perú",
+    "foto_oficial": "https://www.feelperu.pe/images/alvaro-paz.jpg",
+    "ideologia_general": "Centro-derecha local, con foco en municipalismo y desarrollo urbano",
+    "experiencia_gestion": {
+      "sector_publico": "Alcalde de La Molina (2019-2022)",
+      "sector_privado": "Abogado",
+      "exito_empresarial": "medio"
+    },
+    "viabilidad_electoral": {
+      "estimacion": 1,
+      "justificacion": "Baja visibilidad"
+    },
+    "confianza_institucional_ia": {
+      "porcentaje": 50,
+      "criterios": [
+        "trayectoria institucional: Gestión municipal",
+        "estabilidad política: Local",
+        "experiencia comprobada: Urbana",
+        "reputación pública: Mixta",
+        "impacto geopolítico: Neutro"
+      ]
+    },
+    "denuncias_y_procesos": {
+      "nivel": "medio",
+      "detalle": "Irregularidades municipales",
+      "estado_legal": "investigación"
+    },
+    "percepcion_geopolitica": {
+      "alineacion": "democrática",
+      "relaciones_ideologicas": [],
+      "impacto_internacional": "neutro",
+      "justificacion": ""
+    },
+    "riesgo_democratico": {
+      "nivel": "bajo",
+      "criterios": ""
+    },
+    "juicio_institucional_final": {
+      "clasificacion": "apto con reservas",
+      "fundamento": "Experiencia local, reservas legales",
+      "observaciones": ""
+    },
+    "fuentes": [
+      {
+        "medio": "RPP Noticias",
+        "fecha": "Dec 20, 2025",
+        "enlace": "https://rpp.pe/politica/alvaro-paz-2026"
+      }
+    ]
+  },
+  {
+    "nombre": "Fiorella Molinelli",
+    "partido": "Alianza Fuerza y Libertad",
+    "foto_oficial": "https://www.essalud.gob.pe/images/fiorella-molinelli.jpg",
+    "ideologia_general": "Centro-derecha, con foco en salud y administración pública",
+    "experiencia_gestion": {
+      "sector_publico": "Presidenta de Essalud (2018-2020); Viceministra de Transportes",
+      "sector_privado": "Ingeniera",
+      "exito_empresarial": "medio"
+    },
+    "viabilidad_electoral": {
+      "estimacion": 2,
+      "justificacion": "Baja, nicho salud"
+    },
+    "confianza_institucional_ia": {
+      "porcentaje": 60,
+      "criterios": [
+        "trayectoria institucional: Gestión en salud",
+        "estabilidad política: Tecnócrata",
+        "experiencia comprobada: Durante pandemia",
+        "reputación pública: Mixta",
+        "impacto geopolítico: Neutro"
+      ]
+    },
+    "denuncias_y_procesos": {
+      "nivel": "medio",
+      "detalle": "Irregularidades en Essalud",
+      "estado_legal": "investigación"
+    },
+    "percepcion_geopolitica": {
+      "alineacion": "democrática",
+      "relaciones_ideologicas": [],
+      "impacto_internacional": "neutro",
+      "justificacion": ""
+    },
+    "riesgo_democratico": {
+      "nivel": "bajo",
+      "criterios": ""
+    },
+    "juicio_institucional_final": {
+      "clasificacion": "apto con reservas",
+      "fundamento": "Experiencia en salud, reservas legales",
+      "observaciones": ""
+    },
+    "fuentes": [
+      {
+        "medio": "RPP Noticias",
+        "fecha": "Jan 10, 2026",
+        "enlace": "https://rpp.pe/politica/fiorella-molinelli-2026"
+      }
+    ]
+  },
+  {
+    "nombre": "Roberto Sánchez Palomino",
+    "partido": "Juntos por el Perú",
+    "foto_oficial": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Roberto_S%C3%A1nchez_Palomino_2021.jpg/800px-Roberto_S%C3%A1nchez_Palomino_2021.jpg",
+    "ideologia_general": "Izquierda progresista, con énfasis en inclusión social, economía mixta y derechos humanos",
+    "experiencia_gestion": {
+      "sector_publico": "Ministro de Comercio Exterior y Turismo (2021-2022); Congresista (2021-2022)",
+      "sector_privado": "Psicólogo y activista",
+      "exito_empresarial": "bajo"
+    },
+    "viabilidad_electoral": {
+      "estimacion": 2,
+      "justificacion": "Baja en izquierda fragmentada"
+    },
+    "confianza_institucional_ia": {
+      "porcentaje": 50,
+      "criterios": [
+        "trayectoria institucional: Ministerial",
+        "estabilidad política: Izquierda moderada",
+        "experiencia comprobada: Comercio",
+        "reputación pública: Mixta",
+        "impacto geopolítico: Reservas por izquierda"
+      ]
+    },
+    "denuncias_y_procesos": {
+      "nivel": "bajo",
+      "detalle": "",
+      "estado_legal": "archivado"
+    },
+    "percepcion_geopolitica": {
+      "alineacion": "izquierda democrática",
+      "relaciones_ideologicas": ["simpatía hacia izquierda latina como Venezuela y Cuba, pero crítica a autoritarismos"],
+      "impacto_internacional": "neutro-negativo",
+      "justificacion": "Alianzas regionales de izquierda"
+    },
+    "riesgo_democratico": {
+      "nivel": "medio",
+      "criterios": "Ideología podría alinear con controversias"
+    },
+    "juicio_institucional_final": {
+      "clasificacion": "apto con reservas",
+      "fundamento": "Experiencia ministerial, riesgos ideológicos",
+      "observaciones": ""
+    },
+    "fuentes": [
+      {
+        "medio": "Infobae",
+        "fecha": "Dec 15, 2025",
+        "enlace": "https://www.infobae.com/peru/roberto-sanchez-2026"
+      }
+    ]
+  },
+  {
+    "nombre": "José Luna Gálvez",
+    "partido": "Podemos Perú",
+    "foto_oficial": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Jos%C3%A9_Luna_G%C3%A1lvez_2020.jpg/800px-Jos%C3%A9_Luna_G%C3%A1lvez_2020.jpg",
+    "ideologia_general": "Centro-derecha populista, con foco en educación privada y emprendimiento",
+    "experiencia_gestion": {
+      "sector_publico": "Congresista (2011-2016, 2020-actual)",
+      "sector_privado": "Fundador de universidades Telesup y ULC",
+      "exito_empresarial": "alto - Controversial, con cierres por irregularidades"
+    },
+    "viabilidad_electoral": {
+      "estimacion": 3,
+      "justificacion": "2-4% , base populista"
+    },
+    "confianza_institucional_ia": {
+      "porcentaje": 40,
+      "criterios": [
+        "trayectoria institucional: Legislativa",
+        "estabilidad política: Alianzas variables",
+        "experiencia comprobada: Educativa controvertida",
+        "reputación pública: Baja por escándalos",
+        "impacto geopolítico: Neutro"
+      ]
+    },
+    "denuncias_y_procesos": {
+      "nivel": "alto",
+      "detalle": "Lavado de activos, corrupción en ONP",
+      "estado_legal": "investigación"
+    },
+    "percepcion_geopolitica": {
+      "alineacion": "democrática",
+      "relaciones_ideologicas": [],
+      "impacto_internacional": "neutro",
+      "justificacion": ""
+    },
+    "riesgo_democratico": {
+      "nivel": "medio",
+      "criterios": "Procesos legales"
+    },
+    "juicio_institucional_final": {
+      "clasificacion": "apto con reservas significativas",
+      "fundamento": "Experiencia, pero altos riesgos legales",
+      "observaciones": ""
+    },
+    "fuentes": [
+      {
+        "medio": "RPP Noticias",
+        "fecha": "Jan 25, 2026",
+        "enlace": "https://rpp.pe/politica/jose-luna-2026"
+      }
+    ]
+  },
+  {
+    "nombre": "Rosario Fernández",
+    "partido": "Un Camino Diferente",
+    "foto_oficial": "https://www.uncaminodiferente.pe/images/rosario-fernandez.jpg",
+    "ideologia_general": "Centro, con foco en justicia y gobernabilidad",
+    "experiencia_gestion": {
+      "sector_publico": "Ministra de Justicia (2010-2011)",
+      "sector_privado": "Abogada",
+      "exito_empresarial": "medio"
+    },
+    "viabilidad_electoral": {
+      "estimacion": 1,
+      "justificacion": "Baja"
+    },
+    "confianza_institucional_ia": {
+      "porcentaje": 55,
+      "criterios": [
+        "trayectoria institucional: Ministerial",
+        "estabilidad política: Moderada",
+        "experiencia comprobada: Justicia",
+        "reputación pública: Positiva",
+        "impacto geopolítico: Neutro"
+      ]
+    },
+    "denuncias_y_procesos": {
+      "nivel": "bajo",
+      "detalle": "",
+      "estado_legal": "sin registro"
+    },
+    "percepcion_geopolitica": {
+      "alineacion": "democrática",
+      "relaciones_ideologicas": [],
+      "impacto_internacional": "neutro",
+      "justificacion": ""
+    },
+    "riesgo_democratico": {
+      "nivel": "bajo",
+      "criterios": ""
+    },
+    "juicio_institucional_final": {
+      "clasificacion": "apto",
+      "fundamento": "Experiencia en justicia",
+      "observaciones": ""
+    },
+    "fuentes": [
+      {
+        "medio": "RPP Noticias",
+        "fecha": "Jan 25, 2026",
+        "enlace": "https://rpp.pe/politica/rosario-fernandez-2026"
+      }
+    ]
+  },
+  {
+    "nombre": "Jorge Nieto",
+    "partido": "Partido del Buen Gobierno",
+    "foto_oficial": "https://www.partidodelbuengobierno.pe/images/jorge-nieto.jpg",
+    "ideologia_general": "Centro, con foco en gobernanza y defensa",
+    "experiencia_gestion": {
+      "sector_publico": "Ministro de Defensa (2016-2018)",
+      "sector_privado": "Consultor",
+      "exito_empresarial": "medio"
+    },
+    "viabilidad_electoral": {
+      "estimacion": 2,
+      "justificacion": "Baja"
+    },
+    "confianza_institucional_ia": {
+      "porcentaje": 65,
+      "criterios": [
+        "trayectoria institucional: Alta en defensa",
+        "estabilidad política: Tecnócrata",
+        "experiencia comprobada: Gestión de crisis",
+        "reputación pública: Positiva",
+        "impacto geopolítico: Positivo"
+      ]
+    },
+    "denuncias_y_procesos": {
+      "nivel": "bajo",
+      "detalle": "",
+      "estado_legal": "sin registro"
+    },
+    "percepcion_geopolitica": {
+      "alineacion": "democrática",
+      "relaciones_ideologicas": [],
+      "impacto_internacional": "positivo",
+      "justificacion": "Defensa"
+    },
+    "riesgo_democratico": {
+      "nivel": "bajo",
+      "criterios": ""
+    },
+    "juicio_institucional_final": {
+      "clasificacion": "apto",
+      "fundamento": "Experiencia en defensa",
+      "observaciones": ""
+    },
+    "fuentes": [
+      {
+        "medio": "El Comercio",
+        "fecha": "Dec 20, 2025",
+        "enlace": "https://elcomercio.pe/politica/jorge-nieto-2026"
+      }
+    ]
+  },
+  {
+    "nombre": "Herbert Caller",
+    "partido": "Partido Patriótico del Perú",
+    "foto_oficial": "https://www.partidopatriotico.pe/images/herbert-caller.jpg",
+    "ideologia_general": "Derecha patriótica, con foco en nacionalismo y seguridad",
+    "experiencia_gestion": {
+      "sector_publico": "Limitada",
+      "sector_privado": "Empresario",
+      "exito_empresarial": "medio"
+    },
+    "viabilidad_electoral": {
+      "estimacion": 1,
+      "justificacion": "Marginal"
+    },
+    "confianza_institucional_ia": {
+      "porcentaje": 40,
+      "criterios": [
+        "trayectoria institucional: Baja",
+        "estabilidad política: Nueva",
+        "experiencia comprobada: Básica",
+        "reputación pública: Desconocida",
+        "impacto geopolítico: Neutro"
+      ]
+    },
+    "denuncias_y_procesos": {
+      "nivel": "bajo",
+      "detalle": "",
+      "estado_legal": "sin registro"
+    },
+    "percepcion_geopolitica": {
+      "alineacion": "democrática",
+      "relaciones_ideologicas": [],
+      "impacto_internacional": "neutro",
+      "justificacion": ""
+    },
+    "riesgo_democratico": {
+      "nivel": "bajo",
+      "criterios": ""
+    },
+    "juicio_institucional_final": {
+      "clasificacion": "apto con reservas",
+      "fundamento": "Potencial patriótico",
+      "observaciones": ""
+    },
+    "fuentes": [
+      {
+        "medio": "RPP Noticias",
+        "fecha": "Dec 20, 2025",
+        "enlace": "https://rpp.pe/politica/herbert-caller-2026"
+      }
+    ]
+  },
+  {
+    "nombre": "Fernando Olivera",
+    "partido": "Frente de la Esperanza 2021",
+    "foto_oficial": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Fernando_Olivera_2021.jpg/800px-Fernando_Olivera_2021.jpg",
+    "ideologia_general": "Centro anticorrupción, con énfasis en transparencia y reformas",
+    "experiencia_gestion": {
+      "sector_publico": "Ministro de Justicia (2002); Embajador",
+      "sector_privado": "Abogado",
+      "exito_empresarial": "bajo"
+    },
+    "viabilidad_electoral": {
+      "estimacion": 1,
+      "justificacion": "Baja"
+    },
+    "confianza_institucional_ia": {
+      "porcentaje": 50,
+      "criterios": [
+        "trayectoria institucional: Ministerial",
+        "estabilidad política: Anticorrupción",
+        "experiencia comprobada: Reformas",
+        "reputación pública: Mixta",
+        "impacto geopolítico: Neutro"
+      ]
+    },
+    "denuncias_y_procesos": {
+      "nivel": "bajo",
+      "detalle": "",
+      "estado_legal": "archivado"
+    },
+    "percepcion_geopolitica": {
+      "alineacion": "democrática",
+      "relaciones_ideologicas": [],
+      "impacto_internacional": "neutro",
+      "justificacion": ""
+    },
+    "riesgo_democratico": {
+      "nivel": "bajo",
+      "criterios": ""
+    },
+    "juicio_institucional_final": {
+      "clasificacion": "apto",
+      "fundamento": "Enfoque anticorrupción",
+      "observaciones": ""
+    },
+    "fuentes": [
+      {
+        "medio": "RPP Noticias",
+        "fecha": "Jan 25, 2026",
+        "enlace": "https://rpp.pe/politica/fernando-olivera-2026"
+      }
+    ]
+  },
+  {
+    "nombre": "Mesías Guevara",
+    "partido": "Partido Morado",
+    "foto_oficial": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Mes%C3%ADas_Guevara_2021.jpg/800px-Mes%C3%ADas_Guevara_2021.jpg",
+    "ideologia_general": "Centro liberal, con foco en modernización, educación y economía",
+    "experiencia_gestion": {
+      "sector_publico": "Gobernador de Cajamarca (2015-2018); Congresista",
+      "sector_privado": "Ingeniero",
+      "exito_empresarial": "medio"
+    },
+    "viabilidad_electoral": {
+      "estimacion": 2,
+      "justificacion": "Baja"
+    },
+    "confianza_institucional_ia": {
+      "porcentaje": 60,
+      "criterios": [
+        "trayectoria institucional: Regional",
+        "estabilidad política: Liberal",
+        "experiencia comprobada: Gestión",
+        "reputación pública: Positiva",
+        "impacto geopolítico: Neutro"
+      ]
+    },
+    "denuncias_y_procesos": {
+      "nivel": "bajo",
+      "detalle": "",
+      "estado_legal": "sin registro"
+    },
+    "percepcion_geopolitica": {
+      "alineacion": "democrática",
+      "relaciones_ideologicas": [],
+      "impacto_internacional": "neutro",
+      "justificacion": ""
+    },
+    "riesgo_democratico": {
+      "nivel": "bajo",
+      "criterios": ""
+    },
+    "juicio_institucional_final": {
+      "clasificacion": "apto",
+      "fundamento": "Experiencia regional",
+      "observaciones": ""
+    },
+    "fuentes": [
+      {
+        "medio": "RPP Noticias",
+        "fecha": "Dec 10, 2025",
+        "enlace": "https://rpp.pe/politica/mesias-guevara-2026"
+      }
+    ]
+  },
+  {
+    "nombre": "Charlie Carrasco",
+    "partido": "Partido Demócrata Unido",
+    "foto_oficial": "https://www.pdu.pe/images/charlie-carrasco.jpg",
+    "ideologia_general": "Centro, con foco en unidad y desarrollo",
+    "experiencia_gestion": {
+      "sector_publico": "Limitada",
+      "sector_privado": "Empresario",
+      "exito_empresarial": "medio"
+    },
+    "viabilidad_electoral": {
+      "estimacion": 1,
+      "justificacion": "Marginal"
+    },
+    "confianza_institucional_ia": {
+      "porcentaje": 40,
+      "criterios": [
+        "trayectoria institucional: Baja",
+        "estabilidad política: Nueva",
+        "experiencia comprobada: Básica",
+        "reputación pública: Desconocida",
+        "impacto geopolítico: Neutro"
+      ]
+    },
+    "denuncias_y_procesos": {
+      "nivel": "bajo",
+      "detalle": "",
+      "estado_legal": "sin registro"
+    },
+    "percepcion_geopolitica": {
+      "alineacion": "democrática",
+      "relaciones_ideologicas": [],
+      "impacto_internacional": "neutro",
+      "justificacion": ""
+    },
+    "riesgo_democratico": {
+      "nivel": "bajo",
+      "criterios": ""
+    },
+    "juicio_institucional_final": {
+      "clasificacion": "apto con reservas",
+      "fundamento": "Potencial",
+      "observaciones": ""
+    },
+    "fuentes": [
+      {
+        "medio": "RPP Noticias",
+        "fecha": "Jan 25, 2026",
+        "enlace": "https://rpp.pe/politica/charlie-carrasco-2026"
+      }
+    ]
+  },
+  {
+    "nombre": "Paul Jaimes Blanco",
+    "partido": "Progresemos",
+    "foto_oficial": "https://www.progresemos.pe/images/paul-jaimes.jpg",
+    "ideologia_general": "Centro progresista, con foco en innovación y juventud",
+    "experiencia_gestion": {
+      "sector_publico": "Limitada",
+      "sector_privado": "Emprendedor tech",
+      "exito_empresarial": "medio"
+    },
+    "viabilidad_electoral": {
+      "estimacion": 1,
+      "justificacion": "Marginal"
+    },
+    "confianza_institucional_ia": {
+      "porcentaje": 45,
+      "criterios": [
+        "trayectoria institucional: Baja",
+        "estabilidad política: Nueva",
+        "experiencia comprobada: Privada",
+        "reputación pública: Desconocida",
+        "impacto geopolítico: Neutro"
+      ]
+    },
+    "denuncias_y_procesos": {
+      "nivel": "bajo",
+      "detalle": "",
+      "estado_legal": "sin registro"
+    },
+    "percepcion_geopolitica": {
+      "alineacion": "democrática",
+      "relaciones_ideologicas": [],
+      "impacto_internacional": "neutro",
+      "justificacion": ""
+    },
+    "riesgo_democratico": {
+      "nivel": "bajo",
+      "criterios": ""
+    },
+    "juicio_institucional_final": {
+      "clasificacion": "apto con reservas",
+      "fundamento": "Innovación",
+      "observaciones": ""
+    },
+    "fuentes": [
+      {
+        "medio": "RPP Noticias",
+        "fecha": "Jan 25, 2026",
+        "enlace": "https://rpp.pe/politica/paul-jaimes-2026"
+      }
+    ]
+  },
+  {
+    "nombre": "Carlos Jaico",
+    "partido": "Perú Moderno",
+    "foto_oficial": "https://www.perumoderno.pe/images/carlos-jaico.jpg",
+    "ideologia_general": "Centro liberal, con foco en modernización y tecnología",
+    "experiencia_gestion": {
+      "sector_publico": "Secretario General de PCM (2022)",
+      "sector_privado": "Consultor",
+      "exito_empresarial": "medio"
+    },
+    "viabilidad_electoral": {
+      "estimacion": 2,
+      "justificacion": "Baja"
+    },
+    "confianza_institucional_ia": {
+      "porcentaje": 55,
+      "criterios": [
+        "trayectoria institucional: Ejecutiva",
+        "estabilidad política: Moderada",
+        "experiencia comprobada: Administrativa",
+        "reputación pública: Positiva",
+        "impacto geopolítico: Neutro"
+      ]
+    },
+    "denuncias_y_procesos": {
+      "nivel": "bajo",
+      "detalle": "",
+      "estado_legal": "sin registro"
+    },
+    "percepcion_geopolitica": {
+      "alineacion": "democrática",
+      "relaciones_ideologicas": [],
+      "impacto_internacional": "neutro",
+      "justificacion": ""
+    },
+    "riesgo_democratico": {
+      "nivel": "bajo",
+      "criterios": ""
+    },
+    "juicio_institucional_final": {
+      "clasificacion": "apto",
+      "fundamento": "Experiencia administrativa",
+      "observaciones": ""
+    },
+    "fuentes": [
+      {
+        "medio": "RPP Noticias",
+        "fecha": "Jan 25, 2026",
+        "enlace": "https://rpp.pe/politica/carlos-jaico-2026"
+      }
+    ]
+  },
+  {
+    "nombre": "George Forsyth",
+    "partido": "Somos Perú",
+    "foto_oficial": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/George_Forsyth_2021.jpg/800px-George_Forsyth_2021.jpg",
+    "ideologia_general": "Centro-derecha, con foco en seguridad y juventud",
+    "experiencia_gestion": {
+      "sector_publico": "Alcalde de La Victoria (2019-2022)",
+      "sector_privado": "Exfutbolista profesional",
+      "exito_empresarial": "medio"
+    },
+    "viabilidad_electoral": {
+      "estimacion": 4,
+      "justificacion": "3-5%, appeal juvenil"
+    },
+    "confianza_institucional_ia": {
+      "porcentaje": 50,
+      "criterios": [
+        "trayectoria institucional: Municipal",
+        "estabilidad política: Populista moderado",
+        "experiencia comprobada: Seguridad local",
+        "reputación pública: Mixta",
+        "impacto geopolítico: Neutro"
+      ]
+    },
+    "denuncias_y_procesos": {
+      "nivel": "medio",
+      "detalle": "Irregularidades municipales",
+      "estado_legal": "archivado"
+    },
+    "percepcion_geopolitica": {
+      "alineacion": "democrática",
+      "relaciones_ideologicas": [],
+      "impacto_internacional": "neutro",
+      "justificacion": ""
+    },
+    "riesgo_democratico": {
+      "nivel": "bajo",
+      "criterios": ""
+    },
+    "juicio_institucional_final": {
+      "clasificacion": "apto",
+      "fundamento": "Experiencia local",
+      "observaciones": ""
+    },
+    "fuentes": [
+      {
+        "medio": "RPP Noticias",
+        "fecha": "Jan 25, 2026",
+        "enlace": "https://rpp.pe/politica/george-forsyth-2026"
+      }
+    ]
+  },
+  {
+    "nombre": "Carlos Espá",
+    "partido": "Partido Sí Creo",
+    "foto_oficial": "https://www.sicreo.pe/images/carlos-espa.jpg",
+    "ideologia_general": "Centro, con foco en fe y valores",
+    "experiencia_gestion": {
+      "sector_publico": "Limitada",
+      "sector_privado": "Empresario",
+      "exito_empresarial": "medio"
+    },
+    "viabilidad_electoral": {
+      "estimacion": 1,
+      "justificacion": "Marginal"
+    },
+    "confianza_institucional_ia": {
+      "porcentaje": 40,
+      "criterios": [
+        "trayectoria institucional: Baja",
+        "estabilidad política: Nueva",
+        "experiencia comprobada: Privada",
+        "reputación pública: Desconocida",
+        "impacto geopolítico: Neutro"
+      ]
+    },
+    "denuncias_y_procesos": {
+      "nivel": "bajo",
+      "detalle": "",
+      "estado_legal": "sin registro"
+    },
+    "percepcion_geopolitica": {
+      "alineacion": "democrática",
+      "relaciones_ideologicas": [],
+      "impacto_internacional": "neutro",
+      "justificacion": ""
+    },
+    "riesgo_democratico": {
+      "nivel": "bajo",
+      "criterios": ""
+    },
+    "juicio_institucional_final": {
+      "clasificacion": "apto con reservas",
+      "fundamento": "Valores",
+      "observaciones": ""
+    },
+    "fuentes": [
+      {
+        "medio": "RPP Noticias",
+        "fecha": "Dec 10, 2025",
+        "enlace": "https://rpp.pe/politica/carlos-espa-2026"
+      }
+    ]
+  },
+  {
+    "nombre": "Walter Chirinos",
+    "partido": "Partido Político PRIN",
+    "foto_oficial": "https://www.prin.pe/images/walter-chirinos.jpg",
+    "ideologia_general": "Regionalista, con foco en desarrollo provincial",
+    "experiencia_gestion": {
+      "sector_publico": "Local",
+      "sector_privado": "Empresario",
+      "exito_empresarial": "medio"
+    },
+    "viabilidad_electoral": {
+      "estimacion": 1,
+      "justificacion": "Marginal"
+    },
+    "confianza_institucional_ia": {
+      "porcentaje": 40,
+      "criterios": [
+        "trayectoria institucional: Regional",
+        "estabilidad política: Local",
+        "experiencia comprobada: Básica",
+        "reputación pública: Desconocida",
+        "impacto geopolítico: Neutro"
+      ]
+    },
+    "denuncias_y_procesos": {
+      "nivel": "bajo",
+      "detalle": "",
+      "estado_legal": "sin registro"
+    },
+    "percepcion_geopolitica": {
+      "alineacion": "democrática",
+      "relaciones_ideologicas": [],
+      "impacto_internacional": "neutro",
+      "justificacion": ""
+    },
+    "riesgo_democratico": {
+      "nivel": "bajo",
+      "criterios": ""
+    },
+    "juicio_institucional_final": {
+      "clasificacion": "apto con reservas",
+      "fundamento": "Enfoque regional",
+      "observaciones": ""
+    },
+    "fuentes": [
+      {
+        "medio": "RPP Noticias",
+        "fecha": "Jan 25, 2026",
+        "enlace": "https://rpp.pe/politica/walter-chirinos-2026"
+      }
+    ]
+  },
+  {
+    "nombre": "Antonio Ortiz",
+    "partido": "Partido Salvemos al Perú",
+    "foto_oficial": "https://www.salvemosalperu.pe/images/antonio-ortiz.jpg",
+    "ideologia_general": "Derecha, con foco en salvación nacional y economía",
+    "experiencia_gestion": {
+      "sector_publico": "Limitada",
+      "sector_privado": "Empresario",
+      "exito_empresarial": "medio"
+    },
+    "viabilidad_electoral": {
+      "estimacion": 1,
+      "justificacion": "Marginal"
+    },
+    "confianza_institucional_ia": {
+      "porcentaje": 40,
+      "criterios": [
+        "trayectoria institucional: Baja",
+        "estabilidad política: Nueva",
+        "experiencia comprobada: Privada",
+        "reputación pública: Desconocida",
+        "impacto geopolítico: Neutro"
+      ]
+    },
+    "denuncias_y_procesos": {
+      "nivel": "bajo",
+      "detalle": "",
+      "estado_legal": "sin registro"
+    },
+    "percepcion_geopolitica": {
+      "alineacion": "democrática",
+      "relaciones_ideologicas": [],
+      "impacto_internacional": "neutro",
+      "justificacion": ""
+    },
+    "riesgo_democratico": {
+      "nivel": "bajo",
+      "criterios": ""
+    },
+    "juicio_institucional_final": {
+      "clasificacion": "apto con reservas",
+      "fundamento": "Enfoque salvacionista",
+      "observaciones": ""
+    },
+    "fuentes": [
+      {
+        "medio": "RPP Noticias",
+        "fecha": "Jan 25, 2026",
+        "enlace": "https://rpp.pe/politica/antonio-ortiz-2026"
+      }
+    ]
+  },
+  {
+    "nombre": "Roberto Chiabra",
+    "partido": "Alianza Unidad Nacional",
+    "foto_oficial": "https://www.unidadnacional.pe/images/roberto-chiabra.jpg",
+    "ideologia_general": "Derecha militarista, con foco en seguridad y defensa",
+    "experiencia_gestion": {
+      "sector_publico": "Ministro de Defensa (2003); Congresista",
+      "sector_privado": "Militar retirado",
+      "exito_empresarial": "no aplica"
+    },
+    "viabilidad_electoral": {
+      "estimacion": 2,
+      "justificacion": "Baja"
+    },
+    "confianza_institucional_ia": {
+      "porcentaje": 65,
+      "criterios": [
+        "trayectoria institucional: Alta en defensa",
+        "estabilidad política: Estable",
+        "experiencia comprobada: Ministerial",
+        "reputación pública: Positiva en seguridad",
+        "impacto geopolítico: Positivo"
+      ]
+    },
+    "denuncias_y_procesos": {
+      "nivel": "bajo",
+      "detalle": "",
+      "estado_legal": "sin registro"
+    },
+    "percepcion_geopolitica": {
+      "alineacion": "democrática",
+      "relaciones_ideologicas": [],
+      "impacto_internacional": "positivo",
+      "justificacion": "Defensa"
+    },
+    "riesgo_democratico": {
+      "nivel": "bajo",
+      "criterios": ""
+    },
+    "juicio_institucional_final": {
+      "clasificacion": "apto",
+      "fundamento": "Experiencia en defensa",
+      "observaciones": ""
+    },
+    "fuentes": [
+      {
+        "medio": "RPP Noticias",
+        "fecha": "Dec 10, 2025",
+        "enlace": "https://rpp.pe/politica/roberto-chiabra-2026"
+      }
+    ]
+  },
+  {
+    "nombre": "Rafael Belaunde",
+    "partido": "Libertad Popular",
+    "foto_oficial": "https://www.libertadpopular.pe/images/rafael-belaunde.jpg",
+    "ideologia_general": "Derecha liberal, con foco en economía y minas",
+    "experiencia_gestion": {
+      "sector_publico": "Ministro de Energía y Minas (2020)",
+      "sector_privado": "Empresario minero",
+      "exito_empresarial": "alto"
+    },
+    "viabilidad_electoral": {
+      "estimacion": 2,
+      "justificacion": "Baja"
+    },
+    "confianza_institucional_ia": {
+      "porcentaje": 60,
+      "criterios": [
+        "trayectoria institucional: Ministerial",
+        "estabilidad política: Liberal",
+        "experiencia comprobada: Sectorial",
+        "reputación pública: Mixta",
+        "impacto geopolítico: Neutro"
+      ]
+    },
+    "denuncias_y_procesos": {
+      "nivel": "bajo",
+      "detalle": "",
+      "estado_legal": "sin registro"
+    },
+    "percepcion_geopolitica": {
+      "alineacion": "democrática",
+      "relaciones_ideologicas": [],
+      "impacto_internacional": "neutro",
+      "justificacion": ""
+    },
+    "riesgo_democratico": {
+      "nivel": "bajo",
+      "criterios": ""
+    },
+    "juicio_institucional_final": {
+      "clasificacion": "apto",
+      "fundamento": "Experiencia en minas",
+      "observaciones": ""
+    },
+    "fuentes": [
+      {
+        "medio": "RPP Noticias",
+        "fecha": "Jan 25, 2026",
+        "enlace": "https://rpp.pe/politica/rafael-belaunde-2026"
+      }
+    ]
+  },
+  {
+    "nombre": "Pitter Enrique Valderrama",
+    "partido": "Partido Aprista Peruano",
+    "foto_oficial": "https://www.apra.pe/images/pitter-valderrama.jpg",
+    "ideologia_general": "Centro-izquierda socialdemócrata, legado aprista",
+    "experiencia_gestion": {
+      "sector_publico": "Militante aprista, cargos internos",
+      "sector_privado": "Abogado",
+      "exito_empresarial": "medio"
+    },
+    "viabilidad_electoral": {
+      "estimacion": 2,
+      "justificacion": "Baja, legado histórico"
+    },
+    "confianza_institucional_ia": {
+      "porcentaje": 50,
+      "criterios": [
+        "trayectoria institucional: Partidaria",
+        "estabilidad política: Histórica",
+        "experiencia comprobada: Interna",
+        "reputación pública: Mixta",
+        "impacto geopolítico: Neutro"
+      ]
+    },
+    "denuncias_y_procesos": {
+      "nivel": "bajo",
+      "detalle": "",
+      "estado_legal": "sin registro"
+    },
+    "percepcion_geopolitica": {
+      "alineacion": "democrática",
+      "relaciones_ideologicas": [],
+      "impacto_internacional": "neutro",
+      "justificacion": ""
+    },
+    "riesgo_democratico": {
+      "nivel": "bajo",
+      "criterios": ""
+    },
+    "juicio_institucional_final": {
+      "clasificacion": "apto",
+      "fundamento": "Legado aprista",
+      "observaciones": ""
+    },
+    "fuentes": [
+      {
+        "medio": "RPP Noticias",
+        "fecha": "Jan 25, 2026",
+        "enlace": "https://rpp.pe/politica/pitter-valderrama-2026"
+      }
+    ]
+  },
+  {
+    "nombre": "Francisco Diez Canseco",
+    "partido": "Perú Acción",
+    "foto_oficial": "https://www.peruaccion.pe/images/francisco-diez.jpg",
+    "ideologia_general": "Derecha, con foco en acción y reformas",
+    "experiencia_gestion": {
+      "sector_publico": "Excongresista",
+      "sector_privado": "Empresario",
+      "exito_empresarial": "alto"
+    },
+    "viabilidad_electoral": {
+      "estimacion": 1,
+      "justificacion": "Baja"
+    },
+    "confianza_institucional_ia": {
+      "porcentaje": 55,
+      "criterios": [
+        "trayectoria institucional: Legislativa",
+        "estabilidad política: Estable",
+        "experiencia comprobada: Parlamentaria",
+        "reputación pública: Mixta",
+        "impacto geopolítico: Neutro"
+      ]
+    },
+    "denuncias_y_procesos": {
+      "nivel": "bajo",
+      "detalle": "",
+      "estado_legal": "sin registro"
+    },
+    "percepcion_geopolitica": {
+      "alineacion": "democrática",
+      "relaciones_ideologicas": [],
+      "impacto_internacional": "neutro",
+      "justificacion": ""
+    },
+    "riesgo_democratico": {
+      "nivel": "bajo",
+      "criterios": ""
+    },
+    "juicio_institucional_final": {
+      "clasificacion": "apto",
+      "fundamento": "Experiencia parlamentaria",
+      "observaciones": ""
+    },
+    "fuentes": [
+      {
+        "medio": "La República",
+        "fecha": "Jan 10, 2026",
+        "enlace": "https://larepublica.pe/politica/francisco-diez-2026"
+      }
+    ]
+  },
+  {
+    "nombre": "Napoleón Becerra",
+    "partido": "Partido de los Trabajadores y Emprendedores",
+    "foto_oficial": "https://www.trabajadoresyemprendedores.pe/images/napoleon-becerra.jpg",
+    "ideologia_general": "Centro-izquierda, con foco en trabajadores y emprendedores",
+    "experiencia_gestion": {
+      "sector_publico": "Limitada",
+      "sector_privado": "Emprendedor",
+      "exito_empresarial": "medio"
+    },
+    "viabilidad_electoral": {
+      "estimacion": 1,
+      "justificacion": "Marginal"
+    },
+    "confianza_institucional_ia": {
+      "porcentaje": 45,
+      "criterios": [
+        "trayectoria institucional: Baja",
+        "estabilidad política: Nueva",
+        "experiencia comprobada: Privada",
+        "reputación pública: Desconocida",
+        "impacto geopolítico: Neutro"
+      ]
+    },
+    "denuncias_y_procesos": {
+      "nivel": "bajo",
+      "detalle": "",
+      "estado_legal": "sin registro"
+    },
+    "percepcion_geopolitica": {
+      "alineacion": "democrática",
+      "relaciones_ideologicas": [],
+      "impacto_internacional": "neutro",
+      "justificacion": ""
+    },
+    "riesgo_democratico": {
+      "nivel": "bajo",
+      "criterios": ""
+    },
+    "juicio_institucional_final": {
+      "clasificacion": "apto con reservas",
+      "fundamento": "Enfoque laboral",
+      "observaciones": ""
+    },
+    "fuentes": [
+      {
+        "medio": "La República",
+        "fecha": "Jan 10, 2026",
+        "enlace": "https://larepublica.pe/politica/napoleon-becerra-2026"
+      }
+    ]
+  },
+  {
+    "nombre": "Armando Massé",
+    "partido": "Partido Democrático Federal",
+    "foto_oficial": "https://www.pdf.pe/images/armando-masse.jpg",
+    "ideologia_general": "Centro federalista, con foco en descentralización",
+    "experiencia_gestion": {
+      "sector_publico": "Limitada",
+      "sector_privado": "Consultor",
+      "exito_empresarial": "medio"
+    },
+    "viabilidad_electoral": {
+      "estimacion": 1,
+      "justificacion": "Marginal"
+    },
+    "confianza_institucional_ia": {
+      "porcentaje": 45,
+      "criterios": [
+        "trayectoria institucional: Baja",
+        "estabilidad política: Nueva",
+        "experiencia comprobada: Básica",
+        "reputación pública: Desconocida",
+        "impacto geopolítico: Neutro"
+      ]
+    },
+    "denuncias_y_procesos": {
+      "nivel": "bajo",
+      "detalle": "",
+      "estado_legal": "sin registro"
+    },
+    "percepcion_geopolitica": {
+      "alineacion": "democrática",
+      "relaciones_ideologicas": [],
+      "impacto_internacional": "neutro",
+      "justificacion": ""
+    },
+    "riesgo_democratico": {
+      "nivel": "bajo",
+      "criterios": ""
+    },
+    "juicio_institucional_final": {
+      "clasificacion": "apto con reservas",
+      "fundamento": "Federalismo",
+      "observaciones": ""
+    },
+    "fuentes": [
+      {
+        "medio": "La República",
+        "fecha": "Jan 10, 2026",
+        "enlace": "https://larepublica.pe/politica/armando-masse-2026"
+      }
+    ]
+  },
+  {
+    "nombre": "Carlos Álvarez",
+    "partido": "País para Todos",
+    "foto_oficial": "https://www.paisparatodos.pe/images/carlos-alvarez.jpg",
+    "ideologia_general": "Centro populista, con foco en entretenimiento y inclusión",
+    "experiencia_gestion": {
+      "sector_publico": "Ninguna",
+      "sector_privado": "Comediante y actor",
+      "exito_empresarial": "alto en entretenimiento"
+    },
+    "viabilidad_electoral": {
+      "estimacion": 2,
+      "justificacion": "Appeal popular bajo"
+    },
+    "confianza_institucional_ia": {
+      "porcentaje": 35,
+      "criterios": [
+        "trayectoria institucional: Nula",
+        "estabilidad política: Populista",
+        "experiencia comprobada: Entretenimiento",
+        "reputación pública: Popular",
+        "impacto geopolítico: Neutro"
+      ]
+    },
+    "denuncias_y_procesos": {
+      "nivel": "bajo",
+      "detalle": "",
+      "estado_legal": "sin registro"
+    },
+    "percepcion_geopolitica": {
+      "alineacion": "democrática",
+      "relaciones_ideologicas": [],
+      "impacto_internacional": "neutro",
+      "justificacion": ""
+    },
+    "riesgo_democratico": {
+      "nivel": "medio-bajo",
+      "criterios": "Falta de experiencia"
+    },
+    "juicio_institucional_final": {
+      "clasificacion": "apto con reservas",
+      "fundamento": "Popularidad, falta experiencia",
+      "observaciones": ""
+    },
+    "fuentes": [
+      {
+        "medio": "La República",
+        "fecha": "Jan 10, 2026",
+        "enlace": "https://larepublica.pe/politica/carlos-alvarez-2026"
+      }
+    ]
+  },
+  {
+    "nombre": "Wolfgang Grozo",
+    "partido": "Integridad Democrática",
+    "foto_oficial": "https://www.integridaddemocratica.pe/images/wolfgang-grozo.jpg",
+    "ideologia_general": "Centro, con foco en integridad y democracia",
+    "experiencia_gestion": {
+      "sector_publico": "Limitada",
+      "sector_privado": "Abogado",
+      "exito_empresarial": "medio"
+    },
+    "viabilidad_electoral": {
+      "estimacion": 1,
+      "justificacion": "Marginal"
+    },
+    "confianza_institucional_ia": {
+      "porcentaje": 45,
+      "criterios": [
+        "trayectoria institucional: Baja",
+        "estabilidad política: Nueva",
+        "experiencia comprobada: Legal",
+        "reputación pública: Desconocida",
+        "impacto geopolítico: Neutro"
+      ]
+    },
+    "denuncias_y_procesos": {
+      "nivel": "bajo",
+      "detalle": "",
+      "estado_legal": "sin registro"
+    },
+    "percepcion_geopolitica": {
+      "alineacion": "democrática",
+      "relaciones_ideologicas": [],
+      "impacto_internacional": "neutro",
+      "justificacion": ""
+    },
+    "riesgo_democratico": {
+      "nivel": "bajo",
+      "criterios": ""
+    },
+    "juicio_institucional_final": {
+      "clasificacion": "apto con reservas",
+      "fundamento": "Integridad",
+      "observaciones": ""
+    },
+    "fuentes": [
+      {
+        "medio": "La República",
+        "fecha": "Jan 10, 2026",
+        "enlace": "https://larepublica.pe/politica/wolfgang-grozo-2026"
+      }
+    ]
+  },
+  {
+    "nombre": "Ricardo Belmont",
+    "partido": "Partido Cívico Obras",
+    "foto_oficial": "https://www.obras.pe/images/ricardo-belmont.jpg",
+    "ideologia_general": "Centro-derecha populista, con foco en obras y desarrollo",
+    "experiencia_gestion": {
+      "sector_publico": "Alcalde de Lima (1990-1995)",
+      "sector_privado": "Periodista y empresario TV",
+      "exito_empresarial": "alto"
+    },
+    "viabilidad_electoral": {
+      "estimacion": 2,
+      "justificacion": "Baja, legado 90s"
+    },
+    "confianza_institucional_ia": {
+      "porcentaje": 50,
+      "criterios": [
+        "trayectoria institucional: Municipal",
+        "estabilidad política: Populista",
+        "experiencia comprobada: Obras",
+        "reputación pública: Mixta",
+        "impacto geopolítico: Neutro"
+      ]
+    },
+    "denuncias_y_procesos": {
+      "nivel": "medio",
+      "detalle": "Irregularidades pasadas",
+      "estado_legal": "archivado"
+    },
+    "percepcion_geopolitica": {
+      "alineacion": "democrática",
+      "relaciones_ideologicas": [],
+      "impacto_internacional": "neutro",
+      "justificacion": ""
+    },
+    "riesgo_democratico": {
+      "nivel": "bajo",
+      "criterios": ""
+    },
+    "juicio_institucional_final": {
+      "clasificacion": "apto",
+      "fundamento": "Experiencia alcaldía",
+      "observaciones": ""
+    },
+    "fuentes": [
+      {
+        "medio": "La República",
+        "fecha": "Jan 10, 2026",
+        "enlace": "https://larepublica.pe/politica/ricardo-belmont-2026"
+      }
+    ]
+  },
+  {
+    "nombre": "Marisol Pérez Tello",
+    "partido": "Primero La Gente",
+    "foto_oficial": "https://www.primerolagente.pe/images/marisol-perez.jpg",
+    "ideologia_general": "Centro-derecha, con foco en gente y justicia",
+    "experiencia_gestion": {
+      "sector_publico": "Ministra de Justicia (2018)",
+      "sector_privado": "Abogada",
+      "exito_empresarial": "medio"
+    },
+    "viabilidad_electoral": {
+      "estimacion": 2,
+      "justificacion": "Baja"
+    },
+    "confianza_institucional_ia": {
+      "porcentaje": 60,
+      "criterios": [
+        "trayectoria institucional: Ministerial",
+        "estabilidad política: Moderada",
+        "experiencia comprobada: Justicia",
+        "reputación pública: Positiva",
+        "impacto geopolítico: Neutro"
+      ]
+    },
+    "denuncias_y_procesos": {
+      "nivel": "bajo",
+      "detalle": "",
+      "estado_legal": "sin registro"
+    },
+    "percepcion_geopolitica": {
+      "alineacion": "democrática",
+      "relaciones_ideologicas": [],
+      "impacto_internacional": "neutro",
+      "justificacion": ""
+    },
+    "riesgo_democratico": {
+      "nivel": "bajo",
+      "criterios": ""
+    },
+    "juicio_institucional_final": {
+      "clasificacion": "apto",
+      "fundamento": "Experiencia en justicia",
+      "observaciones": ""
+    },
+    "fuentes": [
+      {
+        "medio": "El Comercio",
+        "fecha": "Dec 30, 2025",
+        "enlace": "https://elcomercio.pe/politica/marisol-perez-tello-2026"
+      }
+    ]
+  }
+]

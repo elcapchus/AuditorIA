@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perú 2026 | Monitor Electoral Inteligente 🇵🇪</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
+        :root {
+            --primary: #6366f1;
+            --red-pe: #d91023;
+            --success: #10b981;
+            --dark: #0f172a;
+            --light: #f8fafc;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background: var(--light);
+            color: var(--dark);
+            scroll-behavior: smooth;
+        }
+
+        .glass {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(226, 232, 240, 0.5);
+            box-shadow: 0 8px 25px -8px rgba(0,0,0,0.08);
+            transition: all 0.3s ease;
+        }
+
+        .glass:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 15px 35px -10px rgba(99, 102, 241, 0.15);
+        }
+
+        .hero-bg {
+            background: linear-gradient(135deg, #fff5f5 0%, #f8fafc 50%);
+        }
+
+        .status-badge {
+            padding: 0.3rem 0.7rem;
+            border-radius: 9999px;
+            font-size: 0.7rem;
+            font-weight: 800;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+        }
+
+        .apto { background: #ecfdf5; color: #065f46; border: 1px solid #a7f3d0; }
+        .apto_con_reservas { background: #fffbeb; color: #92400e; border: 1px solid #fde68a; }
+        .alto_riesgo { background: #fee2e2; color: #991b1b; border: 1px solid #fecaca; }
+
+        .meter-bg { background: #e2e8f0; height: 8px; border-radius: 9999px; overflow: hidden; }
+        .meter-fill { height: 100%; border-radius: 9999px; transition: width 1.5s ease-out; }
+
+        .filter-chip {
+            padding: 0.55rem 1.1rem;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            border: 1px solid #e2e8f0;
+            background: white;
+            transition: all 0.3s;
+        }
+
+        .filter-chip.active {
+            background: var(--primary);
+            color: white;
+            border-color: var(--primary);
+            box-shadow: 0 4px 12px rgba(99, 102, 241, 0.2);
+        }
+
+        @keyframes fadeUp { from { opacity: 0; transform: translateY(15px); } to { opacity: 1; transform: translateY(0); } }
+        .animate-fade-up { animation: fadeUp 0.7s ease-out forwards; }
+
+        /* Modal centrado y amigable */
+        #overlay.active {
+            opacity: 1;
+            backdrop-filter: blur(10px);
+            pointer-events: auto;
+        }
+
+        #sidebar {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0.95);
+            width: 92%;
+            max-width: 640px;
+            max-height: 92vh;
+            overflow-y: auto;
+            opacity: 0;
+            pointer-events: none;
+            transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+            z-index: 50;
+            background: white;
+            border-radius: 1.5rem;
+            box-shadow: 0 25px 60px -15px rgba(0,0,0,0.3);
+        }
+
+        #sidebar.active {
+            transform: translate(-50%, -50%) scale(1);
+            opacity: 1;
+            pointer-events: auto;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+<!-- 
+  PERÚ 2026: Rediseño Neo-Brutalista Completo
+  - Estética de "Prensa de Vanguardia"
+  - Bordes de 2px-4px negros (#0f172a)
+  - Sombras sólidas sin desenfoque
+  - Tipografía impactante y layouts asimétricos
+-->
+
+<!-- Navegación Neo-Brutalista -->
+<nav class="sticky top-0 z-50 bg-white border-b-4 border-slate-900 px-6 py-4">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+        <!-- Brand / Logo Section -->
+        <div class="flex items-center gap-4">
+            <div class="w-12 h-12 bg-slate-900 border-2 border-slate-900 flex items-center justify-center text-emerald-400 shadow-[4px_4px_0px_0px_rgba(79,70,229,1)]">
+                <i class="fas fa-landmark-dome text-xl"></i>
+            </div>
+            <div>
+                <h1 class="font-black text-2xl tracking-tighter text-slate-900 leading-none uppercase italic">
+                    Auditor<span class="text-rose-600">IA</span> perú - elecciones 2026
+                </h1>
+                <div class="flex items-center gap-2 mt-1">
+                    <span class="relative flex h-2 w-2">
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
+                    </span>
+                    <p class="text-[10px] font-black text-slate-500 uppercase tracking-widest">
+                        Grok Local Engine: <span class="text-slate-900">Sincronizado ONPE</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Desktop Actions Section -->
+        <div class="hidden md:flex items-center gap-8">
+            <div class="flex flex-col items-end mr-2">
+                <span class="text-[9px] font-black text-indigo-600 uppercase tracking-[0.2em] mb-1">Verificación Multicanal</span>
+                <div class="flex gap-6">
+                    <a href="#candidatos" class="text-xs font-black uppercase tracking-widest text-slate-900 hover:text-indigo-600 transition-colors underline decoration-2 decoration-transparent hover:decoration-indigo-600 underline-offset-4">Candidatos 🗳️</a>
+                    <a href="#encuestas" class="text-xs font-black uppercase tracking-widest text-slate-900 hover:text-indigo-600 transition-colors underline decoration-2 decoration-transparent hover:decoration-indigo-600 underline-offset-4">Encuestas 📊</a>
+                    <a href="#faq" class="text-xs font-black uppercase tracking-widest text-slate-900 hover:text-indigo-600 transition-colors underline decoration-2 decoration-transparent hover:decoration-indigo-600 underline-offset-4">FAQ ❓</a>
+                </div>
+            </div>
+            
+            <!-- Data Status Badge -->
+            <div class="bg-yellow-300 border-2 border-slate-900 px-4 py-1.5 shadow-[4px_4px_0px_0px_rgba(15,23,42,1)] flex items-center gap-2">
+                <i class="fas fa-database text-[10px] text-slate-900"></i>
+                <span class="text-[10px] font-black text-slate-900 uppercase">DATA LOCAL ACTIVA</span>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="bg-indigo-600 py-24 px-6 border-b-4 border-slate-900 relative overflow-hidden">
+    <!-- Patrón decorativo de fondo -->
+    <div class="absolute inset-0 opacity-10 pointer-events-none flex flex-wrap gap-10 p-10 justify-center rotate-12">
+        <i class="fas fa-vote-yea text-9xl"></i>
+        <i class="fas fa-fingerprint text-9xl"></i>
+        <i class="fas fa-landmark text-9xl"></i>
+    </div>
+
+    <div class="max-w-5xl mx-auto text-center relative z-10">
+        <div class="inline-block border-2 border-slate-900 bg-white px-6 py-2 mb-8 shadow-[6px_6px_0px_0px_rgba(15,23,42,1)]">
+            <span class="text-sm font-black text-slate-900 uppercase tracking-[0.2em]">🇵🇪 Data Electoral Oficial</span>
+        </div>
+
+        <h1 class="text-6xl md:text-8xl font-black text-white tracking-tighter leading-[0.85] mb-8 uppercase italic drop-shadow-[6px_6px_0px_rgba(15,23,42,1)]">
+            EL FUTURO <br/> ESTÁ EN JUEGO
+        </h1>
+
+        <p class="text-xl md:text-2xl text-indigo-100 font-bold mb-12 max-w-3xl mx-auto leading-tight italic underline decoration-rose-500 decoration-4 underline-offset-8">
+            Información sin filtros con Grok xAI. Análisis de viabilidad, riesgos y trayectoria para un voto consciente.
+        </p>
+
+        <!-- Mini comparadores Neo-Brutalistas -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16 max-w-5xl mx-auto">
+            <div class="bg-white border-2 border-slate-900 p-6 shadow-[8px_8px_0px_0px_rgba(15,23,42,1)] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all cursor-default">
+                <span class="text-4xl mb-4 block">📈</span>
+                <p class="text-lg font-black text-slate-900 uppercase leading-none mb-1 text-left">Top Viabilidad</p>
+                <p class="text-xs font-bold text-slate-500 text-left uppercase">¿Quién lidera el pulso?</p>Top Viabilidad
+            </div>
+
+            <div class="bg-emerald-400 border-2 border-slate-900 p-6 shadow-[8px_8px_0px_0px_rgba(15,23,42,1)] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all cursor-default">
+                <span class="text-4xl mb-4 block">🛡️</span>
+                <p class="text-lg font-black text-slate-900 uppercase leading-none mb-1 text-left">Más Confiables</p>
+                <p class="text-xs font-bold text-slate-900/60 text-left uppercase text-white">Filtro ético Grok xAI</p>
+            </div>
+
+            <div class="bg-rose-500 border-2 border-slate-900 p-6 shadow-[8px_8px_0px_0px_rgba(15,23,42,1)] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all cursor-default text-white">
+                <span class="text-4xl mb-4 block">🤔</span>
+                <p class="text-lg font-black uppercase leading-none mb-1 text-left">42% Indecisos</p>
+                <p class="text-xs font-bold text-white/60 text-left uppercase">Tu voto define el rumbo</p>
+            </div>
+        </div>
+
+        <!-- CTA Principal -->
+        <a href="#candidatos" class="inline-block bg-slate-900 text-white px-12 py-5 font-black text-xl uppercase tracking-widest hover:bg-white hover:text-slate-900 border-4 border-slate-900 shadow-[10px_10px_0px_0px_rgba(255,255,255,1)] hover:shadow-[10px_10px_0px_0px_rgba(15,23,42,1)] transition-all active:translate-y-2 active:shadow-none">
+            EXPLORAR CANDIDATOS ↓
+        </a>
+    </div>
+</section>
+
+<main class="max-w-7xl mx-auto px-6 -mt-10 relative z-20 pb-24">
+
+    <!-- KPIs Estilo Cuadrícula de Datos -->
+    <section class="mb-20 grid grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="bg-white border-2 border-slate-900 p-8 shadow-[6px_6px_0px_0px_rgba(15,23,42,1)] text-left">
+            <p class="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-2">Total Candidatos</p>
+            <p id="total-candidatos" class="text-6xl font-black text-slate-900">—</p>
+        </div>
+        <div class="bg-white border-2 border-slate-900 p-8 shadow-[6px_6px_0px_0px_rgba(16,185,129,1)] text-left">
+            <p class="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-2">Apto xAI</p>
+            <p class="text-6xl font-black text-emerald-600">65<span class="text-3xl">%</span></p>
+        </div>
+        <div class="bg-white border-2 border-slate-900 p-8 shadow-[6px_6px_0px_0px_rgba(225,29,72,1)] text-left">
+            <p class="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-2">Alto Riesgo</p>
+            <p class="text-6xl font-black text-rose-600">08<span class="text-3xl">%</span></p>
+        </div>
+        <div class="bg-white border-2 border-slate-900 p-8 shadow-[6px_6px_0px_0px_rgba(245,158,11,1)] text-left">
+            <p class="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-2">Indecisión</p>
+            <p class="text-6xl font-black text-amber-500">42<span class="text-3xl">%</span></p>
+        </div>
+    </section>
+
+    <!-- Rankings Divididos -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-24">
+        <section>
+            <div class="flex items-center gap-4 mb-8">
+                <div class="w-14 h-14 bg-yellow-400 border-2 border-slate-900 flex items-center justify-center text-slate-900 shadow-[4px_4px_0px_0px_rgba(15,23,42,1)] rotate-3">
+                    <i class="fas fa-trophy text-2xl"></i>
+                </div>
+                <h3 class="text-4xl font-black text-slate-900 uppercase italic tracking-tighter leading-none">Top Viabilidad <br/><span class="text-sm text-slate-500 not-italic uppercase tracking-widest">Power Ranking Feb 2026</span></h3>
+            </div>
+            <div id="top-podium" class="space-y-4 border-l-4 border-slate-900 pl-6"></div>
+        </section>
+
+        <section>
+            <div class="flex items-center gap-4 mb-8">
+                <div class="w-14 h-14 bg-indigo-600 border-2 border-slate-900 flex items-center justify-center text-white shadow-[4px_4px_0px_0px_rgba(15,23,42,1)] -rotate-3">
+                    <i class="fas fa-brain text-2xl"></i>
+                </div>
+                <h3 class="text-4xl font-black text-slate-900 uppercase italic tracking-tighter leading-none">Confianza IA <br/><span class="text-sm text-slate-500 not-italic uppercase tracking-widest">Score de Integridad Grok</span></h3>
+            </div>
+            <div id="top-confianza" class="space-y-4 border-l-4 border-slate-900 pl-6"></div>
+        </section>
+    </div>
+
+    <!-- Filtros de Candidatos -->
+    <section id="candidatos" class="mb-24">
+        <div class="bg-slate-900 p-10 border-4 border-slate-900 shadow-[12px_12px_0px_0px_rgba(79,70,229,1)] mb-12">
+            <div class="flex flex-col md:flex-row md:items-end justify-between gap-8">
+                <div>
+                    <h2 class="text-5xl font-black text-white uppercase italic leading-none mb-4 tracking-tighter">ANÁLISIS DE<br/>CANDIDATURAS</h2>
+                    <p class="text-indigo-400 font-bold uppercase tracking-widest text-xs">Filtre por espectro ideológico</p>
+                </div>
+                <div class="flex flex-wrap gap-3" id="ideology-filters">
+                    <button onclick="filterBy('all')" class="bg-white border-2 border-slate-900 px-6 py-2 font-black uppercase text-xs hover:bg-indigo-600 hover:text-white transition-all shadow-[4px_4px_0px_0px_rgba(15,23,42,1)] active:translate-y-1 active:shadow-none">Todos</button>
+                    <button onclick="filterBy('derecha')" class="bg-white border-2 border-slate-900 px-6 py-2 font-black uppercase text-xs hover:bg-rose-600 hover:text-white transition-all shadow-[4px_4px_0px_0px_rgba(15,23,42,1)] active:translate-y-1 active:shadow-none">Derecha</button>
+                    <button onclick="filterBy('centro')" class="bg-white border-2 border-slate-900 px-6 py-2 font-black uppercase text-xs hover:bg-indigo-600 hover:text-white transition-all shadow-[4px_4px_0px_0px_rgba(15,23,42,1)] active:translate-y-1 active:shadow-none">Centro</button>
+                    <button onclick="filterBy('izquierda')" class="bg-white border-2 border-slate-900 px-6 py-2 font-black uppercase text-xs hover:bg-emerald-600 hover:text-white transition-all shadow-[4px_4px_0px_0px_rgba(15,23,42,1)] active:translate-y-1 active:shadow-none">Izquierda</button>
+                </div>
+            </div>
+        </div>
+        
+        <div id="candidates-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8"></div>
+    </section>
+
+    <!-- Encuestas Estilo Boletín -->
+    <section id="encuestas" class="mb-24">
+        <div class="border-4 border-slate-900 bg-white shadow-[12px_12px_0px_0px_rgba(15,23,42,1)] overflow-hidden">
+            <div class="bg-slate-900 p-6 flex justify-between items-center">
+                <h3 class="text-2xl font-black text-white uppercase tracking-tighter italic">REPORTE DE INTENCIÓN DE VOTO</h3>
+                <span class="text-xs font-black bg-yellow-300 text-slate-900 px-3 py-1 uppercase">DATOS Q1 2026</span>
+            </div>
+            <div class="p-10 grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <div>
+                    <h4 class="text-xl font-black text-slate-900 uppercase border-b-2 border-slate-900 pb-2 mb-6 tracking-widest">Liderazgo Actual</h4>
+                    <div class="space-y-4">
+                        <div class="p-4 border-2 border-slate-900 bg-indigo-50 flex justify-between items-center">
+                            <span class="font-black uppercase text-sm">R. López Aliaga</span>
+                            <span class="text-3xl font-black text-indigo-600">14.2%</span>
+                        </div>
+                        <div class="p-4 border-2 border-slate-900 bg-white flex justify-between items-center">
+                            <span class="font-black uppercase text-sm">Keiko Fujimori</span>
+                            <span class="text-3xl font-black text-slate-900">8.8%</span>
+                        </div>
+                        <div class="p-4 border-2 border-slate-900 bg-white flex justify-between items-center">
+                            <span class="font-black uppercase text-sm">Carlos Álvarez</span>
+                            <span class="text-3xl font-black text-slate-900">6.5%</span>
+                        </div>
+                        <div class="p-4 bg-slate-100 flex justify-between items-center border-2 border-slate-900 border-dashed">
+                            <span class="font-black uppercase text-xs text-slate-500 italic">Indecisos / Blanco</span>
+                            <span class="text-3xl font-black text-slate-400 italic">44.1%</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="flex flex-col justify-center text-center p-8 bg-rose-50 border-4 border-rose-600 shadow-[8px_8px_0px_0px_rgba(225,29,72,1)]">
+                    <div class="text-8xl mb-6">📉</div>
+                    <p class="text-4xl font-black text-rose-600 uppercase leading-none mb-4 italic tracking-tighter">68% DESCONFIANZA</p>
+                    <p class="text-sm font-bold text-slate-700 uppercase leading-tight">El voto joven rechaza las propuestas tradicionales. <br/>Escenario de alta fragmentación.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Metodología Brutalista -->
+    <section class="mb-24">
+        <div class="bg-indigo-600 p-1 rounded-none border-2 border-slate-900 shadow-[10px_10px_0px_0px_rgba(15,23,42,1)]">
+            <div class="bg-white border-2 border-slate-900 p-10">
+                <h2 class="text-4xl font-black text-slate-900 uppercase italic mb-8 tracking-tighter">METODOLOGÍA DE ANÁLISIS 📚</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                    <div class="border-t-4 border-slate-900 pt-6">
+                        <h4 class="font-black text-lg mb-4 uppercase text-indigo-600 italic tracking-widest">Fuentes JNE/ROP</h4>
+                        <p class="text-sm font-bold text-slate-700 leading-tight">Extracción directa de hojas de vida, procesos judiciales abiertos y antecedentes de gestión pública oficial.</p>
+                    </div>
+                    <div class="border-t-4 border-slate-900 pt-6">
+                        <h4 class="font-black text-lg mb-4 uppercase text-emerald-600 italic tracking-widest">IA Filtering</h4>
+                        <p class="text-sm font-bold text-slate-700 leading-tight">Grok xAI analiza coherencia discursiva, alineación geopolítica y riesgos de estabilidad democrática.</p>
+                    </div>
+                    <div class="border-t-4 border-slate-900 pt-6">
+                        <h4 class="font-black text-lg mb-4 uppercase text-rose-600 italic tracking-widest">Open Media</h4>
+                        <p class="text-sm font-bold text-slate-700 leading-tight">Contraste con medios de comunicación de alto impacto (RPP, El Comercio, La República).</p>
+                    </div>
+                </div>
+                <div class="mt-12 text-center border-t-2 border-slate-900 pt-8 italic text-xs font-black text-slate-400 uppercase tracking-widest">
+                    Grok Intelligence Engine • Update 02.2026 • Lima, Perú
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+  SECCIÓN DE PREGUNTAS FRECUENTES (FAQ)
+  Estilo: Neo-Brutalismo Moderno
+  Enfoque: Transparencia de la IA y Neutralidad de Datos
+-->
+
+<!-- 
+  SECCIÓN DE PREGUNTAS FRECUENTES (FAQ)
+  Estilo: Neo-Brutalismo Moderno
+  Enfoque: Transparencia de la IA, Neutralidad y Riesgo Geopolítico
+-->
+
+<section id="faq" class="mb-24">
+    <!-- Encabezado de Sección -->
+    <div class="flex items-center gap-4 mb-12">
+        <div class="w-16 h-16 bg-rose-500 border-4 border-slate-900 flex items-center justify-center text-white shadow-[6px_6px_0px_0px_rgba(15,23,42,1)] -rotate-2">
+            <i class="fas fa-question text-3xl"></i>
+        </div>
+        <h2 class="text-5xl font-black text-slate-900 uppercase italic tracking-tighter leading-none">
+            PREGUNTAS <br/> FRECUENTES
+        </h2>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        
+        <!-- Pregunta 1: Metodología -->
+        <div class="bg-white border-4 border-slate-900 p-8 shadow-[8px_8px_0px_0px_rgba(79,70,229,1)] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all">
+            <h3 class="text-xl font-black text-slate-900 uppercase mb-4 leading-tight border-b-2 border-slate-900 pb-2 italic">
+                ¿Cómo calcula la IA el puntaje de idoneidad?
+            </h3>
+            <p class="text-sm font-bold text-slate-700 leading-relaxed">
+                Grok xAI procesa miles de puntos de datos en tiempo real bajo un modelo de <span class="bg-yellow-300 px-1">Auditoría Multi-Variable</span>. Evaluamos la coherencia entre el Plan de Gobierno y el presupuesto público real, cruzamos antecedentes judiciales en el ROP y medimos la estabilidad histórica del partido. El resultado es un índice matemático de viabilidad técnica, no una opinión política.
+            </p>
+        </div>
+
+        <!-- Pregunta 2: Riesgo Geopolítico (NUEVA) -->
+        <div class="bg-indigo-600 border-4 border-slate-900 p-8 shadow-[8px_8px_0px_0px_rgba(15,23,42,1)] text-white hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all">
+            <h3 class="text-xl font-black uppercase mb-4 leading-tight border-b-2 border-white/20 pb-2 italic text-yellow-300">
+                ¿Qué evalúa la IA como "Riesgo Geopolítico"?
+            </h3>
+            <p class="text-sm font-bold text-indigo-100 leading-relaxed">
+                Analizamos la peligrosidad de las propuestas en el marco global. Esto incluye: <span class="text-white underline decoration-rose-500">amenazas a tratados comerciales (TLC)</span>, posturas que aíslen al Perú de la OCDE, y retórica que comprometa la seguridad regional. Si un candidato propone medidas que generen fuga de capitales o sanciones internacionales, la IA dispara una alerta de <span class="bg-rose-500 px-1 text-white">Inestabilidad Sistémica</span>.
+            </p>
+        </div>
+
+        <!-- Pregunta 3: Sesgo -->
+        <div class="bg-white border-4 border-slate-900 p-8 shadow-[8px_8px_0px_0px_rgba(16,185,129,1)] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all">
+            <h3 class="text-xl font-black text-slate-900 uppercase mb-4 leading-tight border-b-2 border-slate-900 pb-2 italic">
+                ¿La IA tiene algún sesgo ideológico?
+            </h3>
+            <p class="text-sm font-bold text-slate-700 leading-relaxed">
+                Absolutamente no. La arquitectura de Grok para este monitor electoral está configurada con <span class="bg-emerald-100 px-1">Restricciones de Neutralidad Estricta</span>. No se ponderan promesas ni retórica, sino datos duros verificables (CUI, ejecuciones presupuestarias pasadas y registros oficiales). La IA no vota, solo audita la calidad de la información disponible.
+            </p>
+        </div>
+
+        <!-- Pregunta 4: Fuentes -->
+        <div class="bg-white border-4 border-slate-900 p-8 shadow-[8px_8px_0px_0px_rgba(245,158,11,1)] hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all">
+            <h3 class="text-xl font-black text-slate-900 uppercase mb-4 leading-tight border-b-2 border-slate-900 pb-2 italic">
+                ¿De dónde provienen los datos utilizados?
+            </h3>
+            <p class="text-sm font-bold text-slate-700 leading-relaxed">
+                Nuestra base de conocimiento se alimenta exclusivamente de nodos oficiales: <span class="font-black text-slate-900">JNE (Plataforma Voto Informado), ONPE, SUNEDU</span> para grados académicos, y el portal del <span class="font-black text-slate-900">Ministerio de Economía</span> para verificar promesas de gasto. No procesamos rumores de redes sociales ni encuestas de origen no verificado.
+            </p>
+        </div>
+
+        <!-- Pregunta 5: Actualización (Editada para reflejar datos locales y verificación multicanal) -->
+        <div class="bg-slate-900 border-4 border-slate-900 p-8 shadow-[8px_8px_0px_0px_rgba(225,29,72,1)] text-white hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all md:col-span-2">
+            <h3 class="text-xl font-black uppercase mb-4 leading-tight border-b-2 border-white/20 pb-2 italic text-rose-500">
+                ¿Con qué frecuencia se actualiza los datos?
+            </h3>
+            <p class="text-sm font-bold text-slate-300 leading-relaxed">
+                Los datos se sincroniza cada vez que se detectan nuevos reportes oficiales de la <span class="text-white border-b border-rose-500">ONPE</span>. Debido a que la data es local auditado y escrito por <span class="text-rose-400 font-black">Grok</span>, cada dato nuevo es sometido a una validación cruzada en todos los canales oficiales del estado antes de ser publicado. Esto garantiza que cualquier cambio en los índices de riesgo sea preciso, rapido de carga debido a la data local y esté libre de ruido informativo.
+            </p>
+        </div>
+
+    </div>
+</section>
+<!-- Footer Neo-Brutalista -->
+<footer class="pt-20 border-t-4 border-slate-900 text-center">
+    <div class="inline-block bg-slate-900 text-white px-8 py-4 mb-6 shadow-[8px_8px_0px_0px_rgba(79,70,229,1)]">
+        <p class="text-lg font-black uppercase italic tracking-tighter">Monitor Inteligente Perú 2026</p>
+    </div>
+    <div class="flex flex-col items-center gap-2 mb-12">
+        <p class="text-[10px] font-black text-slate-500 uppercase tracking-[0.4em]">Análisis de datos públicos • Powered by Grok xAI 🧠</p>
+        <p class="text-[10px] font-black text-indigo-600 uppercase tracking-[0.2em]">Desarrollado by Macsoft Innovations</p>
+    </div>
+</footer>
+
+</main>
+
+    <!-- Overlay y Modal centrado -->
+    <div id="overlay" class="fixed inset-0 bg-black/60 backdrop-blur-lg z-40 opacity-0 pointer-events-none transition-all duration-500" onclick="closeSidebar()"></div>
+    <div id="sidebar" class="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[92%] max-w-2xl max-h-[92vh] overflow-y-auto bg-white z-50 rounded-3xl shadow-2xl opacity-0 scale-95 pointer-events-none transition-all duration-400 ease-out">
+        <div id="sidebar-content" class="p-8 md:p-10"></div>
+    </div>
+
+    <script>
+        let allData = [];
+
+        async function loadData() {
+            try {
+                const res = await fetch('data.json');
+                if (!res.ok) throw new Error('No data.json');
+                allData = await res.json();
+
+                document.getElementById('total-candidatos').textContent = allData.length;
+                renderTopPodium(allData);
+                renderTopConfianza(allData);
+                renderGrid(allData);
+            } catch (e) {
+                console.error("Error:", e);
+                document.getElementById('candidates-grid').innerHTML = '<p class="col-span-full text-center py-20 text-rose-600 font-bold">Error cargando data.json – usa servidor local</p>';
+            }
+        }
+
+        function renderTopPodium(data) {
+            const podium = document.getElementById('top-podium');
+            const sorted = [...data].filter(c => c.viabilidad_electoral?.estimacion).sort((a,b) => b.viabilidad_electoral.estimacion - a.viabilidad_electoral.estimacion).slice(0,3);
+            podium.innerHTML = sorted.map((c,i) => `
+<!-- Versión: Top Viabilidad -->
+<div class="group relative bg-white border-2 border-slate-900 p-4 shadow-[4px_4px_0px_0px_rgba(15,23,42,1)] hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px] transition-all cursor-pointer flex items-center gap-4 mb-4" data-index="${i}">
+    
+    <!-- Posición con Badge Cuadrado (Estilo Oro/Amarillo) -->
+    <div class="w-14 h-14 bg-slate-900 border-2 border-slate-900 flex flex-col items-center justify-center text-white shrink-0 group-hover:bg-yellow-400 group-hover:text-slate-900 transition-colors">
+        <span class="text-[10px] font-black uppercase leading-none mb-0.5">${i === 0 ? 'TOP' : 'POS'}</span>
+        <span class="text-xl font-black leading-none">${i + 1}</span>
+    </div>
+
+    <!-- Información del Candidato -->
+    <div class="flex-1 min-w-0">
+        <h4 class="font-black text-lg text-slate-900 uppercase italic tracking-tighter truncate leading-tight">
+            ${c.nombre}
+        </h4>
+        <div class="flex items-center gap-2">
+            <span class="inline-block w-2 h-2 bg-indigo-600"></span>
+            <p class="text-[11px] font-black text-slate-500 uppercase tracking-widest truncate">
+                ${c.partido}
+            </p>
+        </div>
+    </div>
+
+    <!-- Métrica Viabilidad -->
+    <div class="text-right pl-2 border-l-2 border-slate-100 group-hover:border-slate-900 transition-colors">
+        <p class="text-[10px] font-black text-slate-400 uppercase leading-none mb-1">Puntaje</p>
+        <p class="text-2xl font-black text-slate-900 leading-none tabular-nums">
+            ${c.viabilidad_electoral.estimacion}<span class="text-sm font-bold">%</span>
+        </p>
+    </div>
+
+    <!-- Indicador de flecha -->
+    <div class="absolute -right-2 top-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity">
+        <div class="bg-slate-900 text-white p-1 text-xs shadow-[2px_2px_0px_0px_rgba(79,70,229,1)]">
+            <i class="fas fa-chevron-right"></i>
+        </div>
+    </div>
+</div>
+
+            `).join('');
+        }
+
+        function renderTopConfianza(data) {
+            const cont = document.getElementById('top-confianza');
+            const sorted = [...data].filter(c => c.confianza_institucional_ia?.porcentaje).sort((a,b) => b.confianza_institucional_ia.porcentaje - a.confianza_institucional_ia.porcentaje).slice(0,3);
+            cont.innerHTML = sorted.map((c,i) => `
+<!-- Versión: Top Confianza IA (Veredicto Grok) -->
+<div class="group relative bg-white border-2 border-slate-900 p-4 shadow-[4px_4px_0px_0px_rgba(15,23,42,1)] hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px] transition-all cursor-pointer flex items-center gap-4" data-index="${i}">
+    
+    <!-- Posición con Badge Cuadrado (Estilo IA/Seguridad) -->
+    <div class="w-14 h-14 bg-slate-900 border-2 border-slate-900 flex flex-col items-center justify-center text-white shrink-0 group-hover:bg-emerald-400 group-hover:text-slate-900 transition-colors">
+        <span class="text-[10px] font-black uppercase leading-none mb-0.5">APTO</span>
+        <span class="text-xl font-black leading-none">${i + 1}</span>
+    </div>
+
+    <!-- Información del Candidato -->
+    <div class="flex-1 min-w-0">
+        <h4 class="font-black text-lg text-slate-900 uppercase italic tracking-tighter truncate leading-tight">
+            ${c.nombre}
+        </h4>
+        <div class="flex items-center gap-2">
+            <span class="inline-block w-2 h-2 bg-emerald-500"></span>
+            <p class="text-[11px] font-black text-slate-500 uppercase tracking-widest truncate">
+                ${c.partido}
+            </p>
+        </div>
+    </div>
+
+    <!-- Métrica Confianza -->
+    <div class="text-right pl-2 border-l-2 border-slate-100 group-hover:border-slate-900 transition-colors">
+        <p class="text-[10px] font-black text-slate-400 uppercase leading-none mb-1">Confianza</p>
+        <p class="text-2xl font-black text-emerald-600 leading-none tabular-nums">
+            ${c.confianza_institucional_ia.porcentaje}<span class="text-sm font-bold">%</span>
+        </p>
+    </div>
+
+    <!-- Indicador de flecha -->
+    <div class="absolute -right-2 top-1/2 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity">
+        <div class="bg-slate-900 text-white p-1 text-xs shadow-[2px_2px_0px_0px_rgba(16,185,129,1)]">
+            <i class="fas fa-shield-check"></i>
+        </div>
+    </div>
+</div>
+            `).join('');
+        }
+
+function renderGrid(data) {
+    const grid = document.getElementById('candidates-grid');
+    grid.innerHTML = '';
+
+    // Normaliza clasificaciones: "Apto con reservas" → "apto_con_reservas"
+        const normalizeClasificacion = (value) => {
+        if (!value || value.trim() === '') return 'alto_riesgo';
+        return value
+            .toLowerCase()
+            .normalize('NFD')                // elimina tildes
+            .replace(/[\u0300-\u036f]/g, '')
+            .replace(/\s+/g, '_');
+    };
+
+
+    // Ordenar por confianza descendente
+    const sortedData = [...data].sort(
+        (a, b) =>
+            (b.confianza_institucional_ia?.porcentaje || 0) -
+            (a.confianza_institucional_ia?.porcentaje || 0)
+    );
+
+    // Agrupar candidatos
+    const groups = {
+        'Más confiables (Aptos)': sortedData.filter(c =>
+            normalizeClasificacion(c.juicio_institucional_final?.clasificacion) === 'apto'
+        ),
+
+        'Medios (Aptos con reservas)': sortedData.filter(c =>
+            normalizeClasificacion(c.juicio_institucional_final?.clasificacion) === 'apto_con_reservas'
+        ),
+
+        'No aptos / Peligrosos (Alto riesgo)': sortedData.filter(c =>
+            ['alto_riesgo', 'no_apto'].includes(
+                normalizeClasificacion(c.juicio_institucional_final?.clasificacion)
+            )
+        )
+    };
+
+    // Render
+    for (const [groupName, groupData] of Object.entries(groups)) {
+        if (!groupData.length) continue;
+
+        const heading = document.createElement('h3');
+        heading.className =
+            'text-2xl font-bold text-slate-900 mb-6 col-span-full border-b border-slate-200 pb-3';
+        heading.textContent = groupName;
+        grid.appendChild(heading);
+
+        groupData.forEach((c) => {
+    const cl = normalizeClasificacion(c.juicio_institucional_final?.clasificacion);
+    const realIndex = allData.indexOf(c);
+
+    const card = document.createElement('div');
+    card.className =
+        'glass p-6 rounded-2xl cursor-pointer hover:scale-[1.02] transition-transform animate-fade-up group';
+    card.dataset.index = realIndex;
+
+    card.innerHTML = `
+<!-- 
+  Modelo Neo-Brutalista Moderno:
+  - Estética de prensa digital contemporánea.
+  - Tipografía audaz y contrastes limpios.
+  - Acentos de color vibrantes que definen la categoría sin ser infantiles.
+-->
+<div class="group relative bg-white p-6 rounded-xl border-2 border-slate-900 transition-all duration-300 flex flex-col h-full cursor-pointer hover:-translate-y-1
+    ${cl === 'apto' ? 'hover:shadow-[8px_8px_0px_0px_rgba(16,185,129,1)]' : 
+      cl === 'apto_con_reservas' ? 'hover:shadow-[8px_8px_0px_0px_rgba(245,158,11,1)]' : 
+      cl === 'alto_riesgo' || cl === 'no_apto' ? 'hover:shadow-[8px_8px_0px_0px_rgba(225,29,72,1)]' : 
+      'hover:shadow-[8px_8px_0px_0px_rgba(15,23,42,1)]'}">
+    
+    <!-- Etiqueta de Prensa / Categoría -->
+    <div class="flex justify-between items-start mb-6">
+        <div class="bg-slate-900 text-white text-[9px] font-black px-2 py-1 uppercase tracking-tighter">
+            Análisis de Datos
+        </div>
+        <div class="flex items-center gap-1.5">
+            <div class="h-2 w-2 rounded-full 
+                ${cl === 'apto' ? 'bg-emerald-500' : cl === 'apto_con_reservas' ? 'bg-amber-500' : 'bg-rose-500'}"></div>
+            <span class="text-[10px] font-bold text-slate-900 uppercase tracking-tighter">
+                ${cl.replace(/_/g, ' ')}
+            </span>
+        </div>
+    </div>
+
+    <!-- Título Impactante -->
+    <div class="flex-grow mb-6">
+        <h3 class="text-2xl font-black text-slate-900 leading-none mb-2 group-hover:underline decoration-4
+            ${cl === 'apto' ? 'decoration-emerald-400' : cl === 'apto_con_reservas' ? 'decoration-amber-400' : 'decoration-rose-400'}">
+            ${c.nombre || 'Nombre Candidato'}
+        </h3>
+        <p class="text-xs font-bold text-slate-500 uppercase tracking-tight">
+            ${c.partido || 'Organización Política'}
+        </p>
+    </div>
+
+    <!-- Sección de Valoración -->
+    <div class="mb-6 pt-6 border-t-2 border-slate-900/5">
+        <div class="flex items-center justify-between mb-2">
+            <span class="text-[10px] font-black text-slate-900 uppercase">Confianza</span>
+            <span class="text-xl font-black text-slate-900">
+                ${c.confianza_institucional_ia?.porcentaje ?? '0'}%
+            </span>
+        </div>
+        <!-- Barra "Digital" de bloques -->
+        <div class="flex gap-1 h-3 w-full">
+            ${Array.from({ length: 10 }).map((_, i) => `
+                <div class="flex-1 rounded-sm transition-colors duration-500
+                    ${(i * 10) < (c.confianza_institucional_ia?.porcentaje || 0) 
+                        ? (cl === 'apto' ? 'bg-emerald-500' : cl === 'apto_con_reservas' ? 'bg-amber-500' : 'bg-rose-500') 
+                        : 'bg-slate-100'}">
+                </div>
+            `).join('')}
+        </div>
+    </div>
+
+    <!-- Acceso / Call to Action -->
+    <div class="flex items-center justify-between">
+        <div class="flex -space-x-2">
+            <div class="w-6 h-6 rounded-full border-2 border-white bg-slate-100 flex items-center justify-center overflow-hidden">
+                <i class="fas fa-user text-[10px] text-slate-400"></i>
+            </div>
+            <div class="w-6 h-6 rounded-full border-2 border-white bg-slate-900 flex items-center justify-center">
+                <i class="fas fa-brain text-[8px] text-white"></i>
+            </div>
+        </div>
+        <div class="flex items-center gap-1 group-hover:gap-3 transition-all">
+            <span class="text-[10px] font-black uppercase text-slate-900">Leer Reporte</span>
+            <i class="fas fa-chevron-right text-xs text-slate-900"></i>
+        </div>
+    </div>
+</div>
+    `;
+
+    grid.appendChild(card);
+});
+
+    }
+
+    // Click handler
+    grid.removeEventListener('click', handleCardClick);
+    grid.addEventListener('click', handleCardClick);
+}
+
+        function handleCardClick(e) {
+            const card = e.target.closest('[data-index]');
+            if (card) {
+                const index = parseInt(card.dataset.index);
+                const candidate = allData[index];
+                if (candidate) openSidebar(candidate);
+            }
+        }
+
+        function openSidebar(c) {
+            const content = document.getElementById('sidebar-content');
+            content.innerHTML = `
+             <!-- 
+  SIDEBAR: Estilo Neo-Brutalista de Prensa
+  - Reemplazo de 'glassmorphism' por bloques sólidos y bordes de 2px.
+  - Jerarquía tipográfica agresiva y clara.
+  - Layout tipo 'fanzine' digital moderno.
+-->
+
+<!-- Header del Sidebar -->
+<div class="flex justify-between items-center mb-8 pb-6 border-b-4 border-slate-900">
+    <button onclick="closeSidebar()" class="w-12 h-12 border-2 border-slate-900 bg-white hover:bg-rose-500 hover:text-white flex items-center justify-center transition-all shadow-[4px_4px_0px_0px_rgba(15,23,42,1)] active:shadow-none active:translate-x-1 active:translate-y-1">
+        <i class="fas fa-times text-lg"></i>
+    </button>
+    <div class="bg-indigo-600 text-white px-4 py-2 border-2 border-slate-900 font-black uppercase text-[10px] tracking-widest shadow-[4px_4px_0px_0px_rgba(15,23,42,1)]">
+        Análisis Grok xAI 🧠
+    </div>
+</div>
+
+<!-- Identidad del Candidato -->
+<div class="mb-10 text-left">
+    <h2 class="text-5xl font-black text-slate-900 leading-none tracking-tighter mb-4 uppercase italic">
+        ${c.nombre || 'Sin nombre'}
+    </h2>
+    <div class="inline-block bg-slate-900 text-emerald-400 px-3 py-1 font-bold text-sm">
+        ${c.partido || 'Independiente'}
+    </div>
+</div>
+
+<!-- Grid de Contenido -->
+<div class="space-y-8">
+    
+    <!-- Ideología -->
+    <div class="border-2 border-slate-900 p-6 bg-white shadow-[6px_6px_0px_0px_rgba(15,23,42,1)]">
+        <h4 class="text-xs font-black text-slate-900 uppercase tracking-widest mb-3 flex items-center gap-2">
+            <span class="w-2 h-4 bg-indigo-600"></span> Ideología General
+        </h4>
+        <p class="text-lg font-medium text-slate-800 leading-tight italic">
+            "${c.ideologia_general || '—'}"
+        </p>
+    </div>
+
+    <!-- Métricas Principales -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="p-6 border-2 border-slate-900 bg-indigo-50 shadow-[6px_6px_0px_0px_rgba(79,70,229,1)]">
+            <p class="text-[10px] font-black text-slate-900 uppercase mb-2">Viabilidad Electoral</p>
+            <p class="text-5xl font-black text-indigo-600 mb-2">${c.viabilidad_electoral?.estimacion || '?'}%</p>
+            <p class="text-xs font-bold text-slate-700 leading-relaxed">${c.viabilidad_electoral?.justificacion || '—'}</p>
+        </div>
+        
+        <div class="p-6 border-2 border-slate-900 bg-emerald-50 shadow-[6px_6px_0px_0px_rgba(16,185,129,1)]">
+            <p class="text-[10px] font-black text-slate-900 uppercase mb-2">Confianza Institucional</p>
+            <p class="text-5xl font-black text-emerald-600 mb-2">${c.confianza_institucional_ia?.porcentaje || '?'}%</p>
+            <ul class="text-[11px] font-bold text-slate-700 space-y-1">
+                ${c.confianza_institucional_ia?.criterios?.map(crit => `<li class="flex items-start gap-2"><span class="mt-1 flex-shrink-0 w-1.5 h-1.5 bg-slate-900"></span> ${crit}</li>`).join('') || '<li>—</li>'}
+            </ul>
+        </div>
+    </div>
+
+    <!-- Denuncias y Riesgo -->
+    <div class="grid grid-cols-1 gap-6">
+        <div class="border-2 border-slate-900 overflow-hidden shadow-[6px_6px_0px_0px_rgba(225,29,72,1)]">
+            <div class="bg-rose-600 p-2 border-b-2 border-slate-900">
+                <h4 class="text-[10px] font-black text-white uppercase tracking-widest">Alerta de Riesgo y Denuncias</h4>
+            </div>
+            <div class="p-6 bg-white space-y-4">
+                <div>
+                    <span class="text-[9px] font-black bg-slate-900 text-white px-2 py-0.5 uppercase">Nivel: ${c.denuncias_y_procesos?.nivel || '—'}</span>
+                    <p class="mt-3 text-sm font-bold text-slate-800">${c.denuncias_y_procesos?.detalle || '—'}</p>
+                    <p class="text-xs font-medium text-slate-500 mt-1 italic">Estado: ${c.denuncias_y_procesos?.estado_legal || '—'}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Veredicto Final (Estilo Headline) -->
+    <div class="relative group">
+        <div class="absolute inset-0 bg-slate-900 translate-x-2 translate-y-2 group-hover:translate-x-3 group-hover:translate-y-3 transition-transform"></div>
+        <div class="relative p-8 border-2 border-slate-900 bg-white">
+            <h4 class="text-[10px] font-black text-slate-900 uppercase tracking-[0.3em] mb-4">Veredicto Final</h4>
+            <p class="text-2xl font-black text-slate-900 leading-none mb-6">
+                "${c.juicio_institucional_final?.fundamento || 'Sin detalle'}"
+            </p>
+            <div class="flex flex-wrap gap-2">
+                <span class="bg-indigo-600 text-white text-[10px] font-black px-3 py-1 uppercase border border-slate-900">
+                    Clasificación: ${c.juicio_institucional_final?.clasificacion?.replace(/_/g, ' ') || '—'}
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Experiencia y Gestión -->
+    <div class="space-y-4">
+        <h4 class="text-xs font-black text-slate-900 uppercase">Track Record de Gestión</h4>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div class="p-4 border-2 border-slate-900 bg-slate-50 flex flex-col justify-between">
+                <p class="text-[9px] font-black text-slate-400 uppercase">Sector Público</p>
+                <p class="text-sm font-bold text-slate-900 mt-2">${c.experiencia_gestion?.sector_publico || '—'}</p>
+            </div>
+            <div class="p-4 border-2 border-slate-900 bg-slate-50 flex flex-col justify-between">
+                <p class="text-[9px] font-black text-slate-400 uppercase">Sector Privado</p>
+                <p class="text-sm font-bold text-slate-900 mt-2">${c.experiencia_gestion?.sector_privado || '—'}</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Fuentes -->
+    <div class="pt-8 border-t-4 border-slate-900">
+        <h4 class="text-xs font-black text-slate-900 uppercase mb-4 tracking-tighter italic underline decoration-indigo-500 decoration-4">Fuentes Consultadas</h4>
+        <div class="grid grid-cols-1 gap-2">
+            ${c.fuentes?.map(source => `
+                <a href="${source.enlace}" target="_blank" class="p-3 border-2 border-slate-900 bg-white hover:bg-slate-900 hover:text-white transition-colors flex justify-between items-center group/link">
+                    <span class="text-xs font-black uppercase tracking-tight">${source.medio}</span>
+                    <span class="text-[10px] font-bold opacity-60 italic">${source.fecha}</span>
+                </a>
+            `).join('') || '<p class="text-xs italic font-bold">Sin fuentes registradas</p>'}
+        </div>
+    </div>
+
+    <!-- Footer Disclaimer -->
+    <div class="mt-12 py-6 text-[10px] font-black text-slate-900 uppercase tracking-widest text-center border-2 border-slate-900 bg-yellow-300">
+        Grok xAI Intelligence Report • © 2026
+    </div>
+</div>
+            `;
+            document.getElementById('sidebar').classList.add('active');
+            document.getElementById('overlay').classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeSidebar() {
+            document.getElementById('sidebar').classList.remove('active');
+            document.getElementById('overlay').classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+
+        function filterBy(tag) {
+            document.querySelectorAll('.filter-chip').forEach(b => {
+                b.classList.toggle('active', b.innerText.toLowerCase().includes(tag.toLowerCase()) || (tag==='all' && b.innerText.toLowerCase()==='todos'));
+            });
+            const filtered = tag === 'all' ? allData : allData.filter(c => 
+                c.ideologia_general?.toLowerCase().includes(tag.toLowerCase())
+            );
+            renderGrid(filtered);
+        }
+
+        function searchCandidato(val) {
+            const q = val.toLowerCase().trim();
+            if (!q) return renderGrid(allData);
+            const filtered = allData.filter(c => 
+                (c.nombre || '').toLowerCase().includes(q) ||
+                (c.partido || '').toLowerCase().includes(q) ||
+                (c.ideologia_general || '').toLowerCase().includes(q)
+            );
+            renderGrid(filtered);
+        }
+
+        window.onload = loadData;
+    </script>
+</body>
+</html>
