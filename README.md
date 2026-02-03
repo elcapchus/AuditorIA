@@ -69,6 +69,7 @@ Cada candidato debe seguir este esquema:
     }
   ]
 }
+```
 
 ## ⚙️ Flujo de funcionamiento
 
