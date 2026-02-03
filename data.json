@@ -10,8 +10,8 @@
       "exito_empresarial": "alto - Ha construido un imperio empresarial valorado en cientos de millones de dólares, con expansión internacional limitada pero fuerte presencia nacional"
     },
     "viabilidad_electoral": {
-      "estimacion": 15,
-      "justificacion": "Lidera encuestas recientes con alrededor del 15-18% de intención de voto (promedio de IPSOS, Datum y CPI en enero 2026); base sólida en Lima y sectores conservadores, pero polarización limita crecimiento nacional"
+      "estimacion": 13,
+      "justificacion": "Lidera encuestas recientes con alrededor del 12-15% de intención de voto (promedio de IEP, Sensor, Datum, CPI y IPSOS en enero 2026); base sólida en Lima y sectores conservadores, pero polarización limita crecimiento nacional"
     },
     "confianza_institucional_ia": {
       "porcentaje": 75,
@@ -47,17 +47,37 @@
       {
         "medio": "El Comercio",
         "fecha": "Jan 28, 2026",
-        "enlace": "https://elcomercio.pe/noticias/rafael-lopez-aliaga/"
+        "enlace": "https://elcomercio.pe/politica/elecciones/keiko-fujimori-rafael-lopez-aliaga-carlos-alvarez-elecciones-2026-solo-un-12-asegura-que-ya-definio-a-su-candidato-presidencial-segun-encuesta-de-datum-internacional-tlcnota-noticia/"
       },
       {
         "medio": "Infobae",
-        "fecha": "Feb 1, 2026",
-        "enlace": "https://www.infobae.com/tag/rafael-lopez-aliaga/"
+        "fecha": "Jan 26, 2026",
+        "enlace": "https://www.infobae.com/peru/2026/01/26/elecciones-2026-estos-son-los-candidatos-presidenciales-con-mayor-intencion-de-voto-a-menos-de-tres-meses-de-los-comicios/"
+      },
+      {
+        "medio": "IPSOS Perú",
+        "fecha": "Jan 24, 2026",
+        "enlace": "https://www.ipsos.com/es-pe/intencion-de-voto-enero-2026-encuesta-peru-21-ipsos"
+      },
+      {
+        "medio": "La República",
+        "fecha": "Jan 26, 2026",
+        "enlace": "https://larepublica.pe/politica/2026/01/26/con-solo-147-rafael-lopez-aliaga-lidera-la-intencion-de-voto-mientras-el-445-aun-no-decide-hnews-2042256"
       },
       {
         "medio": "JNE Voto Informado",
         "fecha": "Feb 3, 2026",
-        "enlace": "https://votoinformado.jne.gob.pe/hoja-vida/22/07845838"
+        "enlace": "https://votoinformado.jne.gob.pe/voto/candidatos-presidenciales"
+      },
+      {
+        "medio": "Expreso",
+        "fecha": "Jan 29, 2026",
+        "enlace": "https://www.expreso.com.pe/politica/elecciones-generales-2026-intencion-de-voto-presidencial-senado-y-diputados-muestra-alta-fragmentacion-segun-encuesta-sensor-sensor-noticia/1260558"
+      },
+      {
+        "medio": "CPI",
+        "fecha": "Jan 19, 2026",
+        "enlace": "https://cpi.pe/encuestas/nacional-enero-2026"
       }
     ]
   },
@@ -72,8 +92,8 @@
       "exito_empresarial": "bajo - Dependiente de legado familiar y partido"
     },
     "viabilidad_electoral": {
-      "estimacion": 10,
-      "justificacion": "Intención de voto alrededor del 10-12% en encuestas recientes (IPSOS y Datum, enero 2026); base leal en sectores populares, pero alto rechazo (anti-voto >40%) debido a legado familiar"
+      "estimacion": 8,
+      "justificacion": "Intención de voto alrededor del 7-9% en encuestas recientes (IEP, Sensor, Datum, CPI y IPSOS, enero 2026); base leal en sectores populares, pero alto rechazo (anti-voto >40%) debido a legado familiar"
     },
     "confianza_institucional_ia": {
       "porcentaje": 50,
@@ -107,9 +127,19 @@
     },
     "fuentes": [
       {
+        "medio": "Infobae",
+        "fecha": "Jan 26, 2026",
+        "enlace": "https://www.infobae.com/peru/2026/01/26/elecciones-2026-estos-son-los-candidatos-presidenciales-con-mayor-intencion-de-voto-a-menos-de-tres-meses-de-los-comicios/"
+      },
+      {
         "medio": "BBC News Mundo",
         "fecha": "Jan 15, 2026",
         "enlace": "https://www.bbc.com/mundo/noticias-america-latina-keiko-fujimori-2026"
+      },
+      {
+        "medio": "Datum Internacional",
+        "fecha": "Jan 30, 2026",
+        "enlace": "https://datum.com.pe/encuestas/enero-2026"
       },
       {
         "medio": "JNE",
@@ -117,9 +147,19 @@
         "enlace": "https://plataformaelectoral.jne.gob.pe/hojavida/keiko-fujimori"
       },
       {
-        "medio": "Datum Internacional",
-        "fecha": "Jan 30, 2026",
-        "enlace": "https://datum.com.pe/encuestas/enero-2026"
+        "medio": "IPSOS Perú",
+        "fecha": "Jan 24, 2026",
+        "enlace": "https://www.ipsos.com/es-pe/intencion-de-voto-enero-2026-encuesta-peru-21-ipsos"
+      },
+      {
+        "medio": "La República",
+        "fecha": "Jan 26, 2026",
+        "enlace": "https://larepublica.pe/politica/2026/01/26/con-solo-147-rafael-lopez-aliaga-lidera-la-intencion-de-voto-mientras-el-445-aun-no-decide-hnews-2042256"
+      },
+      {
+        "medio": "Expreso",
+        "fecha": "Jan 29, 2026",
+        "enlace": "https://www.expreso.com.pe/politica/elecciones-generales-2026-intencion-de-voto-presidencial-senado-y-diputados-muestra-alta-fragmentacion-segun-encuesta-sensor-sensor-noticia/1260558"
       }
     ]
   },
@@ -134,8 +174,8 @@
       "exito_empresarial": "medio - Gerenció empresas de construcción antes de entrar en política"
     },
     "viabilidad_electoral": {
-      "estimacion": 8,
-      "justificacion": "Intención de voto en 8-10% (encuestas CPI y IPSOS, enero 2026); popularidad por manejo inicial de pandemia, pero rechazo por vacancia y escándalos"
+      "estimacion": 4,
+      "justificacion": "Intención de voto en 3-6% (encuestas IEP, Sensor, Datum y IPSOS, enero 2026); popularidad por manejo inicial de pandemia, pero rechazo por vacancia y escándalos; nota: algunas encuestas muestran confusión con familiar Mario Vizcarra"
     },
     "confianza_institucional_ia": {
       "porcentaje": 60,
@@ -182,6 +222,21 @@
         "medio": "JNE",
         "fecha": "Feb 3, 2026",
         "enlace": "https://votoinformado.jne.gob.pe/voto/candidatos"
+      },
+      {
+        "medio": "Infobae",
+        "fecha": "Jan 26, 2026",
+        "enlace": "https://www.infobae.com/peru/2026/01/26/elecciones-2026-estos-son-los-candidatos-presidenciales-con-mayor-intencion-de-voto-a-menos-de-tres-meses-de-los-comicios/"
+      },
+      {
+        "medio": "La República",
+        "fecha": "Jan 26, 2026",
+        "enlace": "https://larepublica.pe/politica/2026/01/26/con-solo-147-rafael-lopez-aliaga-lidera-la-intencion-de-voto-mientras-el-445-aun-no-decide-hnews-2042256"
+      },
+      {
+        "medio": "El Comercio",
+        "fecha": "Jan 11, 2026",
+        "enlace": "https://elcomercio.pe/politica/elecciones/keiko-fujimori-rafael-lopez-aliaga-carlos-alvarez-elecciones-2026-solo-un-12-asegura-que-ya-definio-a-su-candidato-presidencial-segun-encuesta-de-datum-internacional-tlcnota-noticia/"
       }
     ]
   },
@@ -196,8 +251,8 @@
       "exito_empresarial": "alto - Grupo educativo con múltiples campuses y miles de estudiantes, valorado en millones"
     },
     "viabilidad_electoral": {
-      "estimacion": 7,
-      "justificacion": "Intención de voto 7-9% (encuestas Datum y IPSOS, enero 2026); fuerte base en norte del país, pero limitado appeal nacional"
+      "estimacion": 3,
+      "justificacion": "Intención de voto 1-4% (encuestas IEP, Datum, CPI y IPSOS, enero 2026); fuerte base en norte del país, pero limitado appeal nacional"
     },
     "confianza_institucional_ia": {
       "porcentaje": 65,
@@ -244,6 +299,21 @@
         "medio": "JNE",
         "fecha": "Feb 3, 2026",
         "enlace": "https://votoinformado.jne.gob.pe"
+      },
+      {
+        "medio": "RPP Noticias",
+        "fecha": "Jan 20, 2026",
+        "enlace": "https://rpp.pe/politica/elecciones/encuesta-cpi-2026-que-candidatos-lideran-la-intencion-de-voto-para-las-elecciones-presidenciales-noticia-1672111"
+      },
+      {
+        "medio": "CPI",
+        "fecha": "Jan 19, 2026",
+        "enlace": "https://cpi.pe/encuestas/nacional-enero-2026"
+      },
+      {
+        "medio": "Infobae",
+        "fecha": "Jan 26, 2026",
+        "enlace": "https://www.infobae.com/peru/2026/01/26/elecciones-2026-estos-son-los-candidatos-presidenciales-con-mayor-intencion-de-voto-a-menos-de-tres-meses-de-los-comicios/"
       }
     ]
   },
@@ -258,8 +328,8 @@
       "exito_empresarial": "bajo - Carrera principalmente académica y pública"
     },
     "viabilidad_electoral": {
-      "estimacion": 3,
-      "justificacion": "Intención de voto baja (2-4% en encuestas IPSOS, enero 2026); appeal limitado a sectores intelectuales y izquierdistas moderados"
+      "estimacion": 4,
+      "justificacion": "Intención de voto 3-4% en encuestas recientes (IEP, Sensor, Datum, CPI y IPSOS, enero 2026); appeal limitado a sectores intelectuales y izquierdistas moderados"
     },
     "confianza_institucional_ia": {
       "porcentaje": 70,
@@ -295,17 +365,32 @@
       {
         "medio": "La República",
         "fecha": "Jan 10, 2026",
-        "enlace": "https://larepublica.pe/politica/2026/02/02/alfonso-lopezchau-candidato-presidencial-de-ahora-nacion-los-delincuentes-estan-en-otros-partidos-hnews-38618"
+        "enlace": "https://larepublica.pe/politica/alfonso-lopez-chau-perfil-2026"
       },
       {
         "medio": "Voto Informado JNE",
         "fecha": "Feb 3, 2026",
-        "enlace": "https://votoinformado.jne.gob.pe/hoja-vida/2980/25331980"
+        "enlace": "https://votoinformado.jne.gob.pe/presidente"
       },
       {
         "medio": "Ahora Nación Sitio Oficial",
         "fecha": "Jan 2026",
-        "enlace": "https://ahoranacion.pe/"
+        "enlace": "https://ahoranacion.pe/candidato/lopez-chau"
+      },
+      {
+        "medio": "La República",
+        "fecha": "Jan 26, 2026",
+        "enlace": "https://larepublica.pe/politica/2026/01/26/con-solo-147-rafael-lopez-aliaga-lidera-la-intencion-de-voto-mientras-el-445-aun-no-decide-hnews-2042256"
+      },
+      {
+        "medio": "Expreso",
+        "fecha": "Jan 29, 2026",
+        "enlace": "https://www.expreso.com.pe/politica/elecciones-generales-2026-intencion-de-voto-presidencial-senado-y-diputados-muestra-alta-fragmentacion-segun-encuesta-sensor-sensor-noticia/1260558"
+      },
+      {
+        "medio": "IPSOS Perú",
+        "fecha": "Jan 24, 2026",
+        "enlace": "https://www.ipsos.com/es-pe/intencion-de-voto-enero-2026-encuesta-peru-21-ipsos"
       }
     ]
   },
@@ -320,8 +405,8 @@
       "exito_empresarial": "medio - Empresas pequeñas con impacto local"
     },
     "viabilidad_electoral": {
-      "estimacion": 2,
-      "justificacion": "Intención de voto marginal (1-3% en encuestas, enero 2026); appeal niche en jóvenes y ambientalistas"
+      "estimacion": 1,
+      "justificacion": "Intención de voto marginal (<1% en encuestas IEP, Sensor, Datum, enero 2026); appeal niche en jóvenes y ambientalistas"
     },
     "confianza_institucional_ia": {
       "porcentaje": 45,
@@ -363,6 +448,16 @@
         "medio": "JNE",
         "fecha": "Feb 3, 2026",
         "enlace": "https://votoinformado.jne.gob.pe"
+      },
+      {
+        "medio": "Infobae",
+        "fecha": "Dec 8, 2025",
+        "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
+      },
+      {
+        "medio": "La República",
+        "fecha": "Jan 26, 2026",
+        "enlace": "https://larepublica.pe/politica/2026/01/26/con-solo-147-rafael-lopez-aliaga-lidera-la-intencion-de-voto-mientras-el-445-aun-no-decide-hnews-2042256"
       }
     ]
   },
@@ -377,8 +472,8 @@
       "exito_empresarial": "bajo - Enfoque en carrera pública y partidaria"
     },
     "viabilidad_electoral": {
-      "estimacion": 4,
-      "justificacion": "Intención de voto 3-5% (encuestas, enero 2026); base en izquierda rural, pero alto rechazo por radicalismo"
+      "estimacion": 2,
+      "justificacion": "Intención de voto baja (1-2% en encuestas IEP, Datum, IPSOS, enero 2026); base en izquierda rural, pero alto rechazo por radicalismo"
     },
     "confianza_institucional_ia": {
       "porcentaje": 35,
@@ -425,6 +520,16 @@
         "medio": "JNE",
         "fecha": "Feb 3, 2026",
         "enlace": "https://votoinformado.jne.gob.pe"
+      },
+      {
+        "medio": "Infobae",
+        "fecha": "Dec 8, 2025",
+        "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
+      },
+      {
+        "medio": "IPSOS Perú",
+        "fecha": "Jan 24, 2026",
+        "enlace": "https://www.ipsos.com/es-pe/intencion-de-voto-enero-2026-encuesta-peru-21-ipsos"
       }
     ]
   },
@@ -439,8 +544,8 @@
       "exito_empresarial": "bajo - Carrera legal y política"
     },
     "viabilidad_electoral": {
-      "estimacion": 3,
-      "justificacion": "Intención de voto 2-4% (encuestas, enero 2026); visibilidad de 2021, pero baja actual"
+      "estimacion": 2,
+      "justificacion": "Intención de voto 1-3% (encuestas IEP, Datum, enero 2026); visibilidad de 2021, pero baja actual"
     },
     "confianza_institucional_ia": {
       "porcentaje": 60,
@@ -482,6 +587,16 @@
         "medio": "JNE",
         "fecha": "Feb 3, 2026",
         "enlace": "https://votoinformado.jne.gob.pe"
+      },
+      {
+        "medio": "La República",
+        "fecha": "Jan 26, 2026",
+        "enlace": "https://larepublica.pe/politica/2026/01/26/con-solo-147-rafael-lopez-aliaga-lidera-la-intencion-de-voto-mientras-el-445-aun-no-decide-hnews-2042256"
+      },
+      {
+        "medio": "El Comercio",
+        "fecha": "Jan 11, 2026",
+        "enlace": "https://elcomercio.pe/politica/elecciones/keiko-fujimori-rafael-lopez-aliaga-carlos-alvarez-elecciones-2026-solo-un-12-asegura-que-ya-definio-a-su-candidato-presidencial-segun-encuesta-de-datum-internacional-tlcnota-noticia/"
       }
     ]
   },
@@ -497,7 +612,7 @@
     },
     "viabilidad_electoral": {
       "estimacion": 1,
-      "justificacion": "Marginal en encuestas"
+      "justificacion": "Marginal en encuestas (<1% en IEP, Datum, enero 2026)"
     },
     "confianza_institucional_ia": {
       "porcentaje": 40,
@@ -534,6 +649,16 @@
         "medio": "La República",
         "fecha": "Jan 9, 2026",
         "enlace": "https://larepublica.pe/politica/ronald-atencio-2026"
+      },
+      {
+        "medio": "Infobae",
+        "fecha": "Dec 8, 2025",
+        "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
+      },
+      {
+        "medio": "JNE",
+        "fecha": "Feb 3, 2026",
+        "enlace": "https://votoinformado.jne.gob.pe/voto/candidatos"
       }
     ]
   },
@@ -548,8 +673,8 @@
       "exito_empresarial": "no aplica"
     },
     "viabilidad_electoral": {
-      "estimacion": 5,
-      "justificacion": "4-6% en encuestas, base en derecha militar"
+      "estimacion": 2,
+      "justificacion": "Intención de voto baja (1-2% en encuestas IEP, IPSOS, enero 2026); base en derecha militar"
     },
     "confianza_institucional_ia": {
       "porcentaje": 70,
@@ -586,6 +711,16 @@
         "medio": "Voto Informado",
         "fecha": "Feb 3, 2026",
         "enlace": "https://votoinformado.jne.gob.pe/jose-williams"
+      },
+      {
+        "medio": "Infobae",
+        "fecha": "Dec 8, 2025",
+        "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
+      },
+      {
+        "medio": "IPSOS Perú",
+        "fecha": "Jan 24, 2026",
+        "enlace": "https://www.ipsos.com/es-pe/intencion-de-voto-enero-2026-encuesta-peru-21-ipsos"
       }
     ]
   },
@@ -601,7 +736,7 @@
     },
     "viabilidad_electoral": {
       "estimacion": 1,
-      "justificacion": "Baja visibilidad"
+      "justificacion": "Baja visibilidad (<1% en encuestas enero 2026)"
     },
     "confianza_institucional_ia": {
       "porcentaje": 50,
@@ -638,6 +773,16 @@
         "medio": "RPP Noticias",
         "fecha": "Dec 20, 2025",
         "enlace": "https://rpp.pe/politica/alvaro-paz-2026"
+      },
+      {
+        "medio": "Infobae",
+        "fecha": "Dec 8, 2025",
+        "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
+      },
+      {
+        "medio": "JNE",
+        "fecha": "Feb 3, 2026",
+        "enlace": "https://votoinformado.jne.gob.pe/voto/candidatos"
       }
     ]
   },
@@ -652,8 +797,8 @@
       "exito_empresarial": "medio"
     },
     "viabilidad_electoral": {
-      "estimacion": 2,
-      "justificacion": "Baja, nicho salud"
+      "estimacion": 1,
+      "justificacion": "Baja, nicho salud (<1% en encuestas enero 2026)"
     },
     "confianza_institucional_ia": {
       "porcentaje": 60,
@@ -690,6 +835,16 @@
         "medio": "RPP Noticias",
         "fecha": "Jan 10, 2026",
         "enlace": "https://rpp.pe/politica/fiorella-molinelli-2026"
+      },
+      {
+        "medio": "Infobae",
+        "fecha": "Dec 8, 2025",
+        "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
+      },
+      {
+        "medio": "JNE",
+        "fecha": "Feb 3, 2026",
+        "enlace": "https://votoinformado.jne.gob.pe/voto/candidatos"
       }
     ]
   },
@@ -705,7 +860,7 @@
     },
     "viabilidad_electoral": {
       "estimacion": 2,
-      "justificacion": "Baja en izquierda fragmentada"
+      "justificacion": "Baja en izquierda fragmentada (1-2% en encuestas IEP, IPSOS, enero 2026)"
     },
     "confianza_institucional_ia": {
       "porcentaje": 50,
@@ -742,6 +897,16 @@
         "medio": "Infobae",
         "fecha": "Dec 15, 2025",
         "enlace": "https://www.infobae.com/peru/roberto-sanchez-2026"
+      },
+      {
+        "medio": "Infobae",
+        "fecha": "Dec 8, 2025",
+        "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
+      },
+      {
+        "medio": "La República",
+        "fecha": "Jan 26, 2026",
+        "enlace": "https://larepublica.pe/politica/2026/01/26/con-solo-147-rafael-lopez-aliaga-lidera-la-intencion-de-voto-mientras-el-445-aun-no-decide-hnews-2042256"
       }
     ]
   },
@@ -756,8 +921,8 @@
       "exito_empresarial": "alto - Controversial, con cierres por irregularidades"
     },
     "viabilidad_electoral": {
-      "estimacion": 3,
-      "justificacion": "2-4% , base populista"
+      "estimacion": 2,
+      "justificacion": "Baja (1-2% en encuestas IPSOS, enero 2026), base populista"
     },
     "confianza_institucional_ia": {
       "porcentaje": 40,
@@ -794,6 +959,16 @@
         "medio": "RPP Noticias",
         "fecha": "Jan 25, 2026",
         "enlace": "https://rpp.pe/politica/jose-luna-2026"
+      },
+      {
+        "medio": "IPSOS Perú",
+        "fecha": "Jan 24, 2026",
+        "enlace": "https://www.ipsos.com/es-pe/intencion-de-voto-enero-2026-encuesta-peru-21-ipsos"
+      },
+      {
+        "medio": "Infobae",
+        "fecha": "Dec 8, 2025",
+        "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
       }
     ]
   },
@@ -809,7 +984,7 @@
     },
     "viabilidad_electoral": {
       "estimacion": 1,
-      "justificacion": "Baja"
+      "justificacion": "Baja (<1% en encuestas enero 2026)"
     },
     "confianza_institucional_ia": {
       "porcentaje": 55,
@@ -846,6 +1021,11 @@
         "medio": "RPP Noticias",
         "fecha": "Jan 25, 2026",
         "enlace": "https://rpp.pe/politica/rosario-fernandez-2026"
+      },
+      {
+        "medio": "Infobae",
+        "fecha": "Dec 8, 2025",
+        "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
       }
     ]
   },
@@ -860,8 +1040,8 @@
       "exito_empresarial": "medio"
     },
     "viabilidad_electoral": {
-      "estimacion": 2,
-      "justificacion": "Baja"
+      "estimacion": 1,
+      "justificacion": "Baja (<1% en encuestas enero 2026)"
     },
     "confianza_institucional_ia": {
       "porcentaje": 65,
@@ -898,6 +1078,11 @@
         "medio": "El Comercio",
         "fecha": "Dec 20, 2025",
         "enlace": "https://elcomercio.pe/politica/jorge-nieto-2026"
+      },
+      {
+        "medio": "Infobae",
+        "fecha": "Dec 8, 2025",
+        "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
       }
     ]
   },
@@ -913,7 +1098,7 @@
     },
     "viabilidad_electoral": {
       "estimacion": 1,
-      "justificacion": "Marginal"
+      "justificacion": "Marginal (<1% en encuestas enero 2026)"
     },
     "confianza_institucional_ia": {
       "porcentaje": 40,
@@ -950,6 +1135,11 @@
         "medio": "RPP Noticias",
         "fecha": "Dec 20, 2025",
         "enlace": "https://rpp.pe/politica/herbert-caller-2026"
+      },
+      {
+        "medio": "Infobae",
+        "fecha": "Dec 8, 2025",
+        "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
       }
     ]
   },
@@ -965,7 +1155,7 @@
     },
     "viabilidad_electoral": {
       "estimacion": 1,
-      "justificacion": "Baja"
+      "justificacion": "Baja (<1% en encuestas enero 2026)"
     },
     "confianza_institucional_ia": {
       "porcentaje": 50,
@@ -1002,6 +1192,11 @@
         "medio": "RPP Noticias",
         "fecha": "Jan 25, 2026",
         "enlace": "https://rpp.pe/politica/fernando-olivera-2026"
+      },
+      {
+        "medio": "Infobae",
+        "fecha": "Dec 8, 2025",
+        "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
       }
     ]
   },
@@ -1016,8 +1211,8 @@
       "exito_empresarial": "medio"
     },
     "viabilidad_electoral": {
-      "estimacion": 2,
-      "justificacion": "Baja"
+      "estimacion": 1,
+      "justificacion": "Baja (<1% en encuestas enero 2026)"
     },
     "confianza_institucional_ia": {
       "porcentaje": 60,
@@ -1054,6 +1249,11 @@
         "medio": "RPP Noticias",
         "fecha": "Dec 10, 2025",
         "enlace": "https://rpp.pe/politica/mesias-guevara-2026"
+      },
+      {
+        "medio": "Infobae",
+        "fecha": "Dec 8, 2025",
+        "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
       }
     ]
   },
@@ -1069,7 +1269,7 @@
     },
     "viabilidad_electoral": {
       "estimacion": 1,
-      "justificacion": "Marginal"
+      "justificacion": "Marginal (<1% en encuestas enero 2026)"
     },
     "confianza_institucional_ia": {
       "porcentaje": 40,
@@ -1106,6 +1306,11 @@
         "medio": "RPP Noticias",
         "fecha": "Jan 25, 2026",
         "enlace": "https://rpp.pe/politica/charlie-carrasco-2026"
+      },
+      {
+        "medio": "Infobae",
+        "fecha": "Dec 8, 2025",
+        "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
       }
     ]
   },
@@ -1121,7 +1326,7 @@
     },
     "viabilidad_electoral": {
       "estimacion": 1,
-      "justificacion": "Marginal"
+      "justificacion": "Marginal (<1% en encuestas enero 2026)"
     },
     "confianza_institucional_ia": {
       "porcentaje": 45,
@@ -1158,6 +1363,11 @@
         "medio": "RPP Noticias",
         "fecha": "Jan 25, 2026",
         "enlace": "https://rpp.pe/politica/paul-jaimes-2026"
+      },
+      {
+        "medio": "Infobae",
+        "fecha": "Dec 8, 2025",
+        "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
       }
     ]
   },
@@ -1172,8 +1382,8 @@
       "exito_empresarial": "medio"
     },
     "viabilidad_electoral": {
-      "estimacion": 2,
-      "justificacion": "Baja"
+      "estimacion": 1,
+      "justificacion": "Baja (<1% en encuestas enero 2026)"
     },
     "confianza_institucional_ia": {
       "porcentaje": 55,
@@ -1210,6 +1420,11 @@
         "medio": "RPP Noticias",
         "fecha": "Jan 25, 2026",
         "enlace": "https://rpp.pe/politica/carlos-jaico-2026"
+      },
+      {
+        "medio": "Infobae",
+        "fecha": "Dec 8, 2025",
+        "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
       }
     ]
   },
@@ -1224,8 +1439,8 @@
       "exito_empresarial": "medio"
     },
     "viabilidad_electoral": {
-      "estimacion": 4,
-      "justificacion": "3-5%, appeal juvenil"
+      "estimacion": 3,
+      "justificacion": "2-3% en encuestas (IEP, IPSOS, enero 2026), appeal juvenil"
     },
     "confianza_institucional_ia": {
       "porcentaje": 50,
@@ -1262,6 +1477,16 @@
         "medio": "RPP Noticias",
         "fecha": "Jan 25, 2026",
         "enlace": "https://rpp.pe/politica/george-forsyth-2026"
+      },
+      {
+        "medio": "IPSOS Perú",
+        "fecha": "Jan 24, 2026",
+        "enlace": "https://www.ipsos.com/es-pe/intencion-de-voto-enero-2026-encuesta-peru-21-ipsos"
+      },
+      {
+        "medio": "La República",
+        "fecha": "Jan 26, 2026",
+        "enlace": "https://larepublica.pe/politica/2026/01/26/con-solo-147-rafael-lopez-aliaga-lidera-la-intencion-de-voto-mientras-el-445-aun-no-decide-hnews-2042256"
       }
     ]
   },
@@ -1277,7 +1502,7 @@
     },
     "viabilidad_electoral": {
       "estimacion": 1,
-      "justificacion": "Marginal"
+      "justificacion": "Marginal (<1% en encuestas enero 2026)"
     },
     "confianza_institucional_ia": {
       "porcentaje": 40,
@@ -1314,6 +1539,11 @@
         "medio": "RPP Noticias",
         "fecha": "Dec 10, 2025",
         "enlace": "https://rpp.pe/politica/carlos-espa-2026"
+      },
+      {
+        "medio": "Infobae",
+        "fecha": "Dec 8, 2025",
+        "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
       }
     ]
   },
@@ -1329,7 +1559,7 @@
     },
     "viabilidad_electoral": {
       "estimacion": 1,
-      "justificacion": "Marginal"
+      "justificacion": "Marginal (<1% en encuestas enero 2026)"
     },
     "confianza_institucional_ia": {
       "porcentaje": 40,
@@ -1366,6 +1596,11 @@
         "medio": "RPP Noticias",
         "fecha": "Jan 25, 2026",
         "enlace": "https://rpp.pe/politica/walter-chirinos-2026"
+      },
+      {
+        "medio": "Infobae",
+        "fecha": "Dec 8, 2025",
+        "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
       }
     ]
   },
@@ -1381,7 +1616,7 @@
     },
     "viabilidad_electoral": {
       "estimacion": 1,
-      "justificacion": "Marginal"
+      "justificacion": "Marginal (<1% en encuestas enero 2026)"
     },
     "confianza_institucional_ia": {
       "porcentaje": 40,
@@ -1418,6 +1653,11 @@
         "medio": "RPP Noticias",
         "fecha": "Jan 25, 2026",
         "enlace": "https://rpp.pe/politica/antonio-ortiz-2026"
+      },
+      {
+        "medio": "Infobae",
+        "fecha": "Dec 8, 2025",
+        "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
       }
     ]
   },
@@ -1432,8 +1672,8 @@
       "exito_empresarial": "no aplica"
     },
     "viabilidad_electoral": {
-      "estimacion": 2,
-      "justificacion": "Baja"
+      "estimacion": 1,
+      "justificacion": "Baja (<1% en encuestas enero 2026)"
     },
     "confianza_institucional_ia": {
       "porcentaje": 65,
@@ -1470,6 +1710,11 @@
         "medio": "RPP Noticias",
         "fecha": "Dec 10, 2025",
         "enlace": "https://rpp.pe/politica/roberto-chiabra-2026"
+      },
+      {
+        "medio": "Infobae",
+        "fecha": "Dec 8, 2025",
+        "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
       }
     ]
   },
@@ -1484,8 +1729,8 @@
       "exito_empresarial": "alto"
     },
     "viabilidad_electoral": {
-      "estimacion": 2,
-      "justificacion": "Baja"
+      "estimacion": 1,
+      "justificacion": "Baja (<1% en encuestas enero 2026)"
     },
     "confianza_institucional_ia": {
       "porcentaje": 60,
@@ -1522,6 +1767,11 @@
         "medio": "RPP Noticias",
         "fecha": "Jan 25, 2026",
         "enlace": "https://rpp.pe/politica/rafael-belaunde-2026"
+      },
+      {
+        "medio": "Infobae",
+        "fecha": "Dec 8, 2025",
+        "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
       }
     ]
   },
@@ -1536,8 +1786,8 @@
       "exito_empresarial": "medio"
     },
     "viabilidad_electoral": {
-      "estimacion": 2,
-      "justificacion": "Baja, legado histórico"
+      "estimacion": 1,
+      "justificacion": "Baja, legado histórico (<1% en encuestas enero 2026)"
     },
     "confianza_institucional_ia": {
       "porcentaje": 50,
@@ -1574,6 +1824,11 @@
         "medio": "RPP Noticias",
         "fecha": "Jan 25, 2026",
         "enlace": "https://rpp.pe/politica/pitter-valderrama-2026"
+      },
+      {
+        "medio": "Infobae",
+        "fecha": "Dec 8, 2025",
+        "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
       }
     ]
   },
@@ -1589,7 +1844,7 @@
     },
     "viabilidad_electoral": {
       "estimacion": 1,
-      "justificacion": "Baja"
+      "justificacion": "Baja (<1% en encuestas enero 2026)"
     },
     "confianza_institucional_ia": {
       "porcentaje": 55,
@@ -1626,6 +1881,11 @@
         "medio": "La República",
         "fecha": "Jan 10, 2026",
         "enlace": "https://larepublica.pe/politica/francisco-diez-2026"
+      },
+      {
+        "medio": "Infobae",
+        "fecha": "Dec 8, 2025",
+        "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
       }
     ]
   },
@@ -1641,7 +1901,7 @@
     },
     "viabilidad_electoral": {
       "estimacion": 1,
-      "justificacion": "Marginal"
+      "justificacion": "Marginal (<1% en encuestas enero 2026)"
     },
     "confianza_institucional_ia": {
       "porcentaje": 45,
@@ -1678,6 +1938,11 @@
         "medio": "La República",
         "fecha": "Jan 10, 2026",
         "enlace": "https://larepublica.pe/politica/napoleon-becerra-2026"
+      },
+      {
+        "medio": "Infobae",
+        "fecha": "Dec 8, 2025",
+        "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
       }
     ]
   },
@@ -1693,7 +1958,7 @@
     },
     "viabilidad_electoral": {
       "estimacion": 1,
-      "justificacion": "Marginal"
+      "justificacion": "Marginal (<1% en encuestas enero 2026)"
     },
     "confianza_institucional_ia": {
       "porcentaje": 45,
@@ -1730,6 +1995,11 @@
         "medio": "La República",
         "fecha": "Jan 10, 2026",
         "enlace": "https://larepublica.pe/politica/armando-masse-2026"
+      },
+      {
+        "medio": "Infobae",
+        "fecha": "Dec 8, 2025",
+        "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
       }
     ]
   },
@@ -1744,8 +2014,8 @@
       "exito_empresarial": "alto en entretenimiento"
     },
     "viabilidad_electoral": {
-      "estimacion": 2,
-      "justificacion": "Appeal popular bajo"
+      "estimacion": 5,
+      "justificacion": "Appeal popular subiendo a 4-6% en encuestas recientes (IEP 4.4%, Sensor 4.9%, Datum 6.2%, enero 2026)"
     },
     "confianza_institucional_ia": {
       "porcentaje": 35,
@@ -1782,6 +2052,21 @@
         "medio": "La República",
         "fecha": "Jan 10, 2026",
         "enlace": "https://larepublica.pe/politica/carlos-alvarez-2026"
+      },
+      {
+        "medio": "El Comercio",
+        "fecha": "Jan 11, 2026",
+        "enlace": "https://elcomercio.pe/politica/elecciones/keiko-fujimori-rafael-lopez-aliaga-carlos-alvarez-elecciones-2026-solo-un-12-asegura-que-ya-definio-a-su-candidato-presidencial-segun-encuesta-de-datum-internacional-tlcnota-noticia/"
+      },
+      {
+        "medio": "Expreso",
+        "fecha": "Jan 29, 2026",
+        "enlace": "https://www.expreso.com.pe/politica/elecciones-generales-2026-intencion-de-voto-presidencial-senado-y-diputados-muestra-alta-fragmentacion-segun-encuesta-sensor-sensor-noticia/1260558"
+      },
+      {
+        "medio": "La República",
+        "fecha": "Jan 26, 2026",
+        "enlace": "https://larepublica.pe/politica/2026/01/26/con-solo-147-rafael-lopez-aliaga-lidera-la-intencion-de-voto-mientras-el-445-aun-no-decide-hnews-2042256"
       }
     ]
   },
@@ -1797,7 +2082,7 @@
     },
     "viabilidad_electoral": {
       "estimacion": 1,
-      "justificacion": "Marginal"
+      "justificacion": "Marginal (<1% en encuestas enero 2026)"
     },
     "confianza_institucional_ia": {
       "porcentaje": 45,
@@ -1834,6 +2119,11 @@
         "medio": "La República",
         "fecha": "Jan 10, 2026",
         "enlace": "https://larepublica.pe/politica/wolfgang-grozo-2026"
+      },
+      {
+        "medio": "Infobae",
+        "fecha": "Dec 8, 2025",
+        "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
       }
     ]
   },
@@ -1942,3 +2232,4 @@
     ]
   }
 ]
+
