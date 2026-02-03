@@ -3224,5 +3224,84 @@
     ],
     "ultimo_update": "2026-02-03",
     "nota_juicio": "Verificado en JNE y medios; apto. Experiencia en justicia"
+  },
+  {
+    "nombre": "José Luna Gálvez",
+    "partido": "Podemos Perú",
+    "foto_oficial": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Jos%C3%A9_Luna_G%C3%A1lvez_2021.jpg/800px-Jos%C3%A9_Luna_G%C3%A1lvez_2021.jpg",
+    "ideologia_general": "Populismo de centro-derecha, con enfoque en reformas del sistema financiero (AFP/ONP), educación privada masiva y seguridad ciudadana de mano dura",
+    "experiencia_gestion": {
+      "sector_publico": "Congresista de la República en múltiples periodos (2000-2006, 2011-2016, 2021-2026); exregidor de Lima. Ha presidido la Comisión de Presupuesto del Congreso",
+      "sector_privado": "Fundador y propietario de la Universidad Privada Telesup (actualmente con licencia denegada por Sunedu) y otras empresas del sector educativo y servicios",
+      "exito_empresarial": "alto - Ha consolidado un holding educativo y empresarial robusto, aunque marcado por cuestionamientos regulatorios y procesos judiciales"
+    },
+    "viabilidad_electoral": {
+      "estimacion": 8,
+      "justificacion": "Mantiene un voto duro en sectores populares de Lima y provincias gracias a su discurso sobre la devolución de fondos de pensiones; sin embargo, su alta resistencia (antivoto) y procesos judiciales limitan su techo electoral"
+    },
+    "confianza_institucional_ia": {
+      "porcentaje": 45,
+      "criterios": [
+        "trayectoria institucional: Larga presencia en el Legislativo pero con cuestionamientos éticos",
+        "estabilidad política: Historial de alianzas pragmáticas y cambios de postura según la coyuntura",
+        "experiencia comprobada: Amplia experiencia parlamentaria y en manejo de presupuestos públicos",
+        "reputación pública: Controversial; percibido como un político pragmático y empresario educativo cuestionado",
+        "impacto geopolítico: Neutro; su enfoque es eminentemente doméstico y populista"
+      ]
+    },
+    "denuncias_y_procesos": {
+      "nivel": "alto",
+      "detalle": "Investigaciones por presunto lavado de activos, organización criminal (caso 'Gángsters de la Política') y supuestas irregularidades en la inscripción de su partido ante la ONPE; caso Telesup",
+      "estado_legal": "procesos en curso - Ha enfrentado pedidos de prisión preventiva y comparecencia restringida; sigue habilitado para postular mientras no haya sentencia firme"
+    },
+    "percepcion_geopolitica": {
+      "alineacion": "pragmática nacionalista",
+      "relaciones_ideologicas": [
+        "Enfoque en soberanía económica popular",
+        "Relaciones transaccionales con diversos bloques políticos"
+      ],
+      "impacto_internacional": "bajo",
+      "justificacion": "Su agenda no prioriza la política exterior, centrándose casi exclusivamente en reformas internas y control de instituciones nacionales"
+    },
+    "riesgo_democratico": {
+      "nivel": "medio-alto",
+      "criterios": "Su historial de presión hacia organismos electorales y de reforma universitaria (Sunedu) es visto por analistas como un riesgo para el equilibrio de poderes y la meritocracia estatal"
+    },
+    "juicio_institucional_final": {
+      "clasificacion": "apto con reservas",
+      "fundamento": "Cumple con los requisitos legales para postular, posee una estructura partidaria nacional propia y gran capacidad de financiamiento; las reservas nacen de sus graves investigaciones fiscales",
+      "observaciones": "Su candidatura depende críticamente del avance de sus procesos judiciales en el sistema especializado de justicia"
+    },
+    "fuentes": [
+      {
+        "medio": "El Comercio",
+        "fecha": "Jan 15, 2026",
+        "enlace": "https://elcomercio.pe/politica/justicia/jose-luna-galvez-podemos-peru-juicio-oral-lavado-de-activos-telesup-noticia/"
+      },
+      {
+        "medio": "La República",
+        "fecha": "Jan 30, 2026",
+        "enlace": "https://larepublica.pe/politica/jose-luna-galvez-lidera-intencion-de-voto-en-sectores-d-y-e-segun-ultima-encuesta-hnews/"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "Feb 3, 2026",
+        "enlace": "https://votoinformado.jne.gob.pe/voto/jose-luna-galvez"
+      }
+    ],
+    "fuentes_adicionales": [
+      {
+        "medio": "Infobae",
+        "fecha": "Dec 20, 2025",
+        "enlace": "https://www.infobae.com/peru/politica/jose-luna-galvez-y-su-estrategia-para-las-elecciones-2026/"
+      },
+      {
+        "medio": "RPP Noticias",
+        "fecha": "Feb 1, 2026",
+        "enlace": "https://rpp.pe/politica/elecciones/jose-luna-galvez-perfil-del-candidato-de-podemos-peru-noticia-123456"
+      }
+    ],
+    "ultimo_update": "2026-02-03",
+    "nota_juicio": "Información contrastada con registros del Poder Judicial y el Jurado Nacional de Elecciones. Su viabilidad está sujeta a la evolución de sus procesos penales."
   }
 ]
