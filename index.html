@@ -279,39 +279,44 @@
     </section>
 
     <!-- Encuestas Estilo Boletín -->
-    <section id="encuestas" class="mb-24">
-        <div class="border-4 border-slate-900 bg-white shadow-[12px_12px_0px_0px_rgba(15,23,42,1)] overflow-hidden">
-            <div class="bg-slate-900 p-6 flex justify-between items-center">
-                <h3 class="text-2xl font-black text-white uppercase tracking-tighter italic">REPORTE DE INTENCIÓN DE VOTO</h3>
-                <span class="text-xs font-black bg-yellow-300 text-slate-900 px-3 py-1 uppercase">DATOS Q1 2026</span>
+   <!-- Encuestas Estilo Boletín (Promedio de Encuestadoras) -->
+    <section id="encuestas" class="mb-12">
+        <div class="border-4 border-slate-900 bg-white shadow-[8px_8px_0px_0px_rgba(15,23,42,1)] overflow-hidden">
+            <div class="bg-slate-900 p-4 flex justify-between items-center">
+                <h3 class="text-xl font-black text-white uppercase tracking-tighter italic">REPORTE DE INTENCIÓN DE VOTO</h3>
+                <span class="text-[10px] font-black bg-yellow-300 text-slate-900 px-2 py-1 uppercase border-2 border-slate-900">DATOS Q1 2026</span>
             </div>
-            <div class="p-10 grid grid-cols-1 lg:grid-cols-2 gap-12">
+            <div class="p-6 grid grid-cols-1 lg:grid-cols-2 gap-8">
                 <div>
-                    <h4 class="text-xl font-black text-slate-900 uppercase border-b-2 border-slate-900 pb-2 mb-6 tracking-widest">Liderazgo Actual</h4>
-                    <div class="space-y-4">
-                        <div class="p-4 border-2 border-slate-900 bg-indigo-50 flex justify-between items-center">
-                            <span class="font-black uppercase text-sm">R. López Aliaga</span>
-                            <span class="text-3xl font-black text-indigo-600">14.2%</span>
+                    <h4 class="text-sm font-black text-slate-900 uppercase border-b-2 border-slate-900 pb-2 mb-4 tracking-widest">
+                        Promedio Nacional (Ipsos, Datum, IEP)
+                    </h4>
+                    <div class="space-y-3">
+                        <div class="p-3 border-2 border-slate-900 bg-indigo-50 flex justify-between items-center">
+                            <span class="font-black uppercase text-xs">R. López Aliaga</span>
+                            <span class="text-2xl font-black text-indigo-600">14.2%</span>
                         </div>
-                        <div class="p-4 border-2 border-slate-900 bg-white flex justify-between items-center">
-                            <span class="font-black uppercase text-sm">Keiko Fujimori</span>
-                            <span class="text-3xl font-black text-slate-900">8.8%</span>
+                        <div class="p-3 border-2 border-slate-900 bg-white flex justify-between items-center">
+                            <span class="font-black uppercase text-xs">Keiko Fujimori</span>
+                            <span class="text-2xl font-black text-slate-900">8.8%</span>
                         </div>
-                        <div class="p-4 border-2 border-slate-900 bg-white flex justify-between items-center">
-                            <span class="font-black uppercase text-sm">Carlos Álvarez</span>
-                            <span class="text-3xl font-black text-slate-900">6.5%</span>
+                        <div class="p-3 border-2 border-slate-900 bg-white flex justify-between items-center">
+                            <span class="font-black uppercase text-xs">Carlos Álvarez</span>
+                            <span class="text-2xl font-black text-slate-900">6.5%</span>
                         </div>
-                        <div class="p-4 bg-slate-100 flex justify-between items-center border-2 border-slate-900 border-dashed">
-                            <span class="font-black uppercase text-xs text-slate-500 italic">Indecisos / Blanco</span>
-                            <span class="text-3xl font-black text-slate-400 italic">44.1%</span>
+                        <div class="p-3 bg-slate-100 flex justify-between items-center border-2 border-slate-900 border-dashed">
+                            <span class="font-black uppercase text-[10px] text-slate-500 italic">Indecisos / Blanco</span>
+                            <span class="text-2xl font-black text-slate-400 italic">44.1%</span>
                         </div>
                     </div>
                 </div>
                 
-                <div class="flex flex-col justify-center text-center p-8 bg-rose-50 border-4 border-rose-600 shadow-[8px_8px_0px_0px_rgba(225,29,72,1)]">
-                    <div class="text-8xl mb-6">📉</div>
-                    <p class="text-4xl font-black text-rose-600 uppercase leading-none mb-4 italic tracking-tighter">68% DESCONFIANZA</p>
-                    <p class="text-sm font-bold text-slate-700 uppercase leading-tight">El voto joven rechaza las propuestas tradicionales. <br/>Escenario de alta fragmentación.</p>
+                <div class="flex flex-col justify-center text-center p-6 bg-rose-50 border-4 border-rose-600 shadow-[6px_6px_0px_0px_rgba(225,29,72,1)]">
+                    <div class="text-6xl mb-4">📉</div>
+                    <p class="text-2xl font-black text-rose-600 uppercase leading-none mb-3 italic tracking-tighter">68% DESCONFIANZA</p>
+                    <p class="text-[10px] font-bold text-slate-700 uppercase leading-tight">
+                        El voto joven rechaza las propuestas tradicionales. <br/>Escenario de alta fragmentación proyectado por las principales encuestadoras.
+                    </p>
                 </div>
             </div>
         </div>
@@ -343,11 +348,7 @@
         </div>
     </section>
 
-    <!-- 
-  SECCIÓN DE PREGUNTAS FRECUENTES (FAQ)
-  Estilo: Neo-Brutalismo Moderno
-  Enfoque: Transparencia de la IA y Neutralidad de Datos
--->
+
 
 <!-- 
   SECCIÓN DE PREGUNTAS FRECUENTES (FAQ)
@@ -568,6 +569,22 @@ function renderGrid(data) {
             (b.confianza_institucional_ia?.porcentaje || 0) -
             (a.confianza_institucional_ia?.porcentaje || 0)
     );
+
+    // Añadir estilo de desplazamiento suave globalmente si no existe
+if (!document.getElementById('smooth-scroll-style')) {
+    const style = document.createElement('style');
+    style.id = 'smooth-scroll-style';
+    style.innerHTML = `
+        html {
+            scroll-behavior: smooth;
+        }
+        /* Ajuste para que el scroll no quede pegado al borde superior si tienes un header fijo */
+        section {
+            scroll-margin-top: 2rem;
+        }
+    `;
+    document.head.appendChild(style);
+}
 
     // Agrupar candidatos
     const groups = {
