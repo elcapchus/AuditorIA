@@ -268,28 +268,28 @@
     "foto_oficial": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Martin_Vizcarra_%28cropped%29.jpg/800px-Martin_Vizcarra_%28cropped%29.jpg",
     "ideologia_general": "Centro-derecha tecnocrática, con enfoque en reformas anti-corrupción y gestión pública eficiente",
     "experiencia_gestion": {
-      "sector_publico": "Presidente del Perú (2018-2020); Ministro de Transportes y Comunicaciones (2016-2017); Gobernador Regional de Moquegua (2011-2014)",
-      "sector_privado": "Ingeniero civil con experiencia en proyectos de infraestructura",
-      "exito_empresarial": "medio - Gerenció empresas de construcción antes de entrar en política"
+      "sector_publico": "no data",
+      "sector_privado": "CyM VIZCARRA SAC - GERENTE ADMINISTRATIVO, AGROTECNICA ESTUQUIÑA SA -GERENTE ADMINISTRATIVO ",
+      "exito_empresarial": "medio"
     },
     "viabilidad_electoral": {
       "estimacion": 4,
       "justificacion": "Intención de voto en 3-6% (encuestas IEP, Sensor, Datum y IPSOS, enero 2026); popularidad por manejo inicial de pandemia, pero rechazo por vacancia y escándalos; nota: algunas encuestas muestran confusión con familiar Mario Vizcarra"
     },
     "confianza_institucional_ia": {
-      "porcentaje": 60,
+      "porcentaje": 30,
       "criterios": [
-        "trayectoria institucional: Experiencia ejecutiva alta, incluyendo presidencia",
-        "estabilidad política: Disolución del Congreso en 2019 generó controversia, pero legal",
-        "experiencia comprobada: Reformas anti-corrupción y gestión regional exitosa",
-        "reputación pública: Mixta, con apoyo en sur pero críticas por vacunación irregular",
-        "impacto geopolítico: Neutro, con buenas relaciones internacionales durante mandato"
+        "Ttrayectoria institucional: Experiencia ejecutiva privada (gerente 30+ años), pero nula experiencia en cargos públicos de elección popular.",
+        "Idoneidad Legal: Vulnerable; presencia de sentencia por Peculado, lo que activa tachas por leyes anticorrupción.",
+        "Capacidad Técnica: Alta; formación sólida en Ingeniería (UNI) y Posgrado en Administración (ESAN).",
+        "Reputación pública: Mixta, con apoyo en sur pero críticas por vacunación irregular",
+        "Situación Patrimonial: Estable; ingresos del sector privado y múltiples propiedades registradas"
       ]
     },
     "denuncias_y_procesos": {
       "nivel": "alto",
-      "detalle": "Investigaciones por corrupción en Club de la Construcción, vacunación irregular (Vacunagate) y presuntos sobornos",
-      "estado_legal": "en investigación y juicio - Inhabilitado por Congreso hasta 2031 para cargos públicos, pero JNE lo habilitó para candidatura presidencial"
+      "detalle": "PENA PRIVATIVA DE LA LIBERTAD/PENA CUMPLIDA",
+      "estado_legal": "PECULADO"
     },
     "percepcion_geopolitica": {
       "alineacion": "democrática",
@@ -297,16 +297,16 @@
         "colaboración con organismos internacionales como OEA y ONU"
       ],
       "impacto_internacional": "neutro-positivo",
-      "justificacion": "Durante presidencia, fortaleció lazos con EE.UU. y Europa; crítico moderado de autoritarismos en la región"
+      "justificacion": "Hermano de presidente que durante presidencia, fortaleció lazos con EE.UU. y Europa; crítico moderado de autoritarismos en la región"
     },
     "riesgo_democratico": {
-      "nivel": "medio",
-      "criterios": "Disolución constitucional del Congreso fue controvertida pero avalada por TC; no hay indicios de tendencias autoritarias sostenidas"
+      "nivel": "alto",
+      "criterios": "Antecedente de sentencia por peculado (corrupción) afecta la confianza en el manejo de recursos del Estado; su candidatura genera inestabilidad legal por tachas basadas en la Ley 30717."
     },
     "juicio_institucional_final": {
-      "clasificacion": "apto con reservas",
-      "fundamento": "Experiencia presidencial probada y reformas implementadas, pero denuncias pendientes y inhabilitación generan dudas; viabilidad moderada y alineación democrática",
-      "observaciones": "Fuerte en gestión técnica, pero necesita transparencia para reconstruir confianza"
+      "clasificacion": "alto riesgo",
+      "fundamento": "Está habilitado para postular, pero carga con el peso político de su sentencia pasada, la cual será el blanco principal de sus opositores durante la campaña.",
+      "observaciones": "Aunque el JNE lo habilitó para postular, su historial registra una sentencia por malversación de fondos públicos. La observación es que, si bien legalmente puede participar, su idoneidad ética está cuestionada por haber afectado el patrimonio del Estado en el pasado."
     },
     "fuentes": [
       {
@@ -709,7 +709,7 @@
       "justificacion": "Intención de voto baja (1-2% en encuestas IEP, Datum, IPSOS, enero 2026); base en izquierda rural, pero alto rechazo por radicalismo"
     },
     "confianza_institucional_ia": {
-      "porcentaje": 35,
+      "porcentaje": 1,
       "criterios": [
         "trayectoria institucional: Gestión regional con controversias",
         "estabilidad política: Declaraciones radicales generan inestabilidad",
