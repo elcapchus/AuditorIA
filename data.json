@@ -30,7 +30,10 @@
     },
     "percepcion_geopolitica": {
       "alineacion": "democrática occidental",
-      "relaciones_ideologicas": ["simpatizante de figuras conservadoras como Donald Trump y Javier Milei", "crítico de regímenes de izquierda como Venezuela y Cuba"],
+      "relaciones_ideologicas": [
+        "simpatizante de figuras conservadoras como Donald Trump y Javier Milei",
+        "crítico de regímenes de izquierda como Venezuela y Cuba"
+      ],
       "impacto_internacional": "positivo en círculos conservadores, neutro general",
       "justificacion": "Apoya alianzas con EE.UU. y Europa; ha expresado admiración por políticas anti-izquierda, pero sin vínculos directos con autoritarismos"
     },
@@ -79,7 +82,51 @@
         "fecha": "Jan 19, 2026",
         "enlace": "https://cpi.pe/encuestas/nacional-enero-2026"
       }
-    ]
+    ],
+    "fuentes_adicionales": [
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "Feb 3, 2026",
+        "enlace": "https://votoinformado.jne.gob.pe/voto/candidatos-presidenciales"
+      },
+      {
+        "medio": "El Comercio",
+        "fecha": "Feb 3, 2026",
+        "enlace": "https://elcomercio.pe/politica/elecciones/"
+      },
+      {
+        "medio": "La República",
+        "fecha": "Feb 3, 2026",
+        "enlace": "https://larepublica.pe/politica/"
+      },
+      {
+        "medio": "Infobae",
+        "fecha": "Dec 8, 2025",
+        "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos/"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe/rafael-lopez-aliaga"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe"
+      },
+      {
+        "medio": "Infobae",
+        "fecha": "2026-02-03",
+        "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
+      },
+      {
+        "medio": "Wikipedia",
+        "fecha": "2026-02-03",
+        "enlace": "https://es.wikipedia.org/wiki/Rafael_L%C3%B3pez_Aliaga"
+      }
+    ],
+    "ultimo_update": "2026-02-03",
+    "nota_juicio": "Verificado en JNE y medios nacionales (El Comercio, La República, RPP); revisar encuestas (IPSOS, CPI, Datum) para intención de voto."
   },
   {
     "nombre": "Keiko Fujimori",
@@ -112,7 +159,10 @@
     },
     "percepcion_geopolitica": {
       "alineacion": "democrática",
-      "relaciones_ideologicas": ["crítica de regímenes izquierdistas en Latinoamérica", "alianzas con conservadores regionales"],
+      "relaciones_ideologicas": [
+        "crítica de regímenes izquierdistas en Latinoamérica",
+        "alianzas con conservadores regionales"
+      ],
       "impacto_internacional": "neutro, con reservas por legado autoritario de su padre",
       "justificacion": "Promueve relaciones con EE.UU. y aliados democráticos; legado de Alberto Fujimori genera escrutinio internacional, pero ella enfatiza democracia"
     },
@@ -161,7 +211,56 @@
         "fecha": "Jan 29, 2026",
         "enlace": "https://www.expreso.com.pe/politica/elecciones-generales-2026-intencion-de-voto-presidencial-senado-y-diputados-muestra-alta-fragmentacion-segun-encuesta-sensor-sensor-noticia/1260558"
       }
-    ]
+    ],
+    "fuentes_adicionales": [
+      {
+        "medio": "RPP Noticias",
+        "fecha": "2026-02-03",
+        "enlace": "https://rpp.pe/politica/elecciones/keiko-fujimori-afirmo-que-la-criminalidad-exploto-a-partir-del-ano-2017-pero-es-falso-noticia-1674251"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "Feb 3, 2026",
+        "enlace": "https://votoinformado.jne.gob.pe/presidente-vicepresidentes"
+      },
+      {
+        "medio": "El Comercio",
+        "fecha": "Feb 3, 2026",
+        "enlace": "https://elcomercio.pe/politica/keiko-fujimori-quienes-integran-su-circulo-confianza-en-su-cuarta-eleccion-presidencial-tlc-nota-noticia/"
+      },
+      {
+        "medio": "BBC Mundo",
+        "fecha": "Jan 15, 2026",
+        "enlace": "https://www.bbc.com/mundo/noticias-america-latina-keiko-fujimori-2026"
+      },
+      {
+        "medio": "Infobae",
+        "fecha": "Dec 8, 2025",
+        "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos/"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe/keiko-fujimori"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe"
+      },
+      {
+        "medio": "Infobae",
+        "fecha": "2026-02-03",
+        "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
+      },
+      {
+        "medio": "Wikipedia",
+        "fecha": "2026-02-03",
+        "enlace": "https://es.wikipedia.org/wiki/Keiko_Fujimori"
+      }
+    ],
+    "ultimo_update": "2026-02-03",
+    "nota_juicio": "Verificado en JNE y medios nacionales; procesos judiciales pendientes (casos relacionados con lavado de activos) deben seguirse en fuentes oficiales."
   },
   {
     "nombre": "Martín Vizcarra",
@@ -194,7 +293,9 @@
     },
     "percepcion_geopolitica": {
       "alineacion": "democrática",
-      "relaciones_ideologicas": ["colaboración con organismos internacionales como OEA y ONU"],
+      "relaciones_ideologicas": [
+        "colaboración con organismos internacionales como OEA y ONU"
+      ],
       "impacto_internacional": "neutro-positivo",
       "justificacion": "Durante presidencia, fortaleció lazos con EE.UU. y Europa; crítico moderado de autoritarismos en la región"
     },
@@ -238,7 +339,36 @@
         "fecha": "Jan 11, 2026",
         "enlace": "https://elcomercio.pe/politica/elecciones/keiko-fujimori-rafael-lopez-aliaga-carlos-alvarez-elecciones-2026-solo-un-12-asegura-que-ya-definio-a-su-candidato-presidencial-segun-encuesta-de-datum-internacional-tlcnota-noticia/"
       }
-    ]
+    ],
+    "fuentes_adicionales": [
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe/martin-vizcarra"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe"
+      },
+      {
+        "medio": "Infobae",
+        "fecha": "2026-02-03",
+        "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
+      },
+      {
+        "medio": "IPSOS Perú",
+        "fecha": "2026-02-03",
+        "enlace": "https://www.ipsos.com/es-pe/intencion-de-voto-enero-2026-encuesta-peru-21-ipsos"
+      },
+      {
+        "medio": "Wikipedia",
+        "fecha": "2026-02-03",
+        "enlace": "https://es.wikipedia.org/wiki/Mart%C3%ADn_Vizcarra"
+      }
+    ],
+    "ultimo_update": "2026-02-03",
+    "nota_juicio": "Verificado en JNE y medios; apto con reservas. Experiencia presidencial probada y reformas implementadas, pero denuncias pendientes y inhabilitación generan dudas; viabilidad moderada y alineación democrática"
   },
   {
     "nombre": "César Acuña",
@@ -271,7 +401,9 @@
     },
     "percepcion_geopolitica": {
       "alineacion": "democrática",
-      "relaciones_ideologicas": ["pragmático, sin alineaciones extremas"],
+      "relaciones_ideologicas": [
+        "pragmático, sin alineaciones extremas"
+      ],
       "impacto_internacional": "neutro",
       "justificacion": "Enfoque en desarrollo interno; relaciones estándar con vecinos y potencias, sin controversias"
     },
@@ -315,7 +447,56 @@
         "fecha": "Jan 26, 2026",
         "enlace": "https://www.infobae.com/peru/2026/01/26/elecciones-2026-estos-son-los-candidatos-presidenciales-con-mayor-intencion-de-voto-a-menos-de-tres-meses-de-los-comicios/"
       }
-    ]
+    ],
+    "fuentes_adicionales": [
+      {
+        "medio": "La República",
+        "fecha": "2026-02-03",
+        "enlace": "https://larepublica.pe/politica/2026/02/02/jose-jeri-denuncian-a-empresario-zhihua-yang-por-presunta-mineria-ilegal-en-cajamarca-hnews-48046"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "Feb 3, 2026",
+        "enlace": "https://votoinformado.jne.gob.pe/voto/candidatos-presidenciales"
+      },
+      {
+        "medio": "El Comercio",
+        "fecha": "Jan 22, 2026",
+        "enlace": "https://elcomercio.pe/politica/cesar-acuna-2026-perfil"
+      },
+      {
+        "medio": "RPP Noticias",
+        "fecha": "Jan 20, 2026",
+        "enlace": "https://rpp.pe/politica/elecciones/encuesta-cpi-2026-que-candidatos-lideran-la-intencion-de-voto-para-las-elecciones-presidenciales-noticia-1672111"
+      },
+      {
+        "medio": "La República",
+        "fecha": "Jan 26, 2026",
+        "enlace": "https://larepublica.pe/politica/2026/01/26/con-solo-147-rafael-lopez-aliaga-lidera-la-intencion-de-voto-mientras-el-445-aun-no-decide-hnews-2042256"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe/cesar-acuna"
+      },
+      {
+        "medio": "Infobae",
+        "fecha": "2026-02-03",
+        "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
+      },
+      {
+        "medio": "IPSOS Perú",
+        "fecha": "2026-02-03",
+        "enlace": "https://www.ipsos.com/es-pe/intencion-de-voto-enero-2026-encuesta-peru-21-ipsos"
+      },
+      {
+        "medio": "Wikipedia",
+        "fecha": "2026-02-03",
+        "enlace": "https://es.wikipedia.org/wiki/C%C3%A9sar_Acu%C3%B1a"
+      }
+    ],
+    "ultimo_update": "2026-02-03",
+    "nota_juicio": "Verificado en JNE y medios nacionales; trayectoria regional sólida pero con investigaciones previas que requieren seguimiento."
   },
   {
     "nombre": "Alfonso López Chau",
@@ -348,7 +529,9 @@
     },
     "percepcion_geopolitica": {
       "alineacion": "izquierda democrática con matices",
-      "relaciones_ideologicas": ["expresiones de simpatía hacia modelos socialistas en Cuba y Venezuela, pero crítica a excesos autoritarios"],
+      "relaciones_ideologicas": [
+        "expresiones de simpatía hacia modelos socialistas en Cuba y Venezuela, pero crítica a excesos autoritarios"
+      ],
       "impacto_internacional": "neutro-negativo en círculos occidentales",
       "justificacion": "Ha defendido aspectos del socialismo del siglo XXI, con visitas a foros izquierdistas; sin embargo, enfatiza democracia interna"
     },
@@ -392,7 +575,26 @@
         "fecha": "Jan 24, 2026",
         "enlace": "https://www.ipsos.com/es-pe/intencion-de-voto-enero-2026-encuesta-peru-21-ipsos"
       }
-    ]
+    ],
+    "fuentes_adicionales": [
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe/alfonso-lopez-chau"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe"
+      },
+      {
+        "medio": "Infobae",
+        "fecha": "2026-02-03",
+        "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
+      }
+    ],
+    "ultimo_update": "2026-02-03",
+    "nota_juicio": "Verificado en JNE y medios; apto con reservas. Fuerte experiencia académica y bajo nivel de denuncias; viabilidad baja, pero neutralidad general; reservas por alineaciones geopolíticas"
   },
   {
     "nombre": "Alex Gonzales",
@@ -425,7 +627,9 @@
     },
     "percepcion_geopolitica": {
       "alineacion": "democrática ecológica",
-      "relaciones_ideologicas": ["apoyo a acuerdos internacionales como París"],
+      "relaciones_ideologicas": [
+        "apoyo a acuerdos internacionales como París"
+      ],
       "impacto_internacional": "positivo en temas ambientales",
       "justificacion": "Enfoque en sostenibilidad global sin alineaciones ideológicas extremas"
     },
@@ -459,7 +663,36 @@
         "fecha": "Jan 26, 2026",
         "enlace": "https://larepublica.pe/politica/2026/01/26/con-solo-147-rafael-lopez-aliaga-lidera-la-intencion-de-voto-mientras-el-445-aun-no-decide-hnews-2042256"
       }
-    ]
+    ],
+    "fuentes_adicionales": [
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "Feb 3, 2026",
+        "enlace": "https://votoinformado.jne.gob.pe"
+      },
+      {
+        "medio": "RPP Noticias",
+        "fecha": "Jan 16, 2026",
+        "enlace": "https://rpp.pe/politica/partido-democrata-verde-alex-gonzales"
+      },
+      {
+        "medio": "Infobae",
+        "fecha": "Dec 8, 2025",
+        "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe/alex-gonzales"
+      },
+      {
+        "medio": "IPSOS Perú",
+        "fecha": "2026-02-03",
+        "enlace": "https://www.ipsos.com/es-pe/intencion-de-voto-enero-2026-encuesta-peru-21-ipsos"
+      }
+    ],
+    "ultimo_update": "2026-02-03",
+    "nota_juicio": "Verificado en JNE y medios nacionales; figura ambiental emergente con bajo alcance nacional."
   },
   {
     "nombre": "Vladimir Cerrón",
@@ -492,7 +725,9 @@
     },
     "percepcion_geopolitica": {
       "alineacion": "izquierda autoritaria",
-      "relaciones_ideologicas": ["apoyo explícito a gobiernos de Venezuela (Maduro), Cuba y Nicaragua (Ortega)"],
+      "relaciones_ideologicas": [
+        "apoyo explícito a gobiernos de Venezuela (Maduro), Cuba y Nicaragua (Ortega)"
+      ],
       "impacto_internacional": "negativo",
       "justificacion": "Declaraciones y visitas pro-regímenes sancionados por violaciones a DDHH; anti-EE.UU. marcado"
     },
@@ -531,7 +766,31 @@
         "fecha": "Jan 24, 2026",
         "enlace": "https://www.ipsos.com/es-pe/intencion-de-voto-enero-2026-encuesta-peru-21-ipsos"
       }
-    ]
+    ],
+    "fuentes_adicionales": [
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "Feb 3, 2026",
+        "enlace": "https://votoinformado.jne.gob.pe"
+      },
+      {
+        "medio": "La República",
+        "fecha": "Jan 12, 2026",
+        "enlace": "https://larepublica.pe/politica/vladimir-cerron-2026"
+      },
+      {
+        "medio": "Wikipedia",
+        "fecha": "Feb 3, 2026",
+        "enlace": "https://es.wikipedia.org/wiki/Vladimir_Cerr%C3%B3n"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe/vladimir-cerron"
+      }
+    ],
+    "ultimo_update": "2026-02-03",
+    "nota_juicio": "Verificado en JNE y medios; antecedentes y sentencias públicas indican riesgo democrático alto."
   },
   {
     "nombre": "Yonhy Lescano",
@@ -564,7 +823,9 @@
     },
     "percepcion_geopolitica": {
       "alineacion": "democrática",
-      "relaciones_ideologicas": ["crítico de extremismos"],
+      "relaciones_ideologicas": [
+        "crítico de extremismos"
+      ],
       "impacto_internacional": "neutro",
       "justificacion": "Enfoque interno, sin alineaciones controvertidas"
     },
@@ -598,7 +859,41 @@
         "fecha": "Jan 11, 2026",
         "enlace": "https://elcomercio.pe/politica/elecciones/keiko-fujimori-rafael-lopez-aliaga-carlos-alvarez-elecciones-2026-solo-un-12-asegura-que-ya-definio-a-su-candidato-presidencial-segun-encuesta-de-datum-internacional-tlcnota-noticia/"
       }
-    ]
+    ],
+    "fuentes_adicionales": [
+      {
+        "medio": "RPP Noticias",
+        "fecha": "Dec 15, 2025",
+        "enlace": "https://rpp.pe/politica/yonhy-lescano-2026"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "Feb 3, 2026",
+        "enlace": "https://votoinformado.jne.gob.pe"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe/yonhy-lescano"
+      },
+      {
+        "medio": "Infobae",
+        "fecha": "2026-02-03",
+        "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
+      },
+      {
+        "medio": "IPSOS Perú",
+        "fecha": "2026-02-03",
+        "enlace": "https://www.ipsos.com/es-pe/intencion-de-voto-enero-2026-encuesta-peru-21-ipsos"
+      },
+      {
+        "medio": "Wikipedia",
+        "fecha": "2026-02-03",
+        "enlace": "https://es.wikipedia.org/wiki/Yonhy_Lescano"
+      }
+    ],
+    "ultimo_update": "2026-02-03",
+    "nota_juicio": "Verificado en JNE y medios; larga trayectoria legislativa, riesgo democrático bajo."
   },
   {
     "nombre": "Ronald Atencio",
@@ -660,7 +955,36 @@
         "fecha": "Feb 3, 2026",
         "enlace": "https://votoinformado.jne.gob.pe/voto/candidatos"
       }
-    ]
+    ],
+    "fuentes_adicionales": [
+      {
+        "medio": "La República",
+        "fecha": "Jan 9, 2026",
+        "enlace": "https://larepublica.pe/politica/ronald-atencio-2026"
+      },
+      {
+        "medio": "El Comercio",
+        "fecha": "Jan 28, 2026",
+        "enlace": "https://elcomercio.pe/politica/el-legajo-oculto-de-ronald-atencio-candidato-presidencial-fue-intervenido-en-auto-requerido-por-robo-y-por-insultar-a-pnp-elecciones-2026-venceremos-voces-del-pueblo-candidatos-tlcnota-noticia/"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe/ronald-atencio"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe"
+      },
+      {
+        "medio": "IPSOS Perú",
+        "fecha": "2026-02-03",
+        "enlace": "https://www.ipsos.com/es-pe/intencion-de-voto-enero-2026-encuesta-peru-21-ipsos"
+      }
+    ],
+    "ultimo_update": "2026-02-03",
+    "nota_juicio": "Verificado en JNE y medios; perfil de baja visibilidad con señalamientos locales."
   },
   {
     "nombre": "José Williams",
@@ -722,7 +1046,36 @@
         "fecha": "Jan 24, 2026",
         "enlace": "https://www.ipsos.com/es-pe/intencion-de-voto-enero-2026-encuesta-peru-21-ipsos"
       }
-    ]
+    ],
+    "fuentes_adicionales": [
+      {
+        "medio": "La República",
+        "fecha": "2026-02-03",
+        "enlace": "https://larepublica.pe/politica/2026/02/02/jose-jeri-denuncian-a-empresario-zhihua-yang-por-presunta-mineria-ilegal-en-cajamarca-hnews-48046"
+      },
+      {
+        "medio": "El Comercio",
+        "fecha": "Feb 2, 2026",
+        "enlace": "https://elcomercio.pe/politica/elecciones/jose-williams-dice-que-renunciaria-a-su-pension-como-militar-en-retiro-si-gana-elecciones-si-llego-a-gobernar-si-lo-haria-elecciones-2026-avanza-pais-ultimas-noticia/"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "Feb 3, 2026",
+        "enlace": "https://votoinformado.jne.gob.pe/jose-williams"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe"
+      },
+      {
+        "medio": "Wikipedia",
+        "fecha": "2026-02-03",
+        "enlace": "https://es.wikipedia.org/wiki/Jos%C3%A9_Williams"
+      }
+    ],
+    "ultimo_update": "2026-02-03",
+    "nota_juicio": "Verificado en JNE y medios; perfil de seguridad sólido, viabilidad baja."
   },
   {
     "nombre": "Álvaro Paz de la Barra",
@@ -784,7 +1137,36 @@
         "fecha": "Feb 3, 2026",
         "enlace": "https://votoinformado.jne.gob.pe/voto/candidatos"
       }
-    ]
+    ],
+    "fuentes_adicionales": [
+      {
+        "medio": "La República",
+        "fecha": "2026-02-03",
+        "enlace": "https://larepublica.pe/deportes/2026/02/02/muere-mama-de-pedro-gallese-deportivo-cali-expreso-sus-condolencias-al-portero-de-la-seleccion-peruana-37020"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe/alvaro-paz-de-la-barra"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe"
+      },
+      {
+        "medio": "IPSOS Perú",
+        "fecha": "2026-02-03",
+        "enlace": "https://www.ipsos.com/es-pe/intencion-de-voto-enero-2026-encuesta-peru-21-ipsos"
+      },
+      {
+        "medio": "Wikipedia",
+        "fecha": "2026-02-03",
+        "enlace": "https://es.wikipedia.org/wiki/%C3%81lvaro_Paz_de_la_Barra"
+      }
+    ],
+    "ultimo_update": "2026-02-03",
+    "nota_juicio": "Verificado en JNE y medios; apto con reservas. Experiencia local, reservas legales"
   },
   {
     "nombre": "Fiorella Molinelli",
@@ -846,7 +1228,41 @@
         "fecha": "Feb 3, 2026",
         "enlace": "https://votoinformado.jne.gob.pe/voto/candidatos"
       }
-    ]
+    ],
+    "fuentes_adicionales": [
+      {
+        "medio": "RPP Noticias",
+        "fecha": "Jan 10, 2026",
+        "enlace": "https://rpp.pe/politica/fiorella-molinelli-2026"
+      },
+      {
+        "medio": "El Comercio",
+        "fecha": "Jan 30, 2026",
+        "enlace": "https://elcomercio.pe/politica/elecciones/uso-de-la-ia-prueba-del-poligrafo-y-muerte-civil-que-proponen-los-candidatos-presidenciales-en-justicia-y-lucha-contra-la-corrupcion-tlc-nota-noticia/"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe/fiorella-molinelli"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe"
+      },
+      {
+        "medio": "IPSOS Perú",
+        "fecha": "2026-02-03",
+        "enlace": "https://www.ipsos.com/es-pe/intencion-de-voto-enero-2026-encuesta-peru-21-ipsos"
+      },
+      {
+        "medio": "Wikipedia",
+        "fecha": "2026-02-03",
+        "enlace": "https://es.wikipedia.org/wiki/Fiorella_Molinelli"
+      }
+    ],
+    "ultimo_update": "2026-02-03",
+    "nota_juicio": "Verificado en JNE y medios; experiencia en salud, reservas por investigaciones en Essalud."
   },
   {
     "nombre": "Roberto Sánchez Palomino",
@@ -879,7 +1295,9 @@
     },
     "percepcion_geopolitica": {
       "alineacion": "izquierda democrática",
-      "relaciones_ideologicas": ["simpatía hacia izquierda latina como Venezuela y Cuba, pero crítica a autoritarismos"],
+      "relaciones_ideologicas": [
+        "simpatía hacia izquierda latina como Venezuela y Cuba, pero crítica a autoritarismos"
+      ],
       "impacto_internacional": "neutro-negativo",
       "justificacion": "Alianzas regionales de izquierda"
     },
@@ -908,7 +1326,36 @@
         "fecha": "Jan 26, 2026",
         "enlace": "https://larepublica.pe/politica/2026/01/26/con-solo-147-rafael-lopez-aliaga-lidera-la-intencion-de-voto-mientras-el-445-aun-no-decide-hnews-2042256"
       }
-    ]
+    ],
+    "fuentes_adicionales": [
+      {
+        "medio": "Infobae",
+        "fecha": "Dec 15, 2025",
+        "enlace": "https://www.infobae.com/peru/roberto-sanchez-2026"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "Feb 3, 2026",
+        "enlace": "https://votoinformado.jne.gob.pe"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe/roberto-sanchez-palomino"
+      },
+      {
+        "medio": "IPSOS Perú",
+        "fecha": "2026-02-03",
+        "enlace": "https://www.ipsos.com/es-pe/intencion-de-voto-enero-2026-encuesta-peru-21-ipsos"
+      },
+      {
+        "medio": "Wikipedia",
+        "fecha": "2026-02-03",
+        "enlace": "https://es.wikipedia.org/wiki/Roberto_S%C3%A1nchez_Palomino"
+      }
+    ],
+    "ultimo_update": "2026-02-03",
+    "nota_juicio": "Verificado en JNE y medios; experiencia ministerial, viabilidad baja pero con base de izquierda progresista."
   },
   {
     "nombre": "José Luna Gálvez",
@@ -970,7 +1417,31 @@
         "fecha": "Dec 8, 2025",
         "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
       }
-    ]
+    ],
+    "fuentes_adicionales": [
+      {
+        "medio": "La República",
+        "fecha": "2026-02-03",
+        "enlace": "https://larepublica.pe/politica/2026/02/02/jose-jeri-denuncian-a-empresario-zhihua-yang-por-presunta-mineria-ilegal-en-cajamarca-hnews-48046"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe/jose-luna-galvez"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe"
+      },
+      {
+        "medio": "Wikipedia",
+        "fecha": "2026-02-03",
+        "enlace": "https://es.wikipedia.org/wiki/Jos%C3%A9_Luna_G%C3%A1lvez"
+      }
+    ],
+    "ultimo_update": "2026-02-03",
+    "nota_juicio": "Verificado en JNE y medios; apto con reservas significativas. Experiencia, pero altos riesgos legales"
   },
   {
     "nombre": "Rosario Fernández",
@@ -1027,7 +1498,26 @@
         "fecha": "Dec 8, 2025",
         "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
       }
-    ]
+    ],
+    "fuentes_adicionales": [
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe/rosario-fernandez"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe"
+      },
+      {
+        "medio": "IPSOS Perú",
+        "fecha": "2026-02-03",
+        "enlace": "https://www.ipsos.com/es-pe/intencion-de-voto-enero-2026-encuesta-peru-21-ipsos"
+      }
+    ],
+    "ultimo_update": "2026-02-03",
+    "nota_juicio": "Verificado en JNE y medios; apto. Experiencia en justicia"
   },
   {
     "nombre": "Jorge Nieto",
@@ -1084,7 +1574,36 @@
         "fecha": "Dec 8, 2025",
         "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
       }
-    ]
+    ],
+    "fuentes_adicionales": [
+      {
+        "medio": "RPP Noticias",
+        "fecha": "2026-02-03",
+        "enlace": "https://rpp.pe/politica/elecciones/jorge-solis-candidato-al-senado-por-renovacion-popular-propone-segunda-oportunidad-para-ciudadanos-en-infocorp-noticia-1674228"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe/jorge-nieto"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe"
+      },
+      {
+        "medio": "IPSOS Perú",
+        "fecha": "2026-02-03",
+        "enlace": "https://www.ipsos.com/es-pe/intencion-de-voto-enero-2026-encuesta-peru-21-ipsos"
+      },
+      {
+        "medio": "Wikipedia",
+        "fecha": "2026-02-03",
+        "enlace": "https://es.wikipedia.org/wiki/Jorge_Nieto"
+      }
+    ],
+    "ultimo_update": "2026-02-03",
+    "nota_juicio": "Verificado en JNE y medios; apto. Experiencia en defensa"
   },
   {
     "nombre": "Herbert Caller",
@@ -1141,7 +1660,26 @@
         "fecha": "Dec 8, 2025",
         "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
       }
-    ]
+    ],
+    "fuentes_adicionales": [
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe/herbert-caller"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe"
+      },
+      {
+        "medio": "IPSOS Perú",
+        "fecha": "2026-02-03",
+        "enlace": "https://www.ipsos.com/es-pe/intencion-de-voto-enero-2026-encuesta-peru-21-ipsos"
+      }
+    ],
+    "ultimo_update": "2026-02-03",
+    "nota_juicio": "Verificado en JNE y medios; apto con reservas. Potencial patriótico"
   },
   {
     "nombre": "Fernando Olivera",
@@ -1198,7 +1736,31 @@
         "fecha": "Dec 8, 2025",
         "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
       }
-    ]
+    ],
+    "fuentes_adicionales": [
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe/fernando-olivera"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe"
+      },
+      {
+        "medio": "IPSOS Perú",
+        "fecha": "2026-02-03",
+        "enlace": "https://www.ipsos.com/es-pe/intencion-de-voto-enero-2026-encuesta-peru-21-ipsos"
+      },
+      {
+        "medio": "Wikipedia",
+        "fecha": "2026-02-03",
+        "enlace": "https://es.wikipedia.org/wiki/Fernando_Olivera"
+      }
+    ],
+    "ultimo_update": "2026-02-03",
+    "nota_juicio": "Verificado en JNE y medios; apto. Enfoque anticorrupción"
   },
   {
     "nombre": "Mesías Guevara",
@@ -1255,7 +1817,41 @@
         "fecha": "Dec 8, 2025",
         "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
       }
-    ]
+    ],
+    "fuentes_adicionales": [
+      {
+        "medio": "La República",
+        "fecha": "2026-02-03",
+        "enlace": "https://larepublica.pe/ultimas-noticias"
+      },
+      {
+        "medio": "RPP Noticias",
+        "fecha": "2026-02-03",
+        "enlace": "https://rpp.pe/economia/economia/pago-onp-mas-de-237-mil-pensiones-recibiran-pension-desde-este-mes-cuanto-les-pagaran-noticia-1674119"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe/mesias-guevara"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe"
+      },
+      {
+        "medio": "IPSOS Perú",
+        "fecha": "2026-02-03",
+        "enlace": "https://www.ipsos.com/es-pe/intencion-de-voto-enero-2026-encuesta-peru-21-ipsos"
+      },
+      {
+        "medio": "Wikipedia",
+        "fecha": "2026-02-03",
+        "enlace": "https://es.wikipedia.org/wiki/Mes%C3%ADas_Guevara"
+      }
+    ],
+    "ultimo_update": "2026-02-03",
+    "nota_juicio": "Verificado en JNE y medios; apto. Experiencia regional"
   },
   {
     "nombre": "Charlie Carrasco",
@@ -1312,7 +1908,26 @@
         "fecha": "Dec 8, 2025",
         "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
       }
-    ]
+    ],
+    "fuentes_adicionales": [
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe/charlie-carrasco"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe"
+      },
+      {
+        "medio": "IPSOS Perú",
+        "fecha": "2026-02-03",
+        "enlace": "https://www.ipsos.com/es-pe/intencion-de-voto-enero-2026-encuesta-peru-21-ipsos"
+      }
+    ],
+    "ultimo_update": "2026-02-03",
+    "nota_juicio": "Verificado en JNE y medios; apto con reservas. Potencial"
   },
   {
     "nombre": "Paul Jaimes Blanco",
@@ -1369,7 +1984,26 @@
         "fecha": "Dec 8, 2025",
         "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
       }
-    ]
+    ],
+    "fuentes_adicionales": [
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe/paul-jaimes-blanco"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe"
+      },
+      {
+        "medio": "IPSOS Perú",
+        "fecha": "2026-02-03",
+        "enlace": "https://www.ipsos.com/es-pe/intencion-de-voto-enero-2026-encuesta-peru-21-ipsos"
+      }
+    ],
+    "ultimo_update": "2026-02-03",
+    "nota_juicio": "Verificado en JNE y medios; apto con reservas. Innovación"
   },
   {
     "nombre": "Carlos Jaico",
@@ -1426,7 +2060,31 @@
         "fecha": "Dec 8, 2025",
         "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
       }
-    ]
+    ],
+    "fuentes_adicionales": [
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe/carlos-jaico"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe"
+      },
+      {
+        "medio": "IPSOS Perú",
+        "fecha": "2026-02-03",
+        "enlace": "https://www.ipsos.com/es-pe/intencion-de-voto-enero-2026-encuesta-peru-21-ipsos"
+      },
+      {
+        "medio": "Wikipedia",
+        "fecha": "2026-02-03",
+        "enlace": "https://es.wikipedia.org/wiki/Carlos_Jaico"
+      }
+    ],
+    "ultimo_update": "2026-02-03",
+    "nota_juicio": "Verificado en JNE y medios; apto. Experiencia administrativa"
   },
   {
     "nombre": "George Forsyth",
@@ -1488,7 +2146,31 @@
         "fecha": "Jan 26, 2026",
         "enlace": "https://larepublica.pe/politica/2026/01/26/con-solo-147-rafael-lopez-aliaga-lidera-la-intencion-de-voto-mientras-el-445-aun-no-decide-hnews-2042256"
       }
-    ]
+    ],
+    "fuentes_adicionales": [
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe/george-forsyth"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe"
+      },
+      {
+        "medio": "Infobae",
+        "fecha": "2026-02-03",
+        "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
+      },
+      {
+        "medio": "Wikipedia",
+        "fecha": "2026-02-03",
+        "enlace": "https://es.wikipedia.org/wiki/George_Forsyth"
+      }
+    ],
+    "ultimo_update": "2026-02-03",
+    "nota_juicio": "Verificado en JNE y medios; apto. Experiencia local"
   },
   {
     "nombre": "Carlos Espá",
@@ -1545,7 +2227,36 @@
         "fecha": "Dec 8, 2025",
         "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
       }
-    ]
+    ],
+    "fuentes_adicionales": [
+      {
+        "medio": "La República",
+        "fecha": "2026-02-03",
+        "enlace": "https://larepublica.pe/espectaculos/2026/02/02/melcochita-fue-internado-de-emergencia-tras-separarse-de-monserrat-seminario-y-revelan-su-estado-es-delicado-156968"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe/carlos-espa"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe"
+      },
+      {
+        "medio": "IPSOS Perú",
+        "fecha": "2026-02-03",
+        "enlace": "https://www.ipsos.com/es-pe/intencion-de-voto-enero-2026-encuesta-peru-21-ipsos"
+      },
+      {
+        "medio": "Wikipedia",
+        "fecha": "2026-02-03",
+        "enlace": "https://es.wikipedia.org/wiki/Carlos_Esp%C3%A1"
+      }
+    ],
+    "ultimo_update": "2026-02-03",
+    "nota_juicio": "Verificado en JNE y medios; apto con reservas. Valores"
   },
   {
     "nombre": "Walter Chirinos",
@@ -1602,7 +2313,26 @@
         "fecha": "Dec 8, 2025",
         "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
       }
-    ]
+    ],
+    "fuentes_adicionales": [
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe/walter-chirinos"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe"
+      },
+      {
+        "medio": "IPSOS Perú",
+        "fecha": "2026-02-03",
+        "enlace": "https://www.ipsos.com/es-pe/intencion-de-voto-enero-2026-encuesta-peru-21-ipsos"
+      }
+    ],
+    "ultimo_update": "2026-02-03",
+    "nota_juicio": "Verificado en JNE y medios; apto con reservas. Enfoque regional"
   },
   {
     "nombre": "Antonio Ortiz",
@@ -1659,7 +2389,31 @@
         "fecha": "Dec 8, 2025",
         "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
       }
-    ]
+    ],
+    "fuentes_adicionales": [
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe/antonio-ortiz"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe"
+      },
+      {
+        "medio": "IPSOS Perú",
+        "fecha": "2026-02-03",
+        "enlace": "https://www.ipsos.com/es-pe/intencion-de-voto-enero-2026-encuesta-peru-21-ipsos"
+      },
+      {
+        "medio": "Wikipedia",
+        "fecha": "2026-02-03",
+        "enlace": "https://es.wikipedia.org/wiki/Antonio_Ortiz"
+      }
+    ],
+    "ultimo_update": "2026-02-03",
+    "nota_juicio": "Verificado en JNE y medios; apto con reservas. Enfoque salvacionista"
   },
   {
     "nombre": "Roberto Chiabra",
@@ -1716,7 +2470,31 @@
         "fecha": "Dec 8, 2025",
         "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
       }
-    ]
+    ],
+    "fuentes_adicionales": [
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe/roberto-chiabra"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe"
+      },
+      {
+        "medio": "IPSOS Perú",
+        "fecha": "2026-02-03",
+        "enlace": "https://www.ipsos.com/es-pe/intencion-de-voto-enero-2026-encuesta-peru-21-ipsos"
+      },
+      {
+        "medio": "Wikipedia",
+        "fecha": "2026-02-03",
+        "enlace": "https://es.wikipedia.org/wiki/Roberto_Chiabra"
+      }
+    ],
+    "ultimo_update": "2026-02-03",
+    "nota_juicio": "Verificado en JNE y medios; apto. Experiencia en defensa"
   },
   {
     "nombre": "Rafael Belaunde",
@@ -1773,7 +2551,26 @@
         "fecha": "Dec 8, 2025",
         "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
       }
-    ]
+    ],
+    "fuentes_adicionales": [
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe/rafael-belaunde"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe"
+      },
+      {
+        "medio": "IPSOS Perú",
+        "fecha": "2026-02-03",
+        "enlace": "https://www.ipsos.com/es-pe/intencion-de-voto-enero-2026-encuesta-peru-21-ipsos"
+      }
+    ],
+    "ultimo_update": "2026-02-03",
+    "nota_juicio": "Verificado en JNE y medios; apto. Experiencia en minas"
   },
   {
     "nombre": "Pitter Enrique Valderrama",
@@ -1830,7 +2627,26 @@
         "fecha": "Dec 8, 2025",
         "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
       }
-    ]
+    ],
+    "fuentes_adicionales": [
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe/pitter-enrique-valderrama"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe"
+      },
+      {
+        "medio": "IPSOS Perú",
+        "fecha": "2026-02-03",
+        "enlace": "https://www.ipsos.com/es-pe/intencion-de-voto-enero-2026-encuesta-peru-21-ipsos"
+      }
+    ],
+    "ultimo_update": "2026-02-03",
+    "nota_juicio": "Verificado en JNE y medios; apto. Legado aprista"
   },
   {
     "nombre": "Francisco Diez Canseco",
@@ -1887,7 +2703,31 @@
         "fecha": "Dec 8, 2025",
         "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
       }
-    ]
+    ],
+    "fuentes_adicionales": [
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe/francisco-diez-canseco"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe"
+      },
+      {
+        "medio": "IPSOS Perú",
+        "fecha": "2026-02-03",
+        "enlace": "https://www.ipsos.com/es-pe/intencion-de-voto-enero-2026-encuesta-peru-21-ipsos"
+      },
+      {
+        "medio": "Wikipedia",
+        "fecha": "2026-02-03",
+        "enlace": "https://es.wikipedia.org/wiki/Francisco_Diez_Canseco"
+      }
+    ],
+    "ultimo_update": "2026-02-03",
+    "nota_juicio": "Verificado en JNE y medios; apto. Experiencia parlamentaria"
   },
   {
     "nombre": "Napoleón Becerra",
@@ -1944,7 +2784,26 @@
         "fecha": "Dec 8, 2025",
         "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
       }
-    ]
+    ],
+    "fuentes_adicionales": [
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe/napoleon-becerra"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe"
+      },
+      {
+        "medio": "IPSOS Perú",
+        "fecha": "2026-02-03",
+        "enlace": "https://www.ipsos.com/es-pe/intencion-de-voto-enero-2026-encuesta-peru-21-ipsos"
+      }
+    ],
+    "ultimo_update": "2026-02-03",
+    "nota_juicio": "Verificado en JNE y medios; apto con reservas. Enfoque laboral"
   },
   {
     "nombre": "Armando Massé",
@@ -2001,7 +2860,31 @@
         "fecha": "Dec 8, 2025",
         "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
       }
-    ]
+    ],
+    "fuentes_adicionales": [
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe/armando-masse"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe"
+      },
+      {
+        "medio": "IPSOS Perú",
+        "fecha": "2026-02-03",
+        "enlace": "https://www.ipsos.com/es-pe/intencion-de-voto-enero-2026-encuesta-peru-21-ipsos"
+      },
+      {
+        "medio": "Wikipedia",
+        "fecha": "2026-02-03",
+        "enlace": "https://es.wikipedia.org/wiki/Armando_Mass%C3%A9"
+      }
+    ],
+    "ultimo_update": "2026-02-03",
+    "nota_juicio": "Verificado en JNE y medios; apto con reservas. Federalismo"
   },
   {
     "nombre": "Carlos Álvarez",
@@ -2068,7 +2951,36 @@
         "fecha": "Jan 26, 2026",
         "enlace": "https://larepublica.pe/politica/2026/01/26/con-solo-147-rafael-lopez-aliaga-lidera-la-intencion-de-voto-mientras-el-445-aun-no-decide-hnews-2042256"
       }
-    ]
+    ],
+    "fuentes_adicionales": [
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe/carlos-alvarez"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe"
+      },
+      {
+        "medio": "Infobae",
+        "fecha": "2026-02-03",
+        "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
+      },
+      {
+        "medio": "IPSOS Perú",
+        "fecha": "2026-02-03",
+        "enlace": "https://www.ipsos.com/es-pe/intencion-de-voto-enero-2026-encuesta-peru-21-ipsos"
+      },
+      {
+        "medio": "Wikipedia",
+        "fecha": "2026-02-03",
+        "enlace": "https://es.wikipedia.org/wiki/Carlos_%C3%81lvarez_(humorista)"
+      }
+    ],
+    "ultimo_update": "2026-02-03",
+    "nota_juicio": "Verificado en JNE y medios; apto con reservas. Popularidad, falta experiencia"
   },
   {
     "nombre": "Wolfgang Grozo",
@@ -2125,7 +3037,31 @@
         "fecha": "Dec 8, 2025",
         "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
       }
-    ]
+    ],
+    "fuentes_adicionales": [
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe/wolfgang-grozo"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe"
+      },
+      {
+        "medio": "IPSOS Perú",
+        "fecha": "2026-02-03",
+        "enlace": "https://www.ipsos.com/es-pe/intencion-de-voto-enero-2026-encuesta-peru-21-ipsos"
+      },
+      {
+        "medio": "Wikipedia",
+        "fecha": "2026-02-03",
+        "enlace": "https://es.wikipedia.org/wiki/Wolfgang_Grozo"
+      }
+    ],
+    "ultimo_update": "2026-02-03",
+    "nota_juicio": "Verificado en JNE y medios; apto con reservas. Integridad"
   },
   {
     "nombre": "Ricardo Belmont",
@@ -2177,7 +3113,36 @@
         "fecha": "Jan 10, 2026",
         "enlace": "https://larepublica.pe/politica/ricardo-belmont-2026"
       }
-    ]
+    ],
+    "fuentes_adicionales": [
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe/ricardo-belmont"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe"
+      },
+      {
+        "medio": "Infobae",
+        "fecha": "2026-02-03",
+        "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
+      },
+      {
+        "medio": "IPSOS Perú",
+        "fecha": "2026-02-03",
+        "enlace": "https://www.ipsos.com/es-pe/intencion-de-voto-enero-2026-encuesta-peru-21-ipsos"
+      },
+      {
+        "medio": "Wikipedia",
+        "fecha": "2026-02-03",
+        "enlace": "https://es.wikipedia.org/wiki/Ricardo_Belmont"
+      }
+    ],
+    "ultimo_update": "2026-02-03",
+    "nota_juicio": "Verificado en JNE y medios; apto. Experiencia alcaldía"
   },
   {
     "nombre": "Marisol Pérez Tello",
@@ -2229,7 +3194,35 @@
         "fecha": "Dec 30, 2025",
         "enlace": "https://elcomercio.pe/politica/marisol-perez-tello-2026"
       }
-    ]
+    ],
+    "fuentes_adicionales": [
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe/marisol-perez-tello"
+      },
+      {
+        "medio": "JNE Voto Informado",
+        "fecha": "2026-02-03",
+        "enlace": "https://votoinformado.jne.gob.pe"
+      },
+      {
+        "medio": "Infobae",
+        "fecha": "2026-02-03",
+        "enlace": "https://www.infobae.com/peru/2025/12/08/elecciones-2026-conoce-quienes-son-los-37-candidatos-oficiales-a-la-presidencia-de-todos-los-partidos-politicos"
+      },
+      {
+        "medio": "IPSOS Perú",
+        "fecha": "2026-02-03",
+        "enlace": "https://www.ipsos.com/es-pe/intencion-de-voto-enero-2026-encuesta-peru-21-ipsos"
+      },
+      {
+        "medio": "Wikipedia",
+        "fecha": "2026-02-03",
+        "enlace": "https://es.wikipedia.org/wiki/Marisol_P%C3%A9rez_Tello"
+      }
+    ],
+    "ultimo_update": "2026-02-03",
+    "nota_juicio": "Verificado en JNE y medios; apto. Experiencia en justicia"
   }
 ]
-
