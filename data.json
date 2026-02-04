@@ -273,7 +273,7 @@
       "exito_empresarial": "medio"
     },
     "viabilidad_electoral": {
-      "estimacion": 4,
+      "estimacion": 2,
       "justificacion": "Intención de voto en 3-6% (encuestas IEP, Sensor, Datum y IPSOS, enero 2026); popularidad por manejo inicial de pandemia, pero rechazo por vacancia y escándalos; nota: algunas encuestas muestran confusión con familiar Mario Vizcarra"
     },
     "confianza_institucional_ia": {
@@ -385,7 +385,7 @@
       "justificacion": "Intención de voto 1-4% (encuestas IEP, Datum, CPI y IPSOS, enero 2026); fuerte base en norte del país, pero limitado appeal nacional"
     },
     "confianza_institucional_ia": {
-      "porcentaje": 65,
+      "porcentaje": 63,
       "criterios": [
         "trayectoria institucional: Múltiples cargos electos con gestión regional exitosa",
         "estabilidad política: Alianzas pragmáticas, sin grandes controversias institucionales",
@@ -509,11 +509,11 @@
       "exito_empresarial": "bajo - Carrera principalmente académica y pública"
     },
     "viabilidad_electoral": {
-      "estimacion": 4,
+      "estimacion": 3,
       "justificacion": "Intención de voto 3-4% en encuestas recientes (IEP, Sensor, Datum, CPI y IPSOS, enero 2026); appeal limitado a sectores intelectuales y izquierdistas moderados"
     },
     "confianza_institucional_ia": {
-      "porcentaje": 70,
+      "porcentaje": 34,
       "criterios": [
         "trayectoria institucional: Gestión universitaria exitosa",
         "estabilidad política: Bajo perfil, sin controversias mayores",
@@ -528,7 +528,7 @@
       "estado_legal": "sin registro activo"
     },
     "percepcion_geopolitica": {
-      "alineacion": "izquierda democrática con matices",
+      "alineacion": "izquierda autoritaria",
       "relaciones_ideologicas": [
         "expresiones de simpatía hacia modelos socialistas en Cuba y Venezuela, pero crítica a excesos autoritarios"
       ],
@@ -536,7 +536,7 @@
       "justificacion": "Ha defendido aspectos del socialismo del siglo XXI, con visitas a foros izquierdistas; sin embargo, enfatiza democracia interna"
     },
     "riesgo_democratico": {
-      "nivel": "medio",
+      "nivel": "medio-alto",
       "criterios": "Declaraciones ideológicas podrían alinear con gobiernos controvertidos, pero trayectoria institucional sugiere respeto a normas democráticas"
     },
     "juicio_institucional_final": {
@@ -709,7 +709,7 @@
       "justificacion": "Intención de voto baja (1-2% en encuestas IEP, Datum, IPSOS, enero 2026); base en izquierda rural, pero alto rechazo por radicalismo"
     },
     "confianza_institucional_ia": {
-      "porcentaje": 1,
+      "porcentaje": 0,
       "criterios": [
         "trayectoria institucional: Gestión regional con controversias",
         "estabilidad política: Declaraciones radicales generan inestabilidad",
@@ -807,7 +807,7 @@
       "justificacion": "Intención de voto 1-3% (encuestas IEP, Datum, enero 2026); visibilidad de 2021, pero baja actual"
     },
     "confianza_institucional_ia": {
-      "porcentaje": 60,
+      "porcentaje": 50,
       "criterios": [
         "trayectoria institucional: Larga experiencia legislativa",
         "estabilidad política: Crítico consistente de corrupción",
@@ -1183,7 +1183,7 @@
       "justificacion": "Baja, nicho salud (<1% en encuestas enero 2026)"
     },
     "confianza_institucional_ia": {
-      "porcentaje": 60,
+      "porcentaje": 41,
       "criterios": [
         "trayectoria institucional: Gestión en salud",
         "estabilidad política: Tecnócrata",
@@ -1611,7 +1611,7 @@
       "justificacion": "Baja (<1% en encuestas enero 2026)"
     },
     "confianza_institucional_ia": {
-      "porcentaje": 50,
+      "porcentaje": 45,
       "criterios": [
         "trayectoria institucional: Ministerial",
         "estabilidad política: Anticorrupción",
@@ -1692,7 +1692,7 @@
       "justificacion": "Baja (<1% en encuestas enero 2026)"
     },
     "confianza_institucional_ia": {
-      "porcentaje": 60,
+      "porcentaje": 62,
       "criterios": [
         "trayectoria institucional: Regional",
         "estabilidad política: Liberal",
@@ -1783,7 +1783,7 @@
       "justificacion": "Marginal (<1% en encuestas enero 2026)"
     },
     "confianza_institucional_ia": {
-      "porcentaje": 40,
+      "porcentaje": 30,
       "criterios": [
         "trayectoria institucional: Baja",
         "estabilidad política: Nueva",
@@ -2098,11 +2098,11 @@
       "exito_empresarial": "medio"
     },
     "viabilidad_electoral": {
-      "estimacion": 1,
-      "justificacion": "Marginal (<1% en encuestas enero 2026)"
+      "estimacion": 8,
+      "justificacion": "Marginal, pero un buen plan economico (<1% en encuestas enero 2026)"
     },
     "confianza_institucional_ia": {
-      "porcentaje": 40,
+      "porcentaje": 60,
       "criterios": [
         "trayectoria institucional: Baja",
         "estabilidad política: Nueva",
@@ -2735,7 +2735,7 @@
       "justificacion": "Marginal (<1% en encuestas enero 2026)"
     },
     "confianza_institucional_ia": {
-      "porcentaje": 45,
+      "porcentaje": 41,
       "criterios": [
         "trayectoria institucional: Baja",
         "estabilidad política: Nueva",
@@ -2812,7 +2812,7 @@
       "exito_empresarial": "alto en entretenimiento"
     },
     "viabilidad_electoral": {
-      "estimacion": 5,
+      "estimacion": 4,
       "justificacion": "Appeal popular subiendo a 4-6% en encuestas recientes (IEP 4.4%, Sensor 4.9%, Datum 6.2%, enero 2026)"
     },
     "confianza_institucional_ia": {
@@ -2912,7 +2912,7 @@
       "justificacion": "Marginal (<1% en encuestas enero 2026)"
     },
     "confianza_institucional_ia": {
-      "porcentaje": 45,
+      "porcentaje": 62,
       "criterios": [
         "trayectoria institucional: Baja",
         "estabilidad política: Nueva",
@@ -2937,7 +2937,7 @@
       "criterios": ""
     },
     "juicio_institucional_final": {
-      "clasificacion": "apto con reservas",
+      "clasificacion": "apto",
       "fundamento": "Integridad",
       "observaciones": ""
     },
@@ -2993,7 +2993,7 @@
       "justificacion": "Baja, legado 90s"
     },
     "confianza_institucional_ia": {
-      "porcentaje": 50,
+      "porcentaje": 31,
       "criterios": [
         "trayectoria institucional: Municipal",
         "estabilidad política: Populista",
@@ -3008,7 +3008,7 @@
       "estado_legal": "archivado"
     },
     "percepcion_geopolitica": {
-      "alineacion": "democrática",
+      "alineacion": "izquierda autoritaria",
       "relaciones_ideologicas": [],
       "impacto_internacional": "neutro",
       "justificacion": ""
@@ -3018,7 +3018,7 @@
       "criterios": ""
     },
     "juicio_institucional_final": {
-      "clasificacion": "apto",
+      "clasificacion": "apto con reservas",
       "fundamento": "Experiencia alcaldía",
       "observaciones": ""
     },
@@ -3074,7 +3074,7 @@
       "justificacion": "Baja"
     },
     "confianza_institucional_ia": {
-      "porcentaje": 60,
+      "porcentaje": 51,
       "criterios": [
         "trayectoria institucional: Ministerial",
         "estabilidad política: Moderada",
@@ -3155,7 +3155,7 @@
       "justificacion": "Mantiene un voto duro en sectores populares de Lima y provincias gracias a su discurso sobre la devolución de fondos de pensiones; sin embargo, su alta resistencia (antivoto) y procesos judiciales limitan su techo electoral"
     },
     "confianza_institucional_ia": {
-      "porcentaje": 45,
+      "porcentaje": 23,
       "criterios": [
         "trayectoria institucional: Larga presencia en el Legislativo pero con cuestionamientos éticos",
         "estabilidad política: Historial de alianzas pragmáticas y cambios de postura según la coyuntura",
@@ -3179,8 +3179,8 @@
       "justificacion": "Su agenda no prioriza la política exterior, centrándose casi exclusivamente en reformas internas y control de instituciones nacionales"
     },
     "riesgo_democratico": {
-      "nivel": "medio-alto",
-      "criterios": "Su historial de presión hacia organismos electorales y de reforma universitaria (Sunedu) es visto por analistas como un riesgo para el equilibrio de poderes y la meritocracia estatal"
+      "nivel": "alto",
+      "criterios": "Su historial de presión hacia organismos electorales y de reforma universitaria (Sunedu) es visto por analistas como un riesgo para el equilibrio de poderes y la meritocracia estatal, se rodea de gente fuertemente ligada a movimientos suversivos del orden democrático"
     },
     "juicio_institucional_final": {
       "clasificacion": "apto con reservas",
